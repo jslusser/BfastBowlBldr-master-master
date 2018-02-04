@@ -131,6 +131,11 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
     return cell
 }
 
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        performSegue(withIdentifier: "ShowLiquidDetails", sender: indexPath.row)
+        
+    }
 
 /*
  // Override to support conditional editing of the table view.
@@ -172,15 +177,17 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
     if segue.identifier == "ShowLiquidDetails" {
         let detailViewController = segue.destination as! IngredientDetailViewController
-        let myIndexPath = self.tableView.indexPathForSelectedRow!
-        let row = myIndexPath.row
+        guard let row = sender as? Int else { fatalError("Unable to cast sender as Int")}
+        
         detailViewController.ingredientDetailImages = liquidImages[row]
         detailViewController.ingredientAddlCopy = liquidCopy[row]
         detailViewController.ingredientMoreInfo = liquidInfo[row]
         detailViewController.ingredientPurchase = liquidPurch[row]
     }
+    
     
     if segue.identifier == "SelectAddIn" {
         
