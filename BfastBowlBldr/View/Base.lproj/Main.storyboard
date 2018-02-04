@@ -273,6 +273,9 @@
                             <outlet property="delegate" destination="ycj-X7-Mf2" id="CS0-KH-q3P"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="f7K-61-96T" kind="show" identifier="ShowLiquidDetails" id="7U7-Jb-13W"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HiZ-oA-YSm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -819,6 +822,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="XdB-ZH-0kH"/>
-        <segue reference="6K6-4G-A1t"/>
+        <segue reference="7U7-Jb-13W"/>
     </inferredMetricsTieBreakers>
 </document>

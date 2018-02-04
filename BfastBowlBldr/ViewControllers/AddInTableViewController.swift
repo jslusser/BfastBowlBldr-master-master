@@ -13,83 +13,94 @@ class AddInTableViewController: UITableViewController, CellProtocol {
     var ingredients = [Ingredient]()
     var selectedIngredients = [Ingredient]()
     
-    var addinImages = [String]()
-    var addinNames = [String]()
-    var addinCopy = [String]()
-    var addinInfo = [String]()
-    var addinPurch = [String]()
+    let addinImages = ["icon.jpg",
+    "icon.jpg",
+    "ChiaSeeds.jpg",
+    "icon.jpg",
+    "DateRed.jpg",
+    "Datemedjool.jpg",
+    "Goji.jpg",
+    "icon.jpg",
+    "icon.jpg",
+    "icon.jpg",
+    "icon.jpg",
+    "icon.jpg"
+    ]
     
+    let addinNames = ["Black Pepper",
+    "Cacao powder",
+    "Chia Seeds",
+    "Cinnamon",
+    "Dates - Red",
+    "Dates - Medjool",
+    "Goji Berries",
+    "Matcha",
+    "Moringa",
+    "Prune",
+    "Raisin",
+    "Turmeric"
+    ]
+    
+    let addinCopy = ["Black Pepper copy",
+    "Cacao powder copy",
+    "Chia Seeds copy",
+    "Cinnamon copy",
+    "Dates - Red copy",
+    "Dates - Medjool copy",
+    "Goji Berries copy",
+    "Matcha copy",
+    "Moringa copy",
+    "Prune copy",
+    "Raisin copy",
+    "Turmeric copy"
+    ]
+    
+    let addinInfo = ["https://en.wikipedia.org",
+    "https://en.wikipedia.org",
+    "https://en.wikipedia.org",
+    "https://en.wikipedia.org",
+    "https://en.wikipedia.org",
+    "https://en.wikipedia.org",
+    "https://en.wikipedia.org",
+    "https://en.wikipedia.org",
+    "https://en.wikipedia.org",
+    "https://en.wikipedia.org",
+    "https://en.wikipedia.org",
+    "https://en.wikipedia.org"]
+    
+    let addinPurch = ["https://www.amazon.com",
+    "https://www.amazon.com",
+    "https://www.amazon.com",
+    "https://www.amazon.com",
+    "https://www.amazon.com",
+    "https://www.amazon.com",
+    "https://www.amazon.com",
+    "https://www.amazon.com",
+    "https://www.amazon.com",
+    "https://www.amazon.com",
+    "https://www.amazon.com",
+    "https://www.amazon.com"]
+    
+    func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
+        
+        guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
+        print("cell at indexpath \(String(describing: indexPath)) tapped with switch status \(status)")
+        
+        let addinSwitchSelected = myCell.label.text!
+        print("AddIn added/removed was \(String(describing: addinSwitchSelected))")
+        
+        if status {
+            selectedIngredients.append(ingredients[indexPath.row])
+        } else {
+            
+            guard let index = selectedIngredients.index(where: { $0.name == ingredients[indexPath.row].name }) else { return }
+            selectedIngredients.remove(at: index)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        addinImages = ["icon.jpg",
-                       "icon.jpg",
-                       "ChiaSeeds.jpg",
-                       "icon.jpg",
-                       "DateRed.jpg",
-                       "Datemedjool.jpg",
-                       "Goji.jpg",
-                       "icon.jpg",
-                       "icon.jpg",
-                       "icon.jpg",
-                       "icon.jpg",
-                       "icon.jpg"
-        ]
-        
-        addinNames = ["Black Pepper",
-                      "Cacao powder",
-                      "Chia Seeds",
-                      "Cinnamon",
-                      "Dates - Red",
-                      "Dates - Medjool",
-                      "Goji Berries",
-                      "Matcha",
-                      "Moringa",
-                      "Prune",
-                      "Raisin",
-                      "Turmeric"
-        ]
-        
-        addinCopy = ["Black Pepper copy",
-                     "Cacao powder copy",
-                     "Chia Seeds copy",
-                     "Cinnamon copy",
-                     "Dates - Red copy",
-                     "Dates - Medjool copy",
-                     "Goji Berries copy",
-                     "Matcha copy",
-                     "Moringa copy",
-                     "Prune copy",
-                     "Raisin copy",
-                     "Turmeric copy"
-        ]
-        
-        addinInfo = ["https://en.wikipedia.org",
-                     "https://en.wikipedia.org",
-                     "https://en.wikipedia.org",
-                     "https://en.wikipedia.org",
-                     "https://en.wikipedia.org",
-                     "https://en.wikipedia.org",
-                     "https://en.wikipedia.org",
-                     "https://en.wikipedia.org",
-                     "https://en.wikipedia.org",
-                     "https://en.wikipedia.org",
-                     "https://en.wikipedia.org",
-                     "https://en.wikipedia.org"]
-        
-        addinPurch = ["https://www.amazon.com",
-                      "https://www.amazon.com",
-                      "https://www.amazon.com",
-                      "https://www.amazon.com",
-                      "https://www.amazon.com",
-                      "https://www.amazon.com",
-                      "https://www.amazon.com",
-                      "https://www.amazon.com",
-                      "https://www.amazon.com",
-                      "https://www.amazon.com",
-                      "https://www.amazon.com",
-                      "https://www.amazon.com"]
         
         for i in 0 ..< addinCopy.count {
             let newIngredient = Ingredient(name: addinNames[i],
@@ -142,22 +153,7 @@ class AddInTableViewController: UITableViewController, CellProtocol {
     }
     
     
-    func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
-        
-        guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
-        print("cell at indexpath \(String(describing: indexPath)) tapped with switch status \(status)")
-        
-        let liquidSwitchSelected = myCell.label.text!
-        print("Liquid added/removed was \(String(describing: liquidSwitchSelected))")
-        
-        if status {
-            selectedIngredients.append(ingredients[indexPath.row])
-        } else {
-            
-            guard let index = selectedIngredients.index(where: { $0.name == ingredients[indexPath.row].name }) else { return }
-            selectedIngredients.remove(at: index)
-        }
-    }
+ 
     
     
     // MARK: - Navigation
@@ -166,15 +162,21 @@ class AddInTableViewController: UITableViewController, CellProtocol {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        if segue.identifier == "ShowAddinDetails" {
+        if segue.identifier == "AddInDetails" {
             let detailViewController = segue.destination as! IngredientDetailViewController
-            let myIndexPath = self.tableView.indexPathForSelectedRow!
-            let row = myIndexPath.row
+            guard let row = sender as? Int else { fatalError("Unable to cast sender as Int")}
             detailViewController.ingredientDetailImages = addinImages[row]
             detailViewController.ingredientAddlCopy = addinCopy[row]
             detailViewController.ingredientMoreInfo = addinInfo[row]
             detailViewController.ingredientPurchase = addinPurch[row]
         }
+        
+        if segue.identifier == "SelectFruit" {
+            
+            let FruitTableViewController = segue.destination as! FruitTableViewController
+            FruitTableViewController.selectedIngredients = selectedIngredients
+        }
+        
     }
     
     
