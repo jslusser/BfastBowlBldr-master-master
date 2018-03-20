@@ -10,6 +10,8 @@ import UIKit
 
 class BuildYourBowlTableViewController: UITableViewController {
 
+    var selectedIngredients = [Ingredient]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

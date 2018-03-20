@@ -153,6 +153,13 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
             detailViewController.ingredientMoreInfo = toppingInfo[row]
             detailViewController.ingredientPurchase = toppingPurch[row]
         }
+        
+       if segue.identifier == "BuildBowl" {
+        
+//            let BuildYourBowlTableViewController = segue.destination as! BuildYourBowlTableViewController
+//            BuildYourBowlTableViewController.selectedIngredients = selectedIngredients
+        }
+        
     }
     
    

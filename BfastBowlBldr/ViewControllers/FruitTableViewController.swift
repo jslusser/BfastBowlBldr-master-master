@@ -197,6 +197,13 @@ class FruitTableViewController: UITableViewController, CellProtocol {
             detailViewController.ingredientMoreInfo = fruitInfo[row]
             detailViewController.ingredientPurchase = fruitPurch[row]
         }
+        
+        if segue.identifier == "SelectTopping" {
+            
+            let ToppingTableViewController = segue.destination as! ToppingTableViewController
+            ToppingTableViewController.selectedIngredients = selectedIngredients
+        }
+        
     }
     
  
