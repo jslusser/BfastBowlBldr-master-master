@@ -76,6 +76,9 @@ class LiquidTableViewController: UITableViewController, CellProtocol {
         }
     }
   
+    @IBAction func liquidSelected(_ sender: UIButton) {
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

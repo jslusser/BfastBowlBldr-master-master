@@ -19,6 +19,9 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
     var toppingInfo = [String]()
     var toppingPurch = [String]()
 
+    @IBAction func toppingSelected(_ sender: UIButton) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -126,7 +129,7 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
         print("cell at indexpath \(String(describing: indexPath)) tapped with switch status \(status)")
         
         let liquidSwitchSelected = myCell.label.text!
-        print("Liquid added/removed was \(String(describing: liquidSwitchSelected))")
+        print("Topping added/removed was \(String(describing: liquidSwitchSelected))")
         
         if status {
             selectedIngredients.append(ingredients[indexPath.row])

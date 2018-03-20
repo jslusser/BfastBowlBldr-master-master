@@ -18,6 +18,9 @@ class FruitTableViewController: UITableViewController, CellProtocol {
     var fruitInfo = [String]()
     var fruitPurch = [String]()
 
+    @IBAction func fruitSelected(_ sender: UIButton) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -170,7 +173,7 @@ class FruitTableViewController: UITableViewController, CellProtocol {
         print("cell at indexpath \(String(describing: indexPath)) tapped with switch status \(status)")
         
         let liquidSwitchSelected = myCell.label.text!
-        print("Liquid added/removed was \(String(describing: liquidSwitchSelected))")
+        print("Fruit added/removed was \(String(describing: liquidSwitchSelected))")
         
         if status {
             selectedIngredients.append(ingredients[indexPath.row])
