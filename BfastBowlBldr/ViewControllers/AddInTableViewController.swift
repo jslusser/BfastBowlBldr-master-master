@@ -176,6 +176,8 @@ class AddInTableViewController: UITableViewController, CellProtocol {
         
         if segue.identifier == "SelectFruit" {
             
+         //   print (selectedIngredients)
+            
             let FruitTableViewController = segue.destination as! FruitTableViewController
             FruitTableViewController.selectedIngredients = selectedIngredients
         }

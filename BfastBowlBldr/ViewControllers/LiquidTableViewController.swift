@@ -196,6 +196,8 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     
     if segue.identifier == "SelectAddIn" {
         
+     //   print (selectedIngredients)
+        
         // You previously had the segue destination view controller being cast as the IngredientTableViewController instead of
         // LiquidTableViewController.
         let AddInTableViewController = segue.destination as! AddInTableViewController

@@ -200,6 +200,8 @@ class FruitTableViewController: UITableViewController, CellProtocol {
         
         if segue.identifier == "SelectTopping" {
             
+           // print (selectedIngredients)
+            
             let ToppingTableViewController = segue.destination as! ToppingTableViewController
             ToppingTableViewController.selectedIngredients = selectedIngredients
         }

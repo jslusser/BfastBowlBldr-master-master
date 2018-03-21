@@ -207,8 +207,8 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
         
         if segue.identifier == "SelectLiquid" {
             
-            // You previously had the segue destination view controller being cast as the IngredientTableViewController instead of
-            // LiquidTableViewController.
+          //  print (selectedIngredients)
+            
             let LiquidTableViewController = segue.destination as! LiquidTableViewController
             LiquidTableViewController.selectedIngredients = selectedIngredients
             
