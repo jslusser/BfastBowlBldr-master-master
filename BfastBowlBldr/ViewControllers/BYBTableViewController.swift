@@ -55,14 +55,7 @@ class BYBTableViewController: UITableViewController {
         let row = indexPath.row
         cell.bowlNames.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)
         cell.bowlNames.text = ingredients[row].name
-        
-        
-        //cell.bowlImages.image = ingredients[row].imageString
-        
-        //cell.bowlNames.text = bowlNames[row]
         cell.bowlImages.image = UIImage(named: ingredients[row].imageString)
-//        configure(textForLabel: ingredients[row].name,
-//                       image: ingredients[row].imageString, setDelegate: self)
 
         return cell
     }
