@@ -166,6 +166,13 @@ class FruitTableViewController: UITableViewController, CellProtocol {
      return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        performSegue(withIdentifier: "ShowFruitDetails", sender: indexPath.row)
+        
+        
+    }
+    
 
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
         

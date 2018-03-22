@@ -123,6 +123,13 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
 
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        performSegue(withIdentifier: "ShowToppingDetails", sender: indexPath.row)
+        
+        
+    }
+    
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
         
         guard let indexPath = self.tableView.indexPath(for: myCell) else { return }

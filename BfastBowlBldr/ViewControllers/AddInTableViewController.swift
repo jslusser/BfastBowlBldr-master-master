@@ -155,6 +155,12 @@ class AddInTableViewController: UITableViewController, CellProtocol {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        performSegue(withIdentifier: "ShowAddinDetails", sender: indexPath.row)
+        
+        
+    }
     
  
     
