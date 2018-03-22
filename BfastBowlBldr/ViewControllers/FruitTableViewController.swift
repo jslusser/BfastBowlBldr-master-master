@@ -25,22 +25,22 @@ class FruitTableViewController: UITableViewController, CellProtocol {
         super.viewDidLoad()
         
         fruitImages = [
-            "icon.jpg",
-            "icon.jpg",
-            "icon.jpg",
-            "icon.jpg",
-            "icon.jpg",
-            "icon.jpg",
-            "icon.jpg",
-            "icon.jpg",
-            "icon.jpg",
-            "icon.jpg",
-            "icon.jpg",
-            "icon.jpg",
-            "icon.jpg",
-            "icon.jpg",
-            "icon.jpg",
-            "icon.jpg"
+            "Apple.jpg",
+            "Apricot.jpg",
+            "Banana.jpg",
+            "Blackberries.jpg",
+            "Blueberries.jpg",
+            "Cantaloupe.jpg",
+            "Cherries.jpg",
+            "DragonFruit.jpg",
+            "Grapes.jpg",
+            "Honeydew.jpg",
+            "Kiwi.jpg",
+            "Mango.jpg",
+            "Orange.jpg",
+            "Pineapple.jpg",
+            "Raspberries.jpg",
+            "Watermelon.jpg"
         ]
         
         fruitNames = [

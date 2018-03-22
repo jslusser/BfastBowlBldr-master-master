@@ -47,18 +47,18 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
     let grainInfo = ["https://draxe.com/barley-nutrition/",
                      "https://draxe.com/buckwheat-nutrition/",
                      "https://draxe.com/bulgur-wheat/",
-                     "https://en.wikipedia.org",
-                     "https://en.wikipedia.org",
-                     "https://en.wikipedia.org",
-                     "https://en.wikipedia.org",]
+                     "https://en.wikipedia.org/wiki/Couscous",
+                     "https://en.wikipedia.org/wiki/Oatmeal",
+                     "https://en.wikipedia.org/wiki/Quinoa",
+                     "https://en.wikipedia.org/wiki/Rice",]
     
     let grainPurch = ["https://www.amazon.com/Bobs-Red-Mill-Pearl-Barley/dp/B004T33Y8O/ref=sr_1_6_a_it?th=1",
                       "https://www.amazon.com/Arrowhead-Mills-Organic-Buckwheat-Groats/dp/B00X2SEAXA/ref=sr_1_1_s_it",
                       "https://www.amazon.com/Bobs-Red-Mill-Bulgur-Wheat/dp/B0013JK0KM/ref=sr_1_3_s_it",
-                      "https://www.amazon.com",
-                      "https://www.amazon.com",
-                      "https://www.amazon.com",
-                      "https://www.amazon.com"]
+                      "https://www.amazon.com/Select-Organic-Whole-Wheat-Couscous/dp/B00MN30MEG/ref=sr_1_6_a_it?ie=UTF8&qid=1521754419&sr=8-6&keywords=organic+couscous",
+                      "https://www.amazon.com/Natures-Path-Organic-Fashioned-Canister/dp/B000LKUZOU/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1521754599&sr=1-4&keywords=organic+oatmeal",
+                      "https://www.amazon.com/truRoots-Organic-Quinoa-Premium-Quality/dp/B002BWS1OM/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1521754667&sr=1-4&keywords=organic%2Bquinoa&th=1",
+                      "https://www.amazon.com/Lundberg-Organic-Short-Grain-32-Ounce/dp/B005763K40/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1521754775&sr=1-4&keywords=organic+brown+rice"]
     
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
         

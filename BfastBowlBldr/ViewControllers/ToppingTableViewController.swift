@@ -55,24 +55,24 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
                        "Yogurt - Coconut copy"
         ]
         
-        toppingInfo = ["https://en.wikipedia.org",
-                       "https://en.wikipedia.org",
-                       "https://en.wikipedia.org",
-                       "https://en.wikipedia.org",
-                       "https://en.wikipedia.org",
-                       "https://en.wikipedia.org",
-                       "https://en.wikipedia.org",
-                       "https://en.wikipedia.org"
+        toppingInfo = ["https://en.wikipedia.org/wiki/Brazil_nut",
+                       "https://www.healthline.com/nutrition/6-health-benefits-of-hemp-seeds",
+                       "https://en.wikipedia.org/wiki/Honey",
+                       "https://en.wikipedia.org/wiki/Pumpkin_seed",
+                       "https://en.wikipedia.org/wiki/Sunflower_seed",
+                       "https://en.wikipedia.org/wiki/Walnut",
+                       "https://www.healthline.com/health/wheat-germ-benefits#modal-close",
+                       "https://www.myorganiclife.info/coconut-yoghurt/"
         ]
         
-        toppingPurch = ["https://www.amazon.com",
-                        "https://www.amazon.com",
-                        "https://www.amazon.com",
-                        "https://www.amazon.com",
-                        "https://www.amazon.com",
-                        "https://www.amazon.com",
-                        "https://www.amazon.com",
-                        "https://www.amazon.com"
+        toppingPurch = ["https://www.amazon.com/NOW-Foods-Brazil-Nuts-12-Ounce/dp/B000ZL1WQU/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1521756462&sr=1-4&keywords=brazil+nut",
+                        "https://www.amazon.com/Nutiva-Hempseed-Sustainably-Canadian-19-Ounces/dp/B00B42KQ8O/ref=sr_1_5_s_it?s=grocery&ie=UTF8&qid=1521756483&sr=1-5&keywords=hemp%2Bseed&th=1",
+                        "https://www.amazon.com/Nature-Nates-Ounce-Organic-Unfiltered/dp/B01IR6IZZA/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1521756508&sr=1-4&keywords=organic+honey",
+                        "https://www.amazon.com/Terrasoul-Superfoods-Organic-Pumpkin-Pounds/dp/B01BLYNWVM/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1521756532&sr=1-4&keywords=pumpkin+seed",
+                        "https://www.amazon.com/Terrasoul-Superfoods-Organic-Hulled-Sunflower/dp/B00SRMA4U4/ref=sr_1_5_s_it?s=grocery&ie=UTF8&qid=1521756599&sr=1-5&keywords=sunflower+seed",
+                        "https://www.amazon.com/Three-Pounds-Walnuts-Shelled-Pieces/dp/B00IED712U/ref=sr_1_15_s_it?s=grocery&ie=UTF8&qid=1521756619&sr=1-15&keywords=walnut",
+                        "https://www.amazon.com/Grain-natural-Untoasted-Packaged-Resealable/dp/B01BNU7XPA/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1521756646&sr=1-4&keywords=wheat+germ",
+                        "https://www.noosayoghurt.com/product/coconut/?gclid=EAIaIQobChMIxqPaxPmA2gIVnI2zCh0i5wLdEAAYASAAEgIAfvD_BwE"
         ]
         
         for i in 0 ..< toppingCopy.count {

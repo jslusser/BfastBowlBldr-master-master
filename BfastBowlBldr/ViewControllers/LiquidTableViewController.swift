@@ -44,25 +44,25 @@ class LiquidTableViewController: UITableViewController, CellProtocol {
     "Smoothie - various copy",
     "Soy Milk copy"]
     
-    let liquidInfo = ["https://en.wikipedia.org",
+    let liquidInfo = ["https://en.wikipedia.org/wiki/Almond_milk",
+    "http://www.cookinglight.com/eating-smart/smart-choices/what-is-cashew-milk",
+    "https://en.wikipedia.org/wiki/Coconut_milk",
+    "https://en.wikipedia.org/wiki/Coconut_water",
+    "https://en.wikipedia.org/wiki/Hemp_milk",
     "https://en.wikipedia.org",
+    "https://en.wikipedia.org/wiki/Rice_milk",
     "https://en.wikipedia.org",
-    "https://en.wikipedia.org",
-    "https://en.wikipedia.org",
-    "https://en.wikipedia.org",
-    "https://en.wikipedia.org",
-    "https://en.wikipedia.org",
-    "https://en.wikipedia.org"]
+    "https://en.wikipedia.org/wiki/Soy_milk"]
     
-    let liquidPurch = ["https://www.amazon.com",
+    let liquidPurch = ["https://www.amazon.com/Almond-Breeze-Unsweetened-Original-Ounce/dp/B01MQ0DRHH/ref=sr_1_14_s_it?rps=1&ie=UTF8&qid=1521755062&sr=1-14&keywords=organic+almond+milk&refinements=p_85%3A2470955011",
+                       "https://www.amazon.com/SO-DELICIOUS-Organic-Beverage-Unsweetened/dp/B01B4LHETI/ref=sr_1_fkmr1_3?srs=7301146011&ie=UTF8&qid=1521755133&sr=8-3-fkmr1&keywords=organic+cashew+milk",
+    "https://www.luckyvitamin.com/p-664901-so-delicious-dairy-free-cashew-milk-beverage-unsweetened-32-fl-oz?site=google_base&LanguageCode=EN&locale=en-US&utm_source=google&utm_medium=PLA&scid=scplp140905&sc_intid=140905&utmp_campaign=SC_Shopping_Campaign_CS25&branded=no&gclid=EAIaIQobChMIjc-K9fOA2gIVhrXACh10lga1EAQYAiABEgJeQ_D_BwE",
+    "https://https://www.amazon.com/ZICO-Premium-Coconut-Water-Natural/dp/B014M6MK4G/ref=sr_1_3?srs=7301146011&ie=UTF8&qid=1521755255&sr=8-3&keywords=organic+coconut+water",
+       "https://www.luckyvitamin.com/p-609057-pacific-foods-all-natural-hemp-milk-unsweetened-original-32-oz",
     "https://www.amazon.com",
+    "https://www.amazon.com/DREAM-Enriched-Original-Organic-Rice/dp/B000R79VR4/ref=sr_1_1?srs=7301146011&ie=UTF8&qid=1521755377&sr=8-1&keywords=organic+rice+milk",
     "https://www.amazon.com",
-    "https://www.amazon.com",
-       "https://www.amazon.com",
-    "https://www.amazon.com",
-    "https://www.amazon.com",
-    "https://www.amazon.com",
-    "https://www.amazon.com"]
+    "https://www.amazon.com/365-Everyday-Value-Organic-Original/dp/B074MFN7DG/ref=sr_1_2?srs=7301146011&ie=UTF8&qid=1521755406&sr=8-2&keywords=organic+soy+milk"]
     
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
         

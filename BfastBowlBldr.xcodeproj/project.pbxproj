@@ -23,8 +23,8 @@
 		9497824A1F6C3261003AB3E7 /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949782491F6C3261003AB3E7 /* WebsiteViewController.swift */; };
 		94BC067D1F6037BD0075A5BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BC067C1F6037BD0075A5BF /* AppDelegate.swift */; };
 		94BC06821F6037BD0075A5BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BC06801F6037BD0075A5BF /* Main.storyboard */; };
-		94BC06841F6037BD0075A5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BC06831F6037BD0075A5BF /* Assets.xcassets */; };
 		94BC06871F6037BD0075A5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BC06851F6037BD0075A5BF /* LaunchScreen.storyboard */; };
+		94C301D82064574D004DA2F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C301D72064574D004DA2F1 /* Assets.xcassets */; };
 		94D3262B1F83ABCB006E397C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D3262A1F83ABCB006E397C /* Ingredient.swift */; };
 		94F1A7A920641F0C001B3C03 /* BYBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F1A7A820641F0C001B3C03 /* BYBTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -47,9 +47,9 @@
 		94BC06791F6037BD0075A5BF /* BfastBowlBldr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BfastBowlBldr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94BC067C1F6037BD0075A5BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94BC06811F6037BD0075A5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		94BC06831F6037BD0075A5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94BC06861F6037BD0075A5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94BC06881F6037BD0075A5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C301D72064574D004DA2F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94D3262A1F83ABCB006E397C /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		94F1A7A820641F0C001B3C03 /* BYBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,8 +127,8 @@
 				6212DDF31F861E88009B64A0 /* View */,
 				6212DDF21F861E59009B64A0 /* ViewControllers */,
 				94BC067C1F6037BD0075A5BF /* AppDelegate.swift */,
-				94BC06831F6037BD0075A5BF /* Assets.xcassets */,
 				94BC06881F6037BD0075A5BF /* Info.plist */,
+				94C301D72064574D004DA2F1 /* Assets.xcassets */,
 			);
 			path = BfastBowlBldr;
 			sourceTree = "<group>";
@@ -193,7 +193,7 @@
 			files = (
 				6240181B1F8DC37100CD24DC /* IngredientCell.xib in Resources */,
 				94BC06871F6037BD0075A5BF /* LaunchScreen.storyboard in Resources */,
-				94BC06841F6037BD0075A5BF /* Assets.xcassets in Resources */,
+				94C301D82064574D004DA2F1 /* Assets.xcassets in Resources */,
 				94BC06821F6037BD0075A5BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
