@@ -25,7 +25,7 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
                        "Couscous.jpg",
                        "Oatmeal.jpg",
                        "Quinoa.jpg",
-                       "icon.jpg"]
+                       "Rice.jpg"]
     
     let grainNames = ["Barley",
                       "Buckwheat Groats",

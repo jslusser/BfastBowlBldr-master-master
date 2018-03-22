@@ -13,18 +13,18 @@ class AddInTableViewController: UITableViewController, CellProtocol {
     var ingredients = [Ingredient]()
     var selectedIngredients = [Ingredient]()
     
-    let addinImages = ["icon.jpg",
-    "icon.jpg",
+    let addinImages = ["Pepper.jpg",
+    "Cacao.jpg",
     "ChiaSeeds.jpg",
     "icon.jpg",
     "DateRed.jpg",
     "Datemedjool.jpg",
     "Goji.jpg",
+    "Matcha.jpg",
+    "Moringa.jpg",
     "icon.jpg",
     "icon.jpg",
-    "icon.jpg",
-    "icon.jpg",
-    "icon.jpg"
+    "Turmeric.jpg"
     ]
     
     let addinNames = ["Black Pepper",
@@ -165,7 +165,7 @@ class AddInTableViewController: UITableViewController, CellProtocol {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        if segue.identifier == "AddInDetails" {
+        if segue.identifier == "ShowAddinDetails" {
             let detailViewController = segue.destination as! IngredientDetailViewController
             guard let row = sender as? Int else { fatalError("Unable to cast sender as Int")}
             detailViewController.ingredientDetailImages = addinImages[row]

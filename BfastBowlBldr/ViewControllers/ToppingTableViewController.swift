@@ -26,10 +26,10 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
         super.viewDidLoad()
         
         toppingImages = ["Brazil.jpg",
+                         "Hempseed.jpg",
                          "icon.jpg",
-                         "icon.jpg",
-                         "icon.jpg",
-                         "icon.jpg",
+                         "Pumpkin.jpg",
+                         "Sunflower.jpg",
                          "Walnut.jpg",
                          "Wheatgerm.jpg",
                          "icon.jpg"
