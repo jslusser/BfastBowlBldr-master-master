@@ -279,7 +279,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HiZ-oA-YSm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1294" y="-643"/>
+            <point key="canvasLocation" x="1255" y="-643"/>
         </scene>
         <!--AddIn-->
         <scene sceneID="iYL-J2-aRN">
@@ -298,7 +298,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VdW-CM-550">
-                            <rect key="frame" x="0.0" y="116" width="375" height="44"/>
+                            <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <state key="normal" title="Move on to Step 4">
@@ -308,50 +308,14 @@
                                 <segue destination="p1B-DK-I4V" kind="show" identifier="SelectFruit" id="KOf-J6-Mh7"/>
                             </connections>
                         </button>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="IngredientCell" id="1qD-oh-080" customClass="AddInTableViewCell" customModule="BfastBowlBldr" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1qD-oh-080" id="nza-9t-oqg">
-                                    <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2gT-N7-45i">
-                                            <rect key="frame" x="8" y="0.0" width="44" height="44"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="44" id="3JB-p7-r3z"/>
-                                                <constraint firstAttribute="height" constant="44" id="Aqc-7R-DaR"/>
-                                            </constraints>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PgI-ri-TrS">
-                                            <rect key="frame" x="60" y="12" width="188" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="A91-Ft-ipv">
-                                            <rect key="frame" x="285" y="7" width="51" height="31"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="onTintColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <connections>
-                                                <action selector="addinSwitch:" destination="1qD-oh-080" eventType="valueChanged" id="Ig6-U8-EQR"/>
-                                            </connections>
-                                        </switch>
-                                    </subviews>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="addinImage" destination="2gT-N7-45i" id="JwG-aq-BsY"/>
-                                    <outlet property="addinName" destination="PgI-ri-TrS" id="d4d-dv-u52"/>
-                                    <segue destination="f7K-61-96T" kind="show" identifier="ShowAddinDetails" id="Rtq-Qs-YA8"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="2SW-P5-9tf" id="QyC-PG-nKI"/>
                             <outlet property="delegate" destination="2SW-P5-9tf" id="Vj8-ZH-Eai"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="f7K-61-96T" kind="show" identifier="ShowAddinDetails" id="0aM-sv-R13"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jGf-7f-OK1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -374,7 +338,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cIJ-r1-RrI">
-                            <rect key="frame" x="0.0" y="116" width="375" height="44"/>
+                            <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <state key="normal" title="Move on to Step 5">
@@ -384,50 +348,14 @@
                                 <segue destination="ZZM-nq-wbH" kind="show" identifier="SelectTopping" id="F0F-bS-Aab"/>
                             </connections>
                         </button>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="IngredientCell" id="Iff-tO-laT" customClass="FruitTableViewCell" customModule="BfastBowlBldr" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Iff-tO-laT" id="bmN-0o-f2c">
-                                    <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6m8-8u-bDx">
-                                            <rect key="frame" x="8" y="0.0" width="44" height="44"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="44" id="cBS-nx-opN"/>
-                                                <constraint firstAttribute="height" constant="44" id="jyH-ip-uqP"/>
-                                            </constraints>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubD-tA-7Uk">
-                                            <rect key="frame" x="60" y="12" width="179" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WnH-jL-ny7">
-                                            <rect key="frame" x="285" y="7" width="51" height="31"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="onTintColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <connections>
-                                                <action selector="fruitSwitch:" destination="Iff-tO-laT" eventType="valueChanged" id="ZXU-i3-NiC"/>
-                                            </connections>
-                                        </switch>
-                                    </subviews>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="fruitImage" destination="6m8-8u-bDx" id="AJN-oJ-tDX"/>
-                                    <outlet property="fruitName" destination="ubD-tA-7Uk" id="dMG-4G-xu0"/>
-                                    <segue destination="f7K-61-96T" kind="show" identifier="ShowFruitDetails" id="SRg-Su-Baz"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="p1B-DK-I4V" id="EZX-r1-g49"/>
                             <outlet property="delegate" destination="p1B-DK-I4V" id="D2A-kT-FFJ"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="f7K-61-96T" kind="show" identifier="ShowFruitDetails" id="GAn-lU-E9p"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ro7-E5-B6j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -450,7 +378,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HJh-qg-aTU">
-                            <rect key="frame" x="0.0" y="116" width="375" height="44"/>
+                            <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <state key="normal" title="Build Your Bowl!">
@@ -460,50 +388,14 @@
                                 <segue destination="wtC-5r-Awh" kind="show" identifier="BuildBowl" id="EXM-yY-YI7"/>
                             </connections>
                         </button>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="IngredientCell" id="BqA-jc-f0d" customClass="ToppingTableViewCell" customModule="BfastBowlBldr" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BqA-jc-f0d" id="Pc5-n0-sF5">
-                                    <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EOw-Vd-Mgd">
-                                            <rect key="frame" x="8" y="0.0" width="44" height="44"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="44" id="WJe-Xc-VC7"/>
-                                                <constraint firstAttribute="height" constant="44" id="kHZ-tp-AOD"/>
-                                            </constraints>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OVG-gk-Xd2">
-                                            <rect key="frame" x="60" y="11" width="199" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="OVv-Q4-XUR">
-                                            <rect key="frame" x="285" y="6" width="51" height="31"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="onTintColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <connections>
-                                                <action selector="toppingSwitch:" destination="BqA-jc-f0d" eventType="valueChanged" id="Gym-rd-ygD"/>
-                                            </connections>
-                                        </switch>
-                                    </subviews>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="toppingImage" destination="EOw-Vd-Mgd" id="teZ-qm-PfD"/>
-                                    <outlet property="toppingName" destination="OVG-gk-Xd2" id="4az-r4-o6A"/>
-                                    <segue destination="f7K-61-96T" kind="show" identifier="ShowToppingDetails" id="x3h-d8-gUa"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="ZZM-nq-wbH" id="E8G-IA-ld0"/>
                             <outlet property="delegate" destination="ZZM-nq-wbH" id="Id9-cR-0lq"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="f7K-61-96T" kind="show" identifier="ShowToppingDetails" id="BEH-kU-T9H"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ood-Ja-wdo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -852,6 +744,6 @@ The next morning add your Fruit and Toppings and enjoy!</string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="XdB-ZH-0kH"/>
-        <segue reference="7U7-Jb-13W"/>
+        <segue reference="6K6-4G-A1t"/>
     </inferredMetricsTieBreakers>
 </document>
