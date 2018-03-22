@@ -1,48 +1,29 @@
 //
-//  BuildYourBowlTableViewController.swift
+//  BYBTableViewController.swift
 //  BfastBowlBldr
 //
-//  Created by James Slusser on 9/26/17.
-//  Copyright © 2017 James Slusser. All rights reserved.
+//  Created by James Slusser on 3/22/18.
+//  Copyright © 2018 James Slusser. All rights reserved.
 //
 
 import UIKit
 
-class BuildYourBowlTableViewController: UITableViewController, CellProtocol {
-    
+class BYBTableViewController: UITableViewController {
+
     var ingredients = [Ingredient]()
     var selectedIngredients = [Ingredient]()
     
-    var bowlImages = [String]()
-    var bowlNames = [String]()
-    var bowlCopy = [String]()
-    var bowlInfo = [String]()
-    var bowlPurch = [String]()
-    var bowlType = [IngredientType]()
-    
-    @IBAction func bowlSelected(_ sender: UIButton) {
-    }
-
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+         ingredients = selectedIngredients
         
-        for i in 0 ..< selectedIngredients.count {
-            let newIngredient = Ingredient(name: bowlNames[i],
-                                           imageString: bowlImages[i],
-                                           copy: bowlCopy[i],
-                                           info: bowlInfo[i],
-                                           purchaseURL: bowlPurch[i],
-                                           type: bowlType[i])
-            ingredients.append(newIngredient)
-        }
-        
-        let ingredientNib = UINib(nibName: "IngredientCell", bundle: nil)
-        tableView.register(ingredientNib, forCellReuseIdentifier: "IngredientCell")
         tableView.estimatedRowHeight = 50
         
-
+        
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -64,44 +45,28 @@ class BuildYourBowlTableViewController: UITableViewController, CellProtocol {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return selectedIngredients.count
+        return ingredients.count
     }
 
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "IngredientCell", for: indexPath) as! IngredientCell
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "bowlCell", for: indexPath) as! BuildYourBowlTableViewCell
+
         let row = indexPath.row
-        cell.configure(textForLabel: ingredients[row].name, image: ingredients[row].imageString, setDelegate: self)
-        return cell
-    }
-    
-        func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
-            
-            guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
-            print("cell at indexpath \(String(describing: indexPath)) tapped with switch status \(status)")
-            
-            let liquidSwitchSelected = myCell.label.text!
-            print("Topping added/removed was \(String(describing: liquidSwitchSelected))")
-            
-            if status {
-                selectedIngredients.append(ingredients[indexPath.row])
-            } else {
-                
-                guard let index = selectedIngredients.index(where: { $0.name == ingredients[indexPath.row].name }) else { return }
-                selectedIngredients.remove(at: index)
-            }
-        }
-       
-    
-    /*
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
+        cell.bowlNames.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)
+        cell.bowlNames.text = ingredients[row].name
+        
+        
+        //cell.bowlImages.image = ingredients[row].imageString
+        
+        //cell.bowlNames.text = bowlNames[row]
+        cell.bowlImages.image = UIImage(named: ingredients[row].imageString)
+//        configure(textForLabel: ingredients[row].name,
+//                       image: ingredients[row].imageString, setDelegate: self)
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
@@ -149,4 +114,3 @@ class BuildYourBowlTableViewController: UITableViewController, CellProtocol {
     */
 
 }
-

@@ -156,10 +156,10 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
         
        if segue.identifier == "BuildBowl" {
         
-        print (selectedIngredients)
+         print (selectedIngredients)
         
-            let BuildYourBowlTableViewController = segue.destination as! BuildYourBowlTableViewController
-            BuildYourBowlTableViewController.selectedIngredients = selectedIngredients
+            let BYBTableViewController = segue.destination as! BYBTableViewController
+            BYBTableViewController.selectedIngredients = selectedIngredients
         }
         
     }

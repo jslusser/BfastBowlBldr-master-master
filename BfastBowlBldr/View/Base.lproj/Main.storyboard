@@ -512,7 +512,7 @@
         <!--Build Your Bowl-->
         <scene sceneID="8Aw-Ju-8Np">
             <objects>
-                <tableViewController title="Build Your Bowl" id="wtC-5r-Awh" customClass="BuildYourBowlTableViewController" customModule="BfastBowlBldr" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Build Your Bowl" id="wtC-5r-Awh" customClass="BYBTableViewController" customModule="BfastBowlBldr" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="uh7-Nk-O0T">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -525,13 +525,30 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="IngredientCell" id="LtE-II-Ahl">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="bowlCell" id="LtE-II-Ahl" customClass="BuildYourBowlTableViewCell" customModule="BfastBowlBldr" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="49" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LtE-II-Ahl" id="lRP-jS-gJ9">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LtE-II-Ahl" id="lRP-jS-gJ9" customClass="BuildYourBowlTableViewCell" customModule="BfastBowlBldr" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Sl-KV-Zdv" userLabel="Bowl Images">
+                                            <rect key="frame" x="6" y="0.0" width="44" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9J-f3-4I9" userLabel="Bowl Names">
+                                            <rect key="frame" x="64" y="12" width="272" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bowlImages" destination="6Sl-KV-Zdv" id="dwb-Wb-ra6"/>
+                                    <outlet property="bowlNames" destination="T9J-f3-4I9" id="pQy-jt-Rlm"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
@@ -543,7 +560,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iNx-ke-Mru" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4538" y="-638"/>
+            <point key="canvasLocation" x="4544.8000000000002" y="-644.52773613193403"/>
         </scene>
         <!--Details-->
         <scene sceneID="xQ3-0T-A8M">

@@ -14,6 +14,7 @@
 		943274AF1F6B3CB900E341A2 /* IngredientDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943274AE1F6B3CB900E341A2 /* IngredientDetailViewController.swift */; };
 		9456341B1F73C3AC00D19B6C /* AppBackstoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9456341A1F73C3AC00D19B6C /* AppBackstoryViewController.swift */; };
 		948766521F731AAD00971F42 /* HowItWorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948766511F731AAD00971F42 /* HowItWorksViewController.swift */; };
+		94935B612063263800E55D6B /* BuildYourBowlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94935B602063263800E55D6B /* BuildYourBowlTableViewCell.swift */; };
 		9493AA6D1F72B50100F6604B /* LiquidTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9493AA6C1F72B50100F6604B /* LiquidTableViewController.swift */; };
 		9493AA711F72C18900F6604B /* EquipmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9493AA701F72C18900F6604B /* EquipmentTableViewController.swift */; };
 		9493AA771F72CA0500F6604B /* AddInTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9493AA761F72CA0500F6604B /* AddInTableViewController.swift */; };
@@ -25,7 +26,7 @@
 		94BC06841F6037BD0075A5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BC06831F6037BD0075A5BF /* Assets.xcassets */; };
 		94BC06871F6037BD0075A5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BC06851F6037BD0075A5BF /* LaunchScreen.storyboard */; };
 		94D3262B1F83ABCB006E397C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D3262A1F83ABCB006E397C /* Ingredient.swift */; };
-		94F2F80C1F7AA71200C95907 /* BuildYourBowlTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F2F80B1F7AA71200C95907 /* BuildYourBowlTableViewController.swift */; };
+		94F1A7A920641F0C001B3C03 /* BYBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F1A7A820641F0C001B3C03 /* BYBTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		943274AE1F6B3CB900E341A2 /* IngredientDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientDetailViewController.swift; sourceTree = "<group>"; };
 		9456341A1F73C3AC00D19B6C /* AppBackstoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackstoryViewController.swift; sourceTree = "<group>"; };
 		948766511F731AAD00971F42 /* HowItWorksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowItWorksViewController.swift; sourceTree = "<group>"; };
+		94935B602063263800E55D6B /* BuildYourBowlTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildYourBowlTableViewCell.swift; sourceTree = "<group>"; };
 		9493AA6C1F72B50100F6604B /* LiquidTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidTableViewController.swift; sourceTree = "<group>"; };
 		9493AA701F72C18900F6604B /* EquipmentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTableViewController.swift; sourceTree = "<group>"; };
 		9493AA761F72CA0500F6604B /* AddInTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInTableViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +51,7 @@
 		94BC06861F6037BD0075A5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94BC06881F6037BD0075A5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94D3262A1F83ABCB006E397C /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
-		94F2F80B1F7AA71200C95907 /* BuildYourBowlTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildYourBowlTableViewController.swift; sourceTree = "<group>"; };
+		94F1A7A820641F0C001B3C03 /* BYBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +76,8 @@
 				9493AA761F72CA0500F6604B /* AddInTableViewController.swift */,
 				9493AA781F72D17E00F6604B /* FruitTableViewController.swift */,
 				9493AA7E1F72D94F00F6604B /* ToppingTableViewController.swift */,
-				94F2F80B1F7AA71200C95907 /* BuildYourBowlTableViewController.swift */,
+				94F1A7A820641F0C001B3C03 /* BYBTableViewController.swift */,
+				94935B602063263800E55D6B /* BuildYourBowlTableViewCell.swift */,
 				948766511F731AAD00971F42 /* HowItWorksViewController.swift */,
 				9493AA701F72C18900F6604B /* EquipmentTableViewController.swift */,
 				9456341A1F73C3AC00D19B6C /* AppBackstoryViewController.swift */,
@@ -204,9 +207,11 @@
 			files = (
 				9493AA771F72CA0500F6604B /* AddInTableViewController.swift in Sources */,
 				9493AA791F72D17E00F6604B /* FruitTableViewController.swift in Sources */,
+				94935B612063263800E55D6B /* BuildYourBowlTableViewCell.swift in Sources */,
 				943274A91F6B09FF00E341A2 /* MainMenuTableViewController.swift in Sources */,
 				9456341B1F73C3AC00D19B6C /* AppBackstoryViewController.swift in Sources */,
 				9493AA7F1F72D94F00F6604B /* ToppingTableViewController.swift in Sources */,
+				94F1A7A920641F0C001B3C03 /* BYBTableViewController.swift in Sources */,
 				943274AB1F6B2FAF00E341A2 /* IngredientTableViewController.swift in Sources */,
 				9493AA711F72C18900F6604B /* EquipmentTableViewController.swift in Sources */,
 				6240181A1F8DC37100CD24DC /* IngredientCell.swift in Sources */,
@@ -214,7 +219,6 @@
 				9497824A1F6C3261003AB3E7 /* WebsiteViewController.swift in Sources */,
 				94D3262B1F83ABCB006E397C /* Ingredient.swift in Sources */,
 				9493AA6D1F72B50100F6604B /* LiquidTableViewController.swift in Sources */,
-				94F2F80C1F7AA71200C95907 /* BuildYourBowlTableViewController.swift in Sources */,
 				943274AF1F6B3CB900E341A2 /* IngredientDetailViewController.swift in Sources */,
 				948766521F731AAD00971F42 /* HowItWorksViewController.swift in Sources */,
 			);
