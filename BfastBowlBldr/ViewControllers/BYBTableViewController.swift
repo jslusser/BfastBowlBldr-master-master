@@ -18,6 +18,9 @@ class BYBTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+     
+//       navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(returnMenu))
+        
          ingredients = selectedIngredients
         
         tableView.estimatedRowHeight = 50
@@ -60,6 +63,9 @@ class BYBTableViewController: UITableViewController {
         return cell
     }
     
+//    func (returnMenu) {
+//    add code here to return user to Main Menu?  or is it via a segue?
+//    }
 
     /*
     // Override to support conditional editing of the table view.
