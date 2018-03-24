@@ -23,8 +23,8 @@ class EquipmentTableViewController: UITableViewController, CellProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        equipmentImages = ["icon.jpg",
-                           "icon.jpg"]
+        equipmentImages = ["NutriBullet.jpeg",
+                           "NutMilkBag.jpeg"]
         
         equipmentNames = ["NutriBullet",
                           "Nut Milk Bag"]
@@ -32,11 +32,11 @@ class EquipmentTableViewController: UITableViewController, CellProtocol {
         equipmentCopy = ["NutriBullet copy",
                          "Nut Milk Bag copy"]
         
-        equipmentInfo = ["https://en.wikipedia.org",
-                         "https://en.wikipedia.org"]
+        equipmentInfo = ["https://en.wikipedia.org/wiki/Magic_Bullet_(appliance)",
+                         "https://www.amazon.com/Pro-Quality-Nut-Milk-Bag/dp/B00KLT6X9W/ref=sr_1_4?s=home-garden&ie=UTF8&qid=1521906953&sr=1-4&keywords=nut+milk+bag"]
         
-        equipmentPurch = ["https://www.amazon.com",
-                          "https://www.amazon.com"]
+        equipmentPurch = ["https://www.amazon.com/NutriBullet-12-Piece-High-Speed-Blender-System/dp/B007TIE0GQ/ref=sr_1_3?s=kitchen&ie=UTF8&qid=1521906905&sr=1-3&keywords=nutribullet",
+                          "https://www.amazon.com/Pro-Quality-Nut-Milk-Bag/dp/B00KLT6X9W/ref=sr_1_4?s=home-garden&ie=UTF8&qid=1521906953&sr=1-4&keywords=nut+milk+bag"]
         
         for i in 0 ..< equipmentCopy.count {
             let newIngredient = Ingredient(name: equipmentNames[i],
@@ -85,6 +85,12 @@ class EquipmentTableViewController: UITableViewController, CellProtocol {
         return cell
     }
    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        performSegue(withIdentifier: "ShowEquipmentDetails", sender: indexPath.row)
+        
+        
+    }
 
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
         

@@ -16,12 +16,13 @@ class LiquidTableViewController: UITableViewController, CellProtocol {
     
     let liquidImages = ["AlmondMilk.jpg",
     "Cashewmilk.jpg",
-    "icon.jpg",
+    "CoconutMilk.jpeg",
     "CoconutWater.jpg",
     "HempMilk.jpg",
-    "icon.jpg",
-    "icon.jpg",
-    "icon.jpg",
+    "FruitJuice.jpeg",
+    "OatMilk.jpeg",
+    "RiceMilk.jpeg",
+    "Smoothie.jpeg",
     "Soymilk.jpg"]
     
     let liquidNames = ["Almond Milk",
@@ -30,6 +31,7 @@ class LiquidTableViewController: UITableViewController, CellProtocol {
     "Coconut Water",
     "Hemp Milk",
     "Juice - various",
+    "Oat Milk",
     "Rice Milk",
     "Smoothie - various",
     "Soy Milk"]
@@ -40,6 +42,7 @@ class LiquidTableViewController: UITableViewController, CellProtocol {
     "Coconut Water copy",
     "Hemp Milk copy",
     "Juice - various copy",
+    "Oat Milk copy",
     "Rice Milk copy",
     "Smoothie - various copy",
     "Soy Milk copy"]
@@ -50,6 +53,7 @@ class LiquidTableViewController: UITableViewController, CellProtocol {
     "https://en.wikipedia.org/wiki/Coconut_water",
     "https://en.wikipedia.org/wiki/Hemp_milk",
     "https://en.wikipedia.org",
+    "https://www.livestrong.com/article/267017-what-are-the-benefits-of-oat-milk/",
     "https://en.wikipedia.org/wiki/Rice_milk",
     "https://en.wikipedia.org",
     "https://en.wikipedia.org/wiki/Soy_milk"]
@@ -60,6 +64,7 @@ class LiquidTableViewController: UITableViewController, CellProtocol {
     "https://https://www.amazon.com/ZICO-Premium-Coconut-Water-Natural/dp/B014M6MK4G/ref=sr_1_3?srs=7301146011&ie=UTF8&qid=1521755255&sr=8-3&keywords=organic+coconut+water",
        "https://www.luckyvitamin.com/p-609057-pacific-foods-all-natural-hemp-milk-unsweetened-original-32-oz",
     "https://www.amazon.com",
+    "https://www.amazon.com/Pacific-Foods-Non-Dairy-Beverage-Original/dp/B000R7829M/ref=sr_1_4_a_it?ie=UTF8&qid=1521910011&sr=8-4&keywords=oat+milk",
     "https://www.amazon.com/DREAM-Enriched-Original-Organic-Rice/dp/B000R79VR4/ref=sr_1_1?srs=7301146011&ie=UTF8&qid=1521755377&sr=8-1&keywords=organic+rice+milk",
     "https://www.amazon.com",
     "https://www.amazon.com/365-Everyday-Value-Organic-Original/dp/B074MFN7DG/ref=sr_1_2?srs=7301146011&ie=UTF8&qid=1521755406&sr=8-2&keywords=organic+soy+milk"]

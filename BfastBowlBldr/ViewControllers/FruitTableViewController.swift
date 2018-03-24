@@ -27,7 +27,7 @@ class FruitTableViewController: UITableViewController, CellProtocol {
         fruitImages = [
             "Apple.jpg",
             "Apricot.jpg",
-            "Banana.jpg",
+            "scott-webb-98682-unsplash.jpg",
             "Blackberries.jpg",
             "Blueberries.jpg",
             "Cantaloupe.jpg",
@@ -36,10 +36,13 @@ class FruitTableViewController: UITableViewController, CellProtocol {
             "Grapes.jpg",
             "Honeydew.jpg",
             "Kiwi.jpg",
+            "neha-deshmukh-5764-unsplash.jpg",
             "Mango.jpg",
             "Orange.jpg",
-            "Pineapple.jpg",
+            "clem-onojeghuo-72904-unsplash.jpg",
+            "carlota-trillo-328189-unsplash.jpg",
             "Raspberries.jpg",
+            "hoang-v-n-81485-unsplash.jpg",
             "Watermelon.jpg"
         ]
         
@@ -55,10 +58,13 @@ class FruitTableViewController: UITableViewController, CellProtocol {
         "Grapes",
         "Honeydew melon",
         "Kiwi",
+        "Lychee",
         "Mango",
         "Orange",
+        "Pear",
         "Pineapple",
         "Raspberries",
+        "Strawberries",
         "Watermelon"
         ]
         
@@ -74,10 +80,13 @@ class FruitTableViewController: UITableViewController, CellProtocol {
         "Grapes copy",
         "Honeydew melon copy",
         "Kiwi copy",
+        "Lychee copy",
         "Mango copy",
         "Orange copy",
+        "Pear copy",
         "Pineapple copy",
         "Raspberries copy",
+        "Strawberries copy",
         "Watermelon copy"
         ]
         
@@ -96,6 +105,9 @@ class FruitTableViewController: UITableViewController, CellProtocol {
         "https://en.wikipedia.org",
         "https://en.wikipedia.org",
         "https://en.wikipedia.org",
+         "https://en.wikipedia.org",
+        "https://en.wikipedia.org",
+        "https://en.wikipedia.org",
         "https://en.wikipedia.org",
         "https://en.wikipedia.org"
         ]
@@ -107,6 +119,9 @@ class FruitTableViewController: UITableViewController, CellProtocol {
         "https://www.amazon.com",
         "https://www.amazon.com",
         "https://www.amazon.com",
+        "https://www.amazon.com",
+        "https://www.amazon.com",
+         "https://www.amazon.com",
         "https://www.amazon.com",
         "https://www.amazon.com",
         "https://www.amazon.com",
