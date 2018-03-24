@@ -33,8 +33,8 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
                          "Pumpkin.jpg",
                          "Sunflower.jpg",
                          "Walnut.jpg",
-                         "Wheatgerm.jpg",
-                         "CoconutYogurt.jpeg"
+                         "WheatGerm.jpeg",
+                         "CoconutYogurt.png"
         ]
         
         toppingNames = ["Brazil Nut",
@@ -49,16 +49,16 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
                         "Yogurt - Coconut"
         ]
         
-        toppingCopy = ["Brazil Nut copy",
-                       "Hemp Seed copy",
-                       "Honey copy",
-                       "Lemon Juice copy",
-                       "Lime Juice copy",
-                       "Pumpkin Seed copy",
-                       "Sunflower Seed copy",
-                       "Walnut copy",
-                       "Wheat Germ copy",
-                       "Yogurt - Coconut copy"
+        toppingCopy = ["Brazil nuts are commonly eaten raw or blanched and are high in protein, fiber, selenium, thiamine, copper and magnesium — and in addition to being the best selenium food source in the world, they provide numerous benefits for our health.",
+                       "Hemp seeds are rich in healthy fats and essential fatty acids. They are also a great protein source and contain high amounts of vitamin E, phosphorus, potassium, sodium, magnesium, sulfur, calcium, iron and zinc",
+                       "8 Health Benefits of Raw Honey; Healthy Weight Management. Counters Pollen Allergies. Natural Energy Source. Antioxidant Powerhouse. Sleep Promoter. Wound and Ulcer Healer. Diabetes Aid. Natural Cough Syrup.",
+                       "I'll squeeze Lemon or Lime Juice over my fresh chopped fruit to prevent browning, add some extra vitamin C and to just brighten up the flavor.",
+                       "I'll squeeze Lemon or Lime Juice over my fresh chopped fruit to prevent browning, add some extra vitamin C and to just brighten up the flavor.",
+                       "9 Top Health Benefits of Pumpkin Seeds. Heart Healthy Magnesium. Zinc for Immune Support. Plant-Based Omega-3 Fats. Prostate Health. Anti-Diabetic Effects. Benefits for Postmenopausal Women. Heart and Liver Health. Tryptophan for Restful Sleep.",
+                       "Top Health Benefits of Sunflower Seeds. Reduces Risk for Heart Disease. Helps to Prevent Cancer Due to High Antioxidant Content. Supports Thyroid Function Through Selenium. Helps Combat Osteoporosis, Bone Loss, and Muscle Cramps. Balances Blood Sugar Levels and Helps Ward off Diabetes. Improves Skin Health.",
+                       "Walnuts contain a number of neuroprotective compounds, including vitamin E, folate, melatonin, omega-3 fats, and antioxidants. Research shows walnut consumption may support brain health, including increasing inferential reasoning in young adults.",
+                       "It's a great source of vegetable proteins, along with fiber and healthy fats. It's also a good source of magnesium, zinc, thiamin, folate, potassium, and phosphorus. Wheat germ is high in vitamin E, an essential nutrient with antioxidant properties.",
+                       "Coconutmilk yogurt alternatives deliver dairy-free culture with amazing flavor and just the right balance of tanginess and sweetness."
         ]
         
         toppingInfo = ["https://en.wikipedia.org/wiki/Brazil_nut",
@@ -82,7 +82,7 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
                         "https://www.amazon.com/Terrasoul-Superfoods-Organic-Hulled-Sunflower/dp/B00SRMA4U4/ref=sr_1_5_s_it?s=grocery&ie=UTF8&qid=1521756599&sr=1-5&keywords=sunflower+seed",
                         "https://www.amazon.com/Three-Pounds-Walnuts-Shelled-Pieces/dp/B00IED712U/ref=sr_1_15_s_it?s=grocery&ie=UTF8&qid=1521756619&sr=1-15&keywords=walnut",
                         "https://www.amazon.com/Grain-natural-Untoasted-Packaged-Resealable/dp/B01BNU7XPA/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1521756646&sr=1-4&keywords=wheat+germ",
-                        "https://www.noosayoghurt.com/product/coconut/?gclid=EAIaIQobChMIxqPaxPmA2gIVnI2zCh0i5wLdEAAYASAAEgIAfvD_BwE"
+                        "http://sodeliciousdairyfree.com/product_groups/dairy-free-yogurt-alternatives"
         ]
         
         for i in 0 ..< toppingCopy.count {

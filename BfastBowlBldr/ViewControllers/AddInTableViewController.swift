@@ -27,7 +27,8 @@ class AddInTableViewController: UITableViewController, CellProtocol {
     "Moringa.jpg",
     "Prune.jpeg",
     "Raisin.jpeg",
-    "Turmeric.jpg"
+    "Turmeric.jpg",
+    "Vanilla.jpeg"
     ]
     
     let addinNames = ["Black Pepper",
@@ -44,7 +45,8 @@ class AddInTableViewController: UITableViewController, CellProtocol {
     "Moringa",
     "Prune",
     "Raisin",
-    "Turmeric"
+    "Turmeric",
+    "Vanilla Powder"
     ]
     
     let addinCopy = ["Black Pepper for breakfast?  Hear me out.  If you are adding Turmeric to your bowl (and you should), Black Pepper can increase the bioavailability and effectiveness of the Turmeric.",
@@ -61,7 +63,8 @@ class AddInTableViewController: UITableViewController, CellProtocol {
     "Moringa leaves are high in several anti-aging compounds that lower the effects of oxidative stress and inflammation, including polyphenols, vitamin C, beta-carotene, quercetin, and chlorogenic acid",
     "Prunes are a great source of vitamin A, a vitamin that is essential for healthy vision. Powerhouse of Antioxidants. Heart Healthy. Relieves Constipation. Protection Against Osteoporosis. Promotes Hair Health. Great for Skin.",
     "Despite their small size, raisins are packed with energy and rich in fiber, vitamins, and minerals. Raisins are naturally sweet and high in sugar and calories, but they're beneficial to our health when eaten in moderation. In fact, raisins can aid digestion, boost iron levels, and keep your bones strong.",
-    "Curcumin is the main active ingredient in Turmeric. It has powerful anti-inflammatory effects and is a very strong antioxidant.  Interestingly, Black Pepper can increase the bioavailability and effectiveness of the Turmeric, so grind in a bit of pepper when using Turmeric"
+    "Curcumin is the main active ingredient in Turmeric. It has powerful anti-inflammatory effects and is a very strong antioxidant.  Interestingly, Black Pepper can increase the bioavailability and effectiveness of the Turmeric, so grind in a bit of pepper when using Turmeric",
+    "Vanilla powder is prepared ​​from raw organic vanilla beans that have been dried at low temperatures and finely ground. Vanilla powder contains a variety of vitamins and minerals and boasts a fragrant aroma and velvety smooth flavour."
     ]
     
     let addinInfo = ["https://en.wikipedia.org/wiki/Black_pepper",
@@ -78,7 +81,9 @@ class AddInTableViewController: UITableViewController, CellProtocol {
     "https://greenvirginproducts.com/product-category/moringa/moringa-benefits/?gclid=EAIaIQobChMIhbKI7fWA2gIVhLfACh32QQp7EAAYASAAEgKWq_D_BwE",
     "https://en.wikipedia.org/wiki/Prune",
     "https://en.wikipedia.org/wiki/Raisin",
-    "https://en.wikipedia.org/wiki/Turmeric"]
+    "https://en.wikipedia.org/wiki/Turmeric",
+    "https://www.thekitchn.com/good-question-what-is-vanilla-83146"
+    ]
     
     let addinPurch = ["https://www.amazon.com/365-Everyday-Value-Organic-Pepper/dp/B075M4KPWW/ref=sr_1_1?srs=7301146011&ie=UTF8&qid=1521755834&sr=8-1&keywords=organic+black+pepper",
     "https://www.amazon.com/Viva-Naturals-Selling-Certified-Superior/dp/B00HES9CMS/ref=sr_1_3_a_it?ie=UTF8&qid=1521755900&sr=8-3&keywords=Cacao+powder",
@@ -94,7 +99,8 @@ class AddInTableViewController: UITableViewController, CellProtocol {
     "https://www.amazon.com/Terrasoul-Superfoods-Organic-Moringa-Powder/dp/B013KP50PQ/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1521756087&sr=1-4&keywords=Moringa",
     "https://www.amazon.com/Newmans-Own-Organic-Prunes-Oz/dp/B000VK9XYI/ref=sr_1_3_s_it?ie=UTF8&qid=1521756110&sr=1-3&keywords=Prune",
     "https://www.amazon.com/Dole-California-Seedless-Raisins-Ounce/dp/B01H6JDP9U/ref=sr_1_1?srs=7301146011&ie=UTF8&qid=1521756154&sr=8-1&keywords=raisin",
-    "https://www.amazon.com/Healthworks-Turmeric-Powder-Curcumin-Organic/dp/B01ETL0Y6U/ref=sr_1_5_a_it?ie=UTF8&qid=1521756196&sr=8-5&keywords=turmeric"]
+    "https://www.amazon.com/Healthworks-Turmeric-Powder-Curcumin-Organic/dp/B01ETL0Y6U/ref=sr_1_5_a_it?ie=UTF8&qid=1521756196&sr=8-5&keywords=turmeric",
+    "https://www.amazon.com/Kiva-Vanilla-Gourmet-Madagascar-Pesticide-Free/dp/B019G5H02A/ref=sr_1_5_s_it?s=grocery&ie=UTF8&qid=1521925765&sr=1-5&keywords=vanilla+powder"]
     
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
         

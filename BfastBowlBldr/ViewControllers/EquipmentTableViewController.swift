@@ -23,19 +23,24 @@ class EquipmentTableViewController: UITableViewController, CellProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        equipmentImages = ["NutriBullet.jpeg",
+        equipmentImages = ["CitrusPress.jpeg",
+                           "NutriBullet.jpeg",
                            "NutMilkBag.jpeg"]
         
-        equipmentNames = ["NutriBullet",
+        equipmentNames = ["Citrus Press Juicer",
+                          "NutriBullet",
                           "Nut Milk Bag"]
         
-        equipmentCopy = ["NutriBullet copy",
-                         "Nut Milk Bag copy"]
+        equipmentCopy = ["I use this almost daily to squeeze lemon or lime juice over my chopped fresh fruit, to add some Vitamin C and brighten up the flavor.",
+                         "I use the NutriBullet 7 days a week.  I make my Almond Milk with it, smoothies, salad dressings - you name it.  It's a workhorse that has lasted several years already",
+                         "You need one of these to make your own Nut Milk.  It couldn't be easier - just Google nut milk recipes and dive in"]
         
-        equipmentInfo = ["https://en.wikipedia.org/wiki/Magic_Bullet_(appliance)",
+        equipmentInfo = ["https://www.amazon.com/Rated-Zulay-Premium-Quality-Squeezer/dp/B00YBP918M/ref=sr_1_cc_1?s=aps&ie=UTF8&qid=1521927198&sr=1-1-catcorr&keywords=citrus+squeezer",
+                         "https://en.wikipedia.org/wiki/Magic_Bullet_(appliance)",
                          "https://www.amazon.com/Pro-Quality-Nut-Milk-Bag/dp/B00KLT6X9W/ref=sr_1_4?s=home-garden&ie=UTF8&qid=1521906953&sr=1-4&keywords=nut+milk+bag"]
         
-        equipmentPurch = ["https://www.amazon.com/NutriBullet-12-Piece-High-Speed-Blender-System/dp/B007TIE0GQ/ref=sr_1_3?s=kitchen&ie=UTF8&qid=1521906905&sr=1-3&keywords=nutribullet",
+        equipmentPurch = ["https://www.amazon.com/Rated-Zulay-Premium-Quality-Squeezer/dp/B00YBP918M/ref=sr_1_cc_1?s=aps&ie=UTF8&qid=1521927198&sr=1-1-catcorr&keywords=citrus+squeezer",
+                          "https://www.amazon.com/NutriBullet-12-Piece-High-Speed-Blender-System/dp/B007TIE0GQ/ref=sr_1_3?s=kitchen&ie=UTF8&qid=1521906905&sr=1-3&keywords=nutribullet",
                           "https://www.amazon.com/Pro-Quality-Nut-Milk-Bag/dp/B00KLT6X9W/ref=sr_1_4?s=home-garden&ie=UTF8&qid=1521906953&sr=1-4&keywords=nut+milk+bag"]
         
         for i in 0 ..< equipmentCopy.count {
