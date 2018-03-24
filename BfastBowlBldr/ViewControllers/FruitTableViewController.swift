@@ -71,7 +71,7 @@ class FruitTableViewController: UITableViewController, CellProtocol {
         ]
         
         fruitCopy = [
-            "Apple copy",
+            "There are so many varieties to pick from, I suggest you try as many as you can and find the ones that you like.  Personally I like Fuji, Honey Crisp and Granny Smith depending on my mood and the other ingredients I am using.",
             "Apricot copy",
             "Banana copy",
             "Blackberries copy",
