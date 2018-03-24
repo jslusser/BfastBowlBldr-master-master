@@ -33,7 +33,7 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
                          "Pumpkin.jpg",
                          "Sunflower.jpg",
                          "Walnut.jpg",
-                         "WheatGerm.jpeg",
+                         "icon.jpg",
                          "CoconutYogurt.png"
         ]
         
