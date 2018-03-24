@@ -19,7 +19,7 @@ class HowItWorksViewController: UIViewController {
     
     The Build Your Bowl function will walk you through 5 quick screens, each allowing you to select your grain, liquid, add-ins, fruit, and toppings via a simple toggle switch.  Not sure what something is?  Click the little arrow to the right of the ingredient to learn a bit more about it.  The intent and hope is to inspire you to learn about and try new ingredients, or perhaps a new combination of some of your current favorites.
     
-    Once all of the ingredients are selected, the app will recap your bowl “recipe” so you may build it, share it, and rate it.  Please note - everyone has their own personal preferences so I do not provide exact measures of anything - I’ll leave that up to you in you want more or less of any particular ingredient.
+    Once all of the ingredients are selected, the app will recap your bowl “recipe” so you may build it, share it, and rate it.  Please note - everyone has their own personal preferences so I do not provide exact measures of anything - I’ll leave that up to you if you want more or less of any particular ingredient.
     
     There are opportunities to learn more about the ingredients and equipment used to prepare the bowls, and links to purchase the non-perishable ingredients or equipment online.  I always recommend that you first try to buy locally, preferably from a small business, but have included online links in case you have difficulty sourcing some items.
     

@@ -47,21 +47,21 @@ class AddInTableViewController: UITableViewController, CellProtocol {
     "Turmeric"
     ]
     
-    let addinCopy = ["Black Pepper copy",
-    "Cacao powder copy",
+    let addinCopy = ["Black Pepper for breakfast?  Hear me out.  If you are adding Turmeric to your bowl (and you should), Black Pepper can increase the bioavailability and effectiveness of the Turmeric.",
+    "Cacao powder is a source of magnesium, iron and is high in flavonoids, which have antioxidant activity.  In addition, cacao contains a compound called phenylethylamine (PEA for short!). PEA is thought to elevate mood and support energy, and is said to be one of the reasons that many people love chocolate!",
     "Cherries (dried) copy",
-    "Chia Seeds copy",
-    "Cinnamon copy",
-    "Dates - Red copy",
-    "Dates - Medjool copy",
-    "Goji Berries copy",
-    "Lucuma Powder copy",
-    "Maca Powder copy",
-    "Matcha copy",
-    "Moringa copy",
-    "Prune copy",
-    "Raisin copy",
-    "Turmeric copy"
+    "Chia Seeds are an excellent source of omega-3 fatty acids, rich in antioxidants, and they provide fiber, iron, and calcium. Omega-3 fatty acids help raise HDL cholesterol, the 'good' cholesterol that protects against heart attack and stroke.",
+    "Cinnamon s one of the most delicious and healthiest spices on the planet. It can lower blood sugar levels, reduce heart disease risk factors, and has a plethora of other impressive health benefits",
+    "Red Dates, also knows as Jujube, have potent health benefits. They have calming properties and are a good source of natural antioxidants",
+    "The nutrients that provide the many health benefits of Medjool dates include dietary fiber, potassium, manganese, copper, B family vitamins, vitamin A, magnesium, and calcium.",
+    "Goji berries, a fruit that comes from the Chinese Lycium barbarum plant, have been used as a traditional medicine for general health, and recent studies suggest there is real evidence for its purported benefits. Many types of berries offer beneficial antioxidants that protect the body against chronic disease, and goji berries may contain additional properties to improve eye health.",
+    "Lucuma powder delivers an abundance of healthy benefits when added to your favorite food or beverage. In addition to satisfying your sweet tooth, lucuma is gluten-free and a source of antioxidants, fiber, carbohydrates, vitamins and minerals necessary for bodily functions and of benefit to the immune system.",
+    "Maca is a root vegetable that is high in antioxidants and nutrients, such as vitamin C, copper and iron. It has been used medicinally for thousands of years and has been shown to enhance sexual health and libido; improve energy, mood and memory; and balance hormone levels.",
+    "Amongst its many health benefits, Matcha… Is packed with antioxidants including the powerful EGCg. Boosts metabolism and burns calories. Detoxifies effectively and naturally. Calms the mind and relaxes the body. Is rich in fiber, chlorophyll and vitamins. Enhances mood and aids in concentration.",
+    "Moringa leaves are high in several anti-aging compounds that lower the effects of oxidative stress and inflammation, including polyphenols, vitamin C, beta-carotene, quercetin, and chlorogenic acid",
+    "Prunes are a great source of vitamin A, a vitamin that is essential for healthy vision. Powerhouse of Antioxidants. Heart Healthy. Relieves Constipation. Protection Against Osteoporosis. Promotes Hair Health. Great for Skin.",
+    "Despite their small size, raisins are packed with energy and rich in fiber, vitamins, and minerals. Raisins are naturally sweet and high in sugar and calories, but they're beneficial to our health when eaten in moderation. In fact, raisins can aid digestion, boost iron levels, and keep your bones strong.",
+    "Curcumin is the main active ingredient in Turmeric. It has powerful anti-inflammatory effects and is a very strong antioxidant.  Interestingly, Black Pepper can increase the bioavailability and effectiveness of the Turmeric, so grind in a bit of pepper when using Turmeric"
     ]
     
     let addinInfo = ["https://en.wikipedia.org/wiki/Black_pepper",
