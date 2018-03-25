@@ -12,14 +12,13 @@ class BYBTableViewController: UITableViewController {
 
     var ingredients = [Ingredient]()
     var selectedIngredients = [Ingredient]()
-    
-    
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
      
-//       navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(returnMenu))
+//       navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(doneTapped))
         
          ingredients = selectedIngredients
         
@@ -42,12 +41,12 @@ class BYBTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
+        
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
+        
         return ingredients.count
     }
 
@@ -63,8 +62,8 @@ class BYBTableViewController: UITableViewController {
         return cell
     }
     
-//    func (returnMenu) {
-//    add code here to return user to Main Menu?  or is it via a segue?
+//    func (doneTapped) {
+//    print ("Hello World")
 //    }
 
     /*

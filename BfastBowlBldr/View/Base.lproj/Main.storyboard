@@ -547,28 +547,22 @@ The next morning add your Fruit and Toppings and enjoy!</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nis-0W-MgV">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pmt-6E-LQL">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="Nis-0W-MgV" firstAttribute="leading" secondItem="QRO-n8-qLq" secondAttribute="leading" id="565-kJ-3rI"/>
-                            <constraint firstItem="Nis-0W-MgV" firstAttribute="top" secondItem="78h-qh-0dK" secondAttribute="top" id="ixa-Dp-28g"/>
-                            <constraint firstItem="Nis-0W-MgV" firstAttribute="bottom" secondItem="QRO-n8-qLq" secondAttribute="bottom" id="oKT-uq-O5U"/>
-                            <constraint firstItem="Nis-0W-MgV" firstAttribute="trailing" secondItem="QRO-n8-qLq" secondAttribute="trailing" id="rK1-W5-RMP"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="QRO-n8-qLq"/>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="Nis-0W-MgV" id="0DH-1P-yeN"/>
+                        <outlet property="webView" destination="Pmt-6E-LQL" id="Vxp-4A-0cb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pha-Es-XMa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2294" y="152"/>
+            <point key="canvasLocation" x="2293.5999999999999" y="151.57421289355324"/>
         </scene>
         <!--How It Works-->
         <scene sceneID="oOf-Ul-zwI">
@@ -744,6 +738,6 @@ The next morning add your Fruit and Toppings and enjoy!</string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="XdB-ZH-0kH"/>
-        <segue reference="6K6-4G-A1t"/>
+        <segue reference="BEH-kU-T9H"/>
     </inferredMetricsTieBreakers>
 </document>

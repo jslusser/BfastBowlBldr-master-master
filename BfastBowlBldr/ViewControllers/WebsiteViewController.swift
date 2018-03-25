@@ -15,6 +15,7 @@ class WebsiteViewController: UIViewController {
     var webSite: String?
     
     @IBOutlet weak var webView: UIWebView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +24,7 @@ class WebsiteViewController: UIViewController {
             let webURL = URL(string: address)
             let urlRequest = URLRequest(url: webURL!)
             webView.loadRequest(urlRequest)
+            
         }
 
         // Do any additional setup after loading the view.
