@@ -151,6 +151,12 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
         
         performSegue(withIdentifier: "ShowGrainDetails", sender: indexPath.row)
         
+        // performSegue(withIdentifier: "SelectLiquid", sender: indexPath.row)
+        //            if selectedIngredients.contains(where: <#T##(Ingredient) throws -> Bool#>) {
+        //                    let alert = UIAlertController(title: "Warning", message: "Please select at least one Grain before continuing", preferredStyle: UIAlertControllerStyle.alert)
+        //                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        //                    self.present(alert, animated: true, completion: nil)
+        //                else  } {
     }
     
     /*
@@ -208,11 +214,7 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
         if segue.identifier == "SelectLiquid" {
             
             //  print (selectedIngredients)
-//            if selectedIngredients.contains(where: <#T##(Ingredient) throws -> Bool#>) {
-//            let alert = UIAlertController(title: "Warning", message: "Please select at least one Grain before continuing", preferredStyle: UIAlertControllerStyle.alert)
-//            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-//            self.present(alert, animated: true, completion: nil)
-//                else  } {
+
         
             let LiquidTableViewController = segue.destination as! LiquidTableViewController
             LiquidTableViewController.selectedIngredients = selectedIngredients
