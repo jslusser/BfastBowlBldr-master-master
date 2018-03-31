@@ -14,11 +14,12 @@ class BYBTableViewController: UITableViewController {
     var selectedIngredients = [Ingredient]()
   
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
      
-//       navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(doneTapped))
+       self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(doneTapped))
         
          ingredients = selectedIngredients
         
@@ -62,9 +63,11 @@ class BYBTableViewController: UITableViewController {
         return cell
     }
     
-//    func (doneTapped) {
-//    print ("Hello World")
-//    }
+    @objc func doneTapped() {
+    self.navigationController?.popToRootViewController(animated: true)
+        print ("Hello World")
+        
+    }
 
     /*
     // Override to support conditional editing of the table view.
