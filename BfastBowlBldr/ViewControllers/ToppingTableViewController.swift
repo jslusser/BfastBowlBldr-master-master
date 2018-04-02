@@ -81,7 +81,7 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
                         "https://www.amazon.com/Terrasoul-Superfoods-Organic-Pumpkin-Pounds/dp/B01BLYNWVM/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1521756532&sr=1-4&keywords=pumpkin+seed",
                         "https://www.amazon.com/Terrasoul-Superfoods-Organic-Hulled-Sunflower/dp/B00SRMA4U4/ref=sr_1_5_s_it?s=grocery&ie=UTF8&qid=1521756599&sr=1-5&keywords=sunflower+seed",
                         "https://www.amazon.com/Three-Pounds-Walnuts-Shelled-Pieces/dp/B00IED712U/ref=sr_1_15_s_it?s=grocery&ie=UTF8&qid=1521756619&sr=1-15&keywords=walnut",
-                        "https://www.amazon.com/Grain-natural-Untoasted-Packaged-Resealable/dp/B01BNU7XPA/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1521756646&sr=1-4&keywords=wheat+germ",
+                        "https://www.amazon.com/Bobs-Red-Mill-Wheat-Natural/dp/B00CNC3SCA/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1522697739&sr=1-4&keywords=wheat+germ",
                         "http://sodeliciousdairyfree.com/product_groups/dairy-free-yogurt-alternatives"
         ]
         

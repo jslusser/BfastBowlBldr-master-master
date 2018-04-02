@@ -13,20 +13,31 @@ import UIKit
 class WebsiteViewController: UIViewController {
     
     var webSite: String?
+    var spinner: UIActivityIndicatorView!
     
     @IBOutlet weak var webView: UIWebView!
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        spinner = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+       // spinner.translatesAutoresizingMaskIntoConstraints = false
+        spinner.hidesWhenStopped = true
+        spinner.startAnimating()
+        navigationItem.rightBarButtonItem = UIBarButtonItem(customView: spinner)
+        
         
         if let address = webSite {
             let webURL = URL(string: address)
             let urlRequest = URLRequest(url: webURL!)
             webView.loadRequest(urlRequest)
-            
+
         }
 
+        //   spinner.stopAnimating()
+        
         // Do any additional setup after loading the view.
     }
 

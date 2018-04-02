@@ -24,6 +24,7 @@ class IngredientDetailViewController: UIViewController {
     var ingredientAddlCopy: String?
     var ingredientMoreInfo: String?
     var ingredientPurchase: String?
+   
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,6 +68,8 @@ class IngredientDetailViewController: UIViewController {
         default:
             break
         }
+
+        
         return true
     }
     
