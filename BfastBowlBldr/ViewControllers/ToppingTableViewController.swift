@@ -140,6 +140,21 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
         
     }
     
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        switch identifier {
+        case "BuildBowl":
+            guard selectedIngredients.contains(where: {$0.type == .topping}) else {
+                let alert = UIAlertController(title: "Bowl Builder Tip", message: "Please select at least one Topping before continuing", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                present(alert, animated: true, completion: nil)
+                return false
+            }
+        default:
+            break
+        }
+        return true
+    }
+    
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
         
         guard let indexPath = self.tableView.indexPath(for: myCell) else { return }

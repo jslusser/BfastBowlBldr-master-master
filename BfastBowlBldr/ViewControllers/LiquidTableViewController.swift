@@ -156,7 +156,22 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
         
         
     }
-
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        switch identifier {
+        case "SelectAddIn":
+            guard selectedIngredients.contains(where: {$0.type == .liquid}) else {
+                let alert = UIAlertController(title: "Bowl Builder Tip", message: "Please select at least one Liquid before continuing", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                present(alert, animated: true, completion: nil)
+                return false
+            }
+        default:
+            break
+        }
+        return true
+    }
+    
 /*
  // Override to support conditional editing of the table view.
  override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
@@ -221,6 +236,8 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     }
 }
 
+  
+    
 }
 
 

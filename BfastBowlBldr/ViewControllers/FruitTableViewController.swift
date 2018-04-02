@@ -193,6 +193,21 @@ class FruitTableViewController: UITableViewController, CellProtocol {
         
     }
     
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        switch identifier {
+        case "SelectTopping":
+            guard selectedIngredients.contains(where: {$0.type == .fruit}) else {
+                let alert = UIAlertController(title: "Bowl Builder Tip", message: "Please select at least one Fruit before continuing", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                present(alert, animated: true, completion: nil)
+                return false
+            }
+        default:
+            break
+        }
+        return true
+    }
+    
 
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
         
