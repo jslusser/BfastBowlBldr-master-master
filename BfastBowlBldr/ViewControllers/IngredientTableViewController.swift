@@ -151,13 +151,17 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
         
         performSegue(withIdentifier: "ShowGrainDetails", sender: indexPath.row)
         
-        // performSegue(withIdentifier: "SelectLiquid", sender: indexPath.row)
-        //            if selectedIngredients.contains(where: <#T##(Ingredient) throws -> Bool#>) {
-        //                    let alert = UIAlertController(title: "Warning", message: "Please select at least one Grain before continuing", preferredStyle: UIAlertControllerStyle.alert)
-        //                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-        //                    self.present(alert, animated: true, completion: nil)
-        //                else  } {
+       
     }
+    
+   // override func shouldPerformSegue(withIdentifier identifier: "SelectLiquid", sender: Any?) -> Bool {
+        
+        //  if selectedIngredients.contains(where: <#T##(Ingredient) throws -> Bool#>) {
+        //  let alert = UIAlertController(title: "Warning", message: "Please select at least one Grain before continuing", preferredStyle: UIAlertControllerStyle.alert)
+        //  alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        //  self.present(alert, animated: true, completion: nil)
+        //  else  } {
+   // }
     
     /*
      // Override to support conditional editing of the table view.
