@@ -156,7 +156,7 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
     
    // override func shouldPerformSegue(withIdentifier identifier: "SelectLiquid", sender: Any?) -> Bool {
         
-        //  if selectedIngredients.contains(where: <#T##(Ingredient) throws -> Bool#>) {
+        //  guard selectedIngredients.isEmpty == false else {
         //  let alert = UIAlertController(title: "Warning", message: "Please select at least one Grain before continuing", preferredStyle: UIAlertControllerStyle.alert)
         //  alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
         //  self.present(alert, animated: true, completion: nil)
