@@ -55,7 +55,20 @@ class IngredientDetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        switch identifier {
+        case "ShowOrderOnline":
+            guard ingredientPurchase != "NotAvailable" else {
+                let alert = UIAlertController(title: "Bowl Builder Tip", message: "Order Online is not available for any Fruit - please attempt to source it locally", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                present(alert, animated: true, completion: nil)
+                return false
+            }
+        default:
+            break
+        }
+        return true
+    }
     
     // MARK: - Navigation
 

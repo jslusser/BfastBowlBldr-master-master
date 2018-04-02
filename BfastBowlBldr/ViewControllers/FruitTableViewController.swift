@@ -117,26 +117,26 @@ class FruitTableViewController: UITableViewController, CellProtocol {
         ]
         
         fruitPurch = [
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com",
-            "https://www.amazon.com"
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable",
+            "NotAvailable"
         ]
         
         for i in 0 ..< fruitCopy.count {
