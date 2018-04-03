@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6240181A1F8DC37100CD24DC /* IngredientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624018181F8DC37100CD24DC /* IngredientCell.swift */; };
 		6240181B1F8DC37100CD24DC /* IngredientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 624018191F8DC37100CD24DC /* IngredientCell.xib */; };
+		94248B6C2072FE83008B3A02 /* RecipeIdeasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94248B6B2072FE83008B3A02 /* RecipeIdeasTableViewController.swift */; };
+		94248B6E20730432008B3A02 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94248B6D20730432008B3A02 /* RecipeDetailViewController.swift */; };
 		943274A91F6B09FF00E341A2 /* MainMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943274A81F6B09FF00E341A2 /* MainMenuTableViewController.swift */; };
 		943274AB1F6B2FAF00E341A2 /* IngredientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943274AA1F6B2FAF00E341A2 /* IngredientTableViewController.swift */; };
 		943274AF1F6B3CB900E341A2 /* IngredientDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943274AE1F6B3CB900E341A2 /* IngredientDetailViewController.swift */; };
@@ -32,6 +34,8 @@
 /* Begin PBXFileReference section */
 		624018181F8DC37100CD24DC /* IngredientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCell.swift; sourceTree = "<group>"; };
 		624018191F8DC37100CD24DC /* IngredientCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientCell.xib; sourceTree = "<group>"; };
+		94248B6B2072FE83008B3A02 /* RecipeIdeasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeIdeasTableViewController.swift; sourceTree = "<group>"; };
+		94248B6D20730432008B3A02 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 		943274A81F6B09FF00E341A2 /* MainMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuTableViewController.swift; sourceTree = "<group>"; };
 		943274AA1F6B2FAF00E341A2 /* IngredientTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTableViewController.swift; sourceTree = "<group>"; };
 		943274AE1F6B3CB900E341A2 /* IngredientDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientDetailViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 				94F1A7A820641F0C001B3C03 /* BYBTableViewController.swift */,
 				94935B602063263800E55D6B /* BuildYourBowlTableViewCell.swift */,
 				948766511F731AAD00971F42 /* HowItWorksViewController.swift */,
+				94248B6B2072FE83008B3A02 /* RecipeIdeasTableViewController.swift */,
+				94248B6D20730432008B3A02 /* RecipeDetailViewController.swift */,
 				9493AA701F72C18900F6604B /* EquipmentTableViewController.swift */,
 				9456341A1F73C3AC00D19B6C /* AppBackstoryViewController.swift */,
 			);
@@ -209,11 +215,13 @@
 				9493AA791F72D17E00F6604B /* FruitTableViewController.swift in Sources */,
 				94935B612063263800E55D6B /* BuildYourBowlTableViewCell.swift in Sources */,
 				943274A91F6B09FF00E341A2 /* MainMenuTableViewController.swift in Sources */,
+				94248B6C2072FE83008B3A02 /* RecipeIdeasTableViewController.swift in Sources */,
 				9456341B1F73C3AC00D19B6C /* AppBackstoryViewController.swift in Sources */,
 				9493AA7F1F72D94F00F6604B /* ToppingTableViewController.swift in Sources */,
 				94F1A7A920641F0C001B3C03 /* BYBTableViewController.swift in Sources */,
 				943274AB1F6B2FAF00E341A2 /* IngredientTableViewController.swift in Sources */,
 				9493AA711F72C18900F6604B /* EquipmentTableViewController.swift in Sources */,
+				94248B6E20730432008B3A02 /* RecipeDetailViewController.swift in Sources */,
 				6240181A1F8DC37100CD24DC /* IngredientCell.swift in Sources */,
 				94BC067D1F6037BD0075A5BF /* AppDelegate.swift in Sources */,
 				9497824A1F6C3261003AB3E7 /* WebsiteViewController.swift in Sources */,

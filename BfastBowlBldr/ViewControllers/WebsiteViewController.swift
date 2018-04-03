@@ -8,8 +8,6 @@
 
 import UIKit
 
-
-
 class WebsiteViewController: UIViewController {
     
     var webSite: String?
@@ -20,7 +18,6 @@ class WebsiteViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         
         spinner = UIActivityIndicatorView(activityIndicatorStyle: .gray)
        // spinner.translatesAutoresizingMaskIntoConstraints = false
