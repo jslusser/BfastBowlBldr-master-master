@@ -526,17 +526,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pmt-6E-LQL">
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VhY-1N-W2C">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="QRO-n8-qLq"/>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="Pmt-6E-LQL" id="Vxp-4A-0cb"/>
+                        <outlet property="webView" destination="VhY-1N-W2C" id="4aB-Yh-fuy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pha-Es-XMa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -562,10 +566,10 @@
             </objects>
             <point key="canvasLocation" x="-1218.4000000000001" y="969.26536731634189"/>
         </scene>
-        <!--Recipe Ideas Table View Controller-->
+        <!--Recipe Ideas-->
         <scene sceneID="P1V-1n-nGc">
             <objects>
-                <tableViewController id="3xi-xT-msh" customClass="RecipeIdeasTableViewController" customModule="BfastBowlBldr" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Recipe Ideas" id="3xi-xT-msh" customClass="RecipeIdeasTableViewController" customModule="BfastBowlBldr" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="d2S-7m-ycR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -674,10 +678,10 @@
             </objects>
             <point key="canvasLocation" x="-519.20000000000005" y="966.56671664167925"/>
         </scene>
-        <!--Recipe Detail View Controller-->
+        <!--Bowl Recipe-->
         <scene sceneID="0M5-q4-v0W">
             <objects>
-                <viewController id="ZfO-kb-ktF" customClass="RecipeDetailViewController" customModule="BfastBowlBldr" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Bowl Recipe" id="ZfO-kb-ktF" customClass="RecipeDetailViewController" customModule="BfastBowlBldr" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LMt-hL-xf8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -824,6 +828,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="XdB-ZH-0kH"/>
-        <segue reference="8H5-Vt-xiW"/>
+        <segue reference="6K6-4G-A1t"/>
     </inferredMetricsTieBreakers>
 </document>

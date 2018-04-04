@@ -7,14 +7,15 @@
 //
 
 import UIKit
+import WebKit
 
-class WebsiteViewController: UIViewController {
+class WebsiteViewController: UIViewController, WKUIDelegate {
     
     var webSite: String?
     var spinner: UIActivityIndicatorView!
     
-    @IBOutlet weak var webView: UIWebView!
     
+    @IBOutlet weak var webView: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,15 +30,20 @@ class WebsiteViewController: UIViewController {
         if let address = webSite {
             let webURL = URL(string: address)
             let urlRequest = URLRequest(url: webURL!)
-            webView.loadRequest(urlRequest)
+            webView.load(urlRequest)
 
         }
 
-        //   spinner.stopAnimating()
+       
+        
         
         // Do any additional setup after loading the view.
     }
 
+    func webViewDidFinishLoad(_ webView: WKWebView) {
+        spinner.stopAnimating()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
