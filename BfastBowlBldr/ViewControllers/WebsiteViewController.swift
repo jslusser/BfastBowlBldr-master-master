@@ -9,7 +9,7 @@
 import UIKit
 import WebKit
 
-class WebsiteViewController: UIViewController, WKUIDelegate {
+class WebsiteViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
     
     var webSite: String?
     var spinner: UIActivityIndicatorView!
@@ -21,26 +21,25 @@ class WebsiteViewController: UIViewController, WKUIDelegate {
         super.viewDidLoad()
         
         spinner = UIActivityIndicatorView(activityIndicatorStyle: .gray)
-       // spinner.translatesAutoresizingMaskIntoConstraints = false
+        // spinner.translatesAutoresizingMaskIntoConstraints = false
         spinner.hidesWhenStopped = true
         spinner.startAnimating()
         navigationItem.rightBarButtonItem = UIBarButtonItem(customView: spinner)
         
+        webView.navigationDelegate = self
         
         if let address = webSite {
             let webURL = URL(string: address)
             let urlRequest = URLRequest(url: webURL!)
             webView.load(urlRequest)
-
         }
 
-       
-        
         
         // Do any additional setup after loading the view.
     }
 
-    func webViewDidFinishLoad(_ webView: WKWebView) {
+    func webView(_ webView: WKWebView,
+                 didFinish navigation: WKNavigation!) {
         spinner.stopAnimating()
     }
     
