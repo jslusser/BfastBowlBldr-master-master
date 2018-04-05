@@ -37,6 +37,8 @@ class IngredientDetailViewController: UIViewController {
             ingredientDetailCopy.text = detailCopy
         }
         
+        
+        
    // I think it's safe to completely delete the following, once I fugure out how to toggle Wiki/eCom buttons if URLs are provided...
    //     if let detailInfo = ingredientMoreInfo {
    //        let webURL = URL(string: detailInfo)

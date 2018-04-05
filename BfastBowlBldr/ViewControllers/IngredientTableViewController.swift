@@ -41,7 +41,7 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
                       "Spelt",
                       "Wheat Berries"]
     
-    let grainCopy = ["Pearled Barley - one of the first grains ever cultivated - is a nice one to try if you haven't cooked with it recently.  Do use it cooked.",
+    let grainCopy = ["Pearl Barley - one of the first grains ever cultivated - is a nice one to try if you haven't cooked with it recently.  Do use it cooked.",
                      "I like to include 1 Tablespoon or more of Buckwheat Groats with whatever other grain I select, as I find it retains it's crunchy texture and is a nice contrast to my usual Oatmeal, or a cooked grain.  I simply toss them in raw - no cooking required.",
                      "Bulgur Wheat is also a good choice if you need a change.  Do cook it in advance - it couldn't be any easier to make - and I love the Nutty flavor.",
                      "I like the larger Pearl (or Israeli) Cous Cous for a change of pace.  I usually opt for the whole wheat version, but any will do.  Use it cooked, and if you are making some other Cous Cous dish, set aside a bit for your Breakfast Bowl experimentation.",

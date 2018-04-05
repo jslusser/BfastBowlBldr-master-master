@@ -17,7 +17,7 @@ class RecipeIdeasTableViewController: UITableViewController {
                        "Blue.JPG",
                        ]
     
-    let recipeCopy = ["Oatmeal, Buckwheat Groats, Almond Milk, Coconut Water, Black Pepper, Cinnamon, Turmeric, Chia Seeds, Banana, Blueberries, Hemp Seed, Honey, Lemon Juice",
+    let recipeCopy = ["Oatmeal, Buckwheat Groats, Almond Milk, Coconut Water, Black Pepper, Cinnamon, Turmeric, Chia Seeds, Apple, Banana, Blueberries, Hemp Seed, Honey, Lemon Juice",
                       "Barley, Hemp Milk, Dates - Red, Goji Berries, Strawberries, Raspberries, Walnuts",
                       "Bulgur, Rice Milk, Black Pepper, Kiwi - yellow, Turmeric, Pineapple, Lemon Juice/zest, Wheat Germ",
                       "Cous Cous, Oat Milk, Matcha or Moringa, Kiwi - green, Grapes - green, Honeydew melon, Lime juice/zest, Pumpkin Seed",
