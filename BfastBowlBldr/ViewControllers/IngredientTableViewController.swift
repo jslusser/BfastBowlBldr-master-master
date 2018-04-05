@@ -23,42 +23,58 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
                        "Buckwheat.jpg",
                        "Bulgur.jpg",
                        "Couscous.jpg",
+                       "Farro.jpeg",
                        "Oatmeal.jpg",
                        "Quinoa.jpg",
-                       "Rice.jpg"]
+                       "Rice.jpg",
+                       "Spelt.jpeg",
+                       "Wheatberries.jpeg"]
     
     let grainNames = ["Barley",
                       "Buckwheat Groats",
                       "Bulgur",
                       "Cous Cous (Pearl)",
+                      "Farro",
                       "Oatmeal",
                       "Quinoa",
-                      "Rice"]
+                      "Rice",
+                      "Spelt",
+                      "Wheat Berries"]
     
     let grainCopy = ["Pearled Barley - one of the first grains ever cultivated - is a nice one to try if you haven't cooked with it recently.  Do use it cooked.",
                      "I like to include 1 Tablespoon or more of Buckwheat Groats with whatever other grain I select, as I find it retains it's crunchy texture and is a nice contrast to my usual Oatmeal, or a cooked grain.  I simply toss them in raw - no cooking required.",
                      "Bulgur Wheat is also a good choice if you need a change.  Do cook it in advance - it couldn't be any easier to make - and I love the Nutty flavor.",
                      "I like the larger Pearl (or Israeli) Cous Cous for a change of pace.  I usually opt for the whole wheat version, but any will do.  Use it cooked, and if you are making some other Cous Cous dish, set aside a bit for your Breakfast Bowl experimentation.",
+                     "Farro is another one of my favorites, with a nutty flavor and unique, chewy texture.  Use it cooked.",
                      "Oatmeal is my go-to grain of choice.  I use it raw, as the overnight soaking does the trick.  There are several varieties to choose from (traditional, steel cut, fast-cooking), so experiment and find a brand and style that works for you",
-                     "Quinoa is another go-to grain choice for me.  If I cook a big batch on a Sunday, I'll set aside some to use in bowls during the week.",
-                     "There are so many varieties of Rice to choose from that you just need to start with one and work your way through all of the choices.  Brown and Black are my current favorites.  If you like this, you should check out Congee for another breakfast (or any meal!) treat."]
+                     "Quinoa is another go-to grain choice for me.  If I cook a big batch on a Sunday, I'll set aside some to use in bowls during the week.  Use it cooked.",
+                     "There are so many varieties of Rice to choose from that you just need to start with one and work your way through all of the choices.  Brown and Black are my current favorites.  If you like this, you should check out Congee for another breakfast (or any meal!) treat.  Use it cooked.",
+                     "Another ancient grain, Spelt is very similar to wheat nutritionally but slightly higher in zinc and protein.  Use it cooked.",
+                     "The wheat berry, or wheatberry, is the whole grain form of wheat, and comes in several varieties including Hard Red and Soft White.  Use it cooked."]
     
     
     let grainInfo = ["https://draxe.com/barley-nutrition/",
                      "https://draxe.com/buckwheat-nutrition/",
                      "https://draxe.com/bulgur-wheat/",
                      "https://en.wikipedia.org/wiki/Couscous",
+                     "https://www.healthline.com/nutrition/farro-benefits#section1",
                      "https://en.wikipedia.org/wiki/Oatmeal",
                      "https://en.wikipedia.org/wiki/Quinoa",
-                     "https://en.wikipedia.org/wiki/Rice",]
+                     "https://en.wikipedia.org/wiki/Rice",
+                     "https://www.healthline.com/nutrition/what-is-spelt#modal-close",
+                     "https://www.thekitchn.com/chewy-nutty-nutritious-wheat-berries-ingredient-spotlight-176749"]
     
-    let grainPurch = ["https://www.amazon.com/Bobs-Red-Mill-Pearl-Barley/dp/B004T33Y8O/ref=sr_1_6_a_it?th=1",
-                      "https://www.amazon.com/Arrowhead-Mills-Organic-Buckwheat-Groats/dp/B00X2SEAXA/ref=sr_1_1_s_it",
-                      "https://www.amazon.com/Bobs-Red-Mill-Bulgur-Wheat/dp/B0013JK0KM/ref=sr_1_3_s_it",
-                      "https://www.amazon.com/Select-Organic-Whole-Wheat-Couscous/dp/B00MN30MEG/ref=sr_1_6_a_it?ie=UTF8&qid=1521754419&sr=8-6&keywords=organic+couscous",
-                      "https://www.amazon.com/Natures-Path-Organic-Fashioned-Canister/dp/B000LKUZOU/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1521754599&sr=1-4&keywords=organic+oatmeal",
-                      "https://www.amazon.com/truRoots-Organic-Quinoa-Premium-Quality/dp/B002BWS1OM/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1521754667&sr=1-4&keywords=organic%2Bquinoa&th=1",
-                      "https://www.amazon.com/Lundberg-Organic-Short-Grain-32-Ounce/dp/B005763K40/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1521754775&sr=1-4&keywords=organic+brown+rice"]
+    let grainPurch = ["https://amzn.to/2JlnTxX", // Barley
+        "https://amzn.to/2GCDoDR", // Buckwheat Groats
+        "https://amzn.to/2HbWRsh", // Bulgur
+        "https://amzn.to/2Hd8Plt", // Cous cous
+        "https://amzn.to/2HaBpnd", // Farro
+        "https://amzn.to/2JiI5R0", // Oatmeal
+        "https://amzn.to/2JmoCiy", // Quinoa
+        "https://amzn.to/2GzNeGH", // Rice
+        "https://amzn.to/2GDdSKP", // Spelt
+        "https://amzn.to/2GzuT8I"  // Wheat Berries
+    ]
     
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
         

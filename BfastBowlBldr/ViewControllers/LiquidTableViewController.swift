@@ -31,11 +31,11 @@ class LiquidTableViewController: UITableViewController, CellProtocol {
     "Coconut Milk",
     "Coconut Water",
     "Hemp Milk",
-    "Juice - various",
+    "Juices",
     "Macadamia Milk",
     "Oat Milk",
     "Rice Milk",
-    "Smoothie - various",
+    "Smoothies",
     "Soy Milk"]
     
     let liquidCopy = ["Almond milk is a plant-based alternative to traditional dairy milk. Almond milk is made by grinding almonds and then blending them with filtered water. Some vitamins and minerals are naturally-occurring within the almonds and some are added. There are no artificial colors or flavors added. All brands I've seen state they are made from responsibly-grown almonds and contain no genetically modified organisms (GMOs), but I prefer to make my own.  It's super easy and only contains nuts and water.",
@@ -55,24 +55,25 @@ class LiquidTableViewController: UITableViewController, CellProtocol {
     "https://en.wikipedia.org/wiki/Coconut_milk",
     "https://en.wikipedia.org/wiki/Coconut_water",
     "https://en.wikipedia.org/wiki/Hemp_milk",
-    "https://en.wikipedia.org",
+    "https://en.wikipedia.org/wiki/Juice",
     "https://www.diabetichealthclinic.org/macadamia-nut-milk/",
     "https://www.livestrong.com/article/267017-what-are-the-benefits-of-oat-milk/",
     "https://en.wikipedia.org/wiki/Rice_milk",
-    "https://en.wikipedia.org",
+    "https://en.wikipedia.org/wiki/Smoothie",
     "https://en.wikipedia.org/wiki/Soy_milk"]
     
-    let liquidPurch = ["https://www.amazon.com/Almond-Breeze-Unsweetened-Original-Ounce/dp/B01MQ0DRHH/ref=sr_1_14_s_it?rps=1&ie=UTF8&qid=1521755062&sr=1-14&keywords=organic+almond+milk&refinements=p_85%3A2470955011",
-        "https://www.amazon.com/SO-DELICIOUS-Organic-Beverage-Unsweetened/dp/B01B4LHETI/ref=sr_1_fkmr1_3?srs=7301146011&ie=UTF8&qid=1521755133&sr=8-3-fkmr1&keywords=organic+cashew+milk",
-        "https://www.luckyvitamin.com/p-664901-so-delicious-dairy-free-cashew-milk-beverage-unsweetened-32-fl-oz?site=google_base&LanguageCode=EN&locale=en-US&utm_source=google&utm_medium=PLA&scid=scplp140905&sc_intid=140905&utmp_campaign=SC_Shopping_Campaign_CS25&branded=no&gclid=EAIaIQobChMIjc-K9fOA2gIVhrXACh10lga1EAQYAiABEgJeQ_D_BwE",
-        "https://https://www.amazon.com/ZICO-Premium-Coconut-Water-Natural/dp/B014M6MK4G/ref=sr_1_3?srs=7301146011&ie=UTF8&qid=1521755255&sr=8-3&keywords=organic+coconut+water",
-        "https://www.luckyvitamin.com/p-609057-pacific-foods-all-natural-hemp-milk-unsweetened-original-32-oz",
-        "https://www.amazon.com",
-        "https://www.amazon.com/Milkadamia-Unsweetened-Vegan-Keto-Friendly-Macadamia/dp/B01JZ0BY8C/ref=sr_1_2_a_it?ie=UTF8&qid=1521914027&sr=8-2&keywords=macadamia+nut+milk",
-        "https://www.amazon.com/Pacific-Foods-Non-Dairy-Beverage-Original/dp/B000R7829M/ref=sr_1_4_a_it?ie=UTF8&qid=1521910011&sr=8-4&keywords=oat+milk",
-        "https://www.amazon.com/DREAM-Enriched-Original-Organic-Rice/dp/B000R79VR4/ref=sr_1_1?srs=7301146011&ie=UTF8&qid=1521755377&sr=8-1&keywords=organic+rice+milk",
-        "https://www.amazon.com",
-        "https://www.amazon.com/365-Everyday-Value-Organic-Original/dp/B074MFN7DG/ref=sr_1_2?srs=7301146011&ie=UTF8&qid=1521755406&sr=8-2&keywords=organic+soy+milk"]
+    let liquidPurch = ["https://amzn.to/2uRhEPc", // Almond Milk
+        "https://amzn.to/2qdhKeD", // Cashew Milk
+        "https://amzn.to/2GzrkDo", // Coconut Milk
+        "https://amzn.to/2Hgviy5", // Coconut Water
+        "https://amzn.to/2q7FDnK", // Hemp Milk
+        "https://amzn.to/2HbrJZK", // Fruit Juice
+        "https://amzn.to/2q9oB8y", // Macadamia Milk
+        "https://amzn.to/2uJPgyg", // Oat Milk
+        "https://amzn.to/2JnVqr4", // Rice Milk
+        "https://amzn.to/2GDbTWE", // Smoothie Mix
+        "https://amzn.to/2GzDegt" // Soy Milk
+    ]
     
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
         
