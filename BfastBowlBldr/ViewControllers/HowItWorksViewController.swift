@@ -17,7 +17,7 @@ class HowItWorksViewController: UIViewController {
     let hiwCopy = """
 Breakfast Bowls are assembled the night before the morning you plan to eat them.  You select and combine a base grain, liquid, and whatever add-ins you like, and then let the mixture soak overnight in the refrigerator.  The following morning, add the fresh fruit and any additional toppings as desired, and enjoy!
     
-The Build Your Bowl function will walk you through 5 quick screens, each allowing you to select your grain, liquid, add-ins, fruit, and toppings via a simple toggle switch.  Not sure what something is?  Click the little arrow to the right of the ingredient to learn a bit more about it.  The intent and hope is to inspire you to learn about and try new ingredients, or perhaps a new combination of some of your current favorites.
+The Build Your Bowl function will walk you through 5 quick screens, each allowing you to select your grain, liquid, add-ins, fruit, and toppings via a simple toggle switch.  Not sure what something is?  Tap the ingredient name or the little arrow to the right of the ingredient to learn a bit more about it.  We all can be creatures of habit, eating the same things day after day.  The intent and hope is to inspire you to learn about and try new ingredients, or perhaps a new combination of some of your current favorites.
     
 Once all of the ingredients are selected, the app will recap your bowl “recipe” so you may build it, share it, and rate it.  Please note - everyone has their own personal preferences so I do not provide exact measures of anything - I’ll leave that up to you if you want more or less of any particular ingredient.
     
