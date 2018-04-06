@@ -13,7 +13,7 @@ class RecipeIdeasTableViewController: UITableViewController {
     let recipeImage = ["JimFav.JPG",
                        "Red.JPG",
                        "Yellow.JPG",
-                       "Green.JPG",
+                       "Green2.JPG",
                        "Blue.JPG",
                        ]
     

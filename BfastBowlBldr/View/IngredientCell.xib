@@ -38,6 +38,7 @@
                     </label>
                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ij5-fk-xZL">
                         <rect key="frame" x="229" y="9" width="51" height="31"/>
+                        <color key="onTintColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <connections>
                             <action selector="switchTapped:" destination="KGk-i7-Jjw" eventType="valueChanged" id="PzB-XW-7V6"/>
                         </connections>
