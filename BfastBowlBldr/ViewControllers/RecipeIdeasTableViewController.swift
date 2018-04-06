@@ -17,11 +17,11 @@ class RecipeIdeasTableViewController: UITableViewController {
                        "Blue.JPG",
                        ]
     
-    let recipeCopy = ["Oatmeal, Buckwheat Groats, Almond Milk, Coconut Water, Black Pepper, Cinnamon, Turmeric, Chia Seeds, Apple, Banana, Blueberries, Hemp Seed, Honey, Lemon Juice",
-                      "Barley, Hemp Milk, Dates - Red, Goji Berries, Strawberries, Raspberries, Walnuts",
-                      "Bulgur, Rice Milk, Black Pepper, Kiwi - yellow, Turmeric, Pineapple, Lemon Juice/zest, Wheat Germ",
-                      "Cous Cous, Oat Milk, Matcha or Moringa, Kiwi - green, Grapes - green, Honeydew melon, Lime juice/zest, Pumpkin Seed",
-                      "Quinoa, Soy Milk, Dates - Medjool, Blackberries, Blueberries, Brazil Nut, Lemon juice/zest",
+    let recipeCopy = ["JIM'S FAVORITE BOWL;     1/2 cup (raw) Oatmeal, 2 tablespoons (raw) Buckwheat Groats, 1 cup Unsweetened (Plain) Almond Milk, 1/4 cup Coconut Water, 1/2 teaspoon Black Pepper, 1/2 teaspoon Cinnamon, 1/2 teaspoon Turmeric, 2 teaspoons Chia Seeds, 1 Apple medium diced, 1 Banana sliced, 1/4 cup Blueberries, 1 tablespoon Mint (chopped), 2 tablespoons Hemp Seed, 1 teaspoon Honey, Juice of 1 Lemon, 1 tablespoon (Plain) Coconut Yogurt.  Note: Toss the Lemon Juice with the Apple and Banana to prevent browning",
+                      "THE RED BOWL;     3/4 cup (cooked) Barley, 1 cup Hemp Milk, 1/4 cup Dates - Red (sliced), 1/4 cup Goji Berries, 1/4 cup Strawberries (sliced), 1/4 cup Raspberries, 1 tablespoon Walnuts",
+                      "THE YELLOW BOWL;     3/4 cup (cooked) Bulgur, 1 cup Rice Milk, 1/2 teaspoon Black Pepper, 1 Kiwi - yellow (sliced), 2 teaspoon Turmeric, 1/4 cup Pineapple (diced), Lemon Juice/zest, 1 tablespoon Wheat Germ",
+                      "THE GREEN BOWL;     3/4 cup (cooked) Cous Cous, 1 cup Oat Milk, 1 tablespoon Matcha or Moringa, 1 Kiwi - green (sliced), 1/2 cup Grapes - green (sliced), 1/2 cup Honeydew melon (diced), 1 Lime juice/zest, 1 tablespoon Pumpkin Seed",
+                      "THE BLUE BOWL;     3/4 cup (cooked) Quinoa, 1 cup Soy Milk, 2 Dates - Medjool (sliced), 1/4 cup Blackberries, 1/4 cup Blueberries, 1 tablespoon Brazil Nut (chopped) , 1 Lemon juice/zest",
                       ]
     
     override func viewDidLoad() {

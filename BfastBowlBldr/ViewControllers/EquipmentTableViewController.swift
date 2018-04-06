@@ -42,13 +42,13 @@ class EquipmentTableViewController: UITableViewController, CellProtocol {
                           "Nut Milk Bag"]
         
         equipmentCopy = ["I use this almost daily to squeeze lemon or lime juice over my chopped fresh fruit, to add some Vitamin C and brighten up the flavor.",
-                         "Every kitchen needs a good set of cutting boards",
-                         "Every kitchen needs a good set of food storage containers",
-                         "Every kitchen needs a good set of knives",
-                         "Every kitchen needs a good set of measuring cups",
-                         "Every kitchen needs a good set of measuring spoons",
-                         "I use the NutriBullet 7 days a week.  I make my Almond Milk with it, smoothies, salad dressings - you name it.  It's a workhorse that has lasted several years already",
-                         "You need one of these to make your own Nut Milk.  It couldn't be easier - just Google nut milk recipes and dive in"]
+                         "Every kitchen needs several good cutting boards or different sizes.",
+                         "You will always need a good supply of food storage containers.",
+                         "Every kitchen needs a good set of knives.",
+                         "Another kitchen staple; a good set of measuring cups.",
+                         "Every kitchen needs a good set of measuring spoons.",
+                         "I use the NutriBullet 7 days a week.  I make my Almond Milk with it, smoothies, salad dressings - you name it.  It's a workhorse that has lasted several years already.",
+                         "You need one of these to make your own Nut Milk.  It couldn't be easier - just Google nut milk recipes and dive in."]
         
         equipmentInfo = ["https://en.wikipedia.org/wiki/Lemon_squeezer",
             "https://en.wikipedia.org/wiki/Cutting_board",
