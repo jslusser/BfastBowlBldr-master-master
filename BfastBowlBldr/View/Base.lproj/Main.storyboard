@@ -405,11 +405,11 @@
                             <color key="textColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label key="tableFooterView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IrA-hk-FSB">
-                            <rect key="frame" x="0.0" y="105" width="768" height="268"/>
+                        <label key="tableFooterView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IrA-hk-FSB">
+                            <rect key="frame" x="0.0" y="105" width="768" height="321"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <string key="text">Step 1  Combine your Grains, Liquids and Add-Ins in a bowl, cover and refrigerate overnight.  Step 2  The next morning add your Fruit and Toppings and enjoy!</string>
+                            <string key="text">Get building!  Step 1  Combine your Grains, Liquids and Add-Ins in a bowl, cover and refrigerate overnight.  Step 2  The next morning add your Fruit and Toppings and enjoy!</string>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
@@ -451,7 +451,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iNx-ke-Mru" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4544.8000000000002" y="-644.52773613193403"/>
+            <point key="canvasLocation" x="4544.53125" y="-644.53125"/>
         </scene>
         <!--Details-->
         <scene sceneID="xQ3-0T-A8M">
@@ -597,7 +597,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="d2S-7m-ycR">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <sections>
                             <tableViewSection id="Fj2-OS-WEc">
                                 <cells>
@@ -617,7 +617,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RedBowl" id="Q9e-cl-3XQ">
                                         <rect key="frame" x="0.0" y="44" width="768" height="44"/>
@@ -635,7 +635,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="YellowBowl" id="npE-2e-vZr">
                                         <rect key="frame" x="0.0" y="88" width="768" height="44"/>
@@ -653,7 +653,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GreenBowl" id="qo1-s9-wBJ">
                                         <rect key="frame" x="0.0" y="132" width="768" height="44"/>
@@ -671,7 +671,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BlueBowl" id="Gea-RV-bXY">
                                         <rect key="frame" x="0.0" y="176" width="768" height="44"/>
@@ -689,7 +689,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -720,7 +720,7 @@
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ncj-R1-cCF">
                                 <rect key="frame" x="87" y="629" width="594" height="350"/>
-                                <color key="backgroundColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
@@ -733,7 +733,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="PMg-mJ-YR9" firstAttribute="top" secondItem="Z37-oc-P3J" secondAttribute="top" id="6S4-dH-Ghn"/>
                             <constraint firstItem="ncj-R1-cCF" firstAttribute="top" secondItem="PMg-mJ-YR9" secondAttribute="bottom" constant="8" id="H0W-iT-GrS"/>
@@ -755,10 +755,10 @@
             </objects>
             <point key="canvasLocation" x="-519.49025487256381" y="1690.4000000000001"/>
         </scene>
-        <!--Equipment Table View Controller-->
+        <!--Equipment-->
         <scene sceneID="ZJk-hO-SzP">
             <objects>
-                <tableViewController id="6f2-p1-hJx" customClass="EquipmentTableViewController" customModule="BfastBowlBldr" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Equipment" id="6f2-p1-hJx" customClass="EquipmentTableViewController" customModule="BfastBowlBldr" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="wvt-eh-PfL">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -871,6 +871,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="XdB-ZH-0kH"/>
-        <segue reference="6K6-4G-A1t"/>
+        <segue reference="8H5-Vt-xiW"/>
     </inferredMetricsTieBreakers>
 </document>
