@@ -13,11 +13,11 @@ class BYBTableViewController: UITableViewController {
     var ingredients = [Ingredient]()
     var selectedIngredients = [Ingredient]()
   
+     var imageView: UIImageView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
      
        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(doneTapped))
         
