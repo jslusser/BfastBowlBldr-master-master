@@ -40,8 +40,9 @@ class FruitTableViewController: UITableViewController, CellProtocol {
             "Mango.jpg",
             "Orange.jpg",
             "Papaya.jpeg",
-            "clem-onojeghuo-72904-unsplash.jpg",
-            "carlota-trillo-328189-unsplash.jpg",
+            "clem-onojeghuo-72904-unsplash.jpg", // Pear
+            "carlota-trillo-328189-unsplash.jpg", // Pineapple
+            "Pomegranate.jpeg",
             "Raspberries.jpg",
             "hoang-v-n-81485-unsplash.jpg",
             "Watermelon.jpg"
@@ -65,6 +66,7 @@ class FruitTableViewController: UITableViewController, CellProtocol {
             "Papaya",
             "Pear",
             "Pineapple",
+            "Pomegranate",
             "Raspberries",
             "Strawberries",
             "Watermelon"
@@ -88,6 +90,7 @@ class FruitTableViewController: UITableViewController, CellProtocol {
             "Papaya is rich in antioxidant nutrients such as carotenes, flavonoids, and vitamin C, as well as vitamin B (folate and pantothenic acid). It is also a good source of fiber and minerals such as magnesium. Together, these nutrients help improve cardiovascular health and protect against colon cancer.",
             "Pears can help lower inflammation, which is the root of most diseases, plus they're one of the best sources of dietary fiber of all fruits and provide high amounts of vitamin C, vitamin K and boron.",
             "Pineapples are a storehouse of several health benefits due to its wealth of nutrients, vitamins, and minerals, including potassium, copper, manganese, calcium, magnesium, vitamin C, beta-carotene, thiamin, vitamin B6, and folate, and bromelain, as well as soluble and insoluble fiber.",
+            "Pomegranate has been shown to exert antitumor effects on various types of cancer cells. The juice of pomegranate seeds contains different types of antioxidants and bioactive polyphenols that have been reported to promote cardiovascular health, including healthy blood pressure levels, through several mechanisms.",
             "Rich in vitamins, antioxidants, and fiber, raspberries are a delicious fruit with many health benefits. They have a high concentration of ellagic acid, a phenolic compound that prevents cancer, thereby stopping the growth of cancer cells and eliminating the progress of cancers",
             "Strawberries are an excellent source of vitamins C and K as well as providing a good dose of fibre, folic acid, manganese and potassium. They also contain significant amounts of phytonutrients and flavanoids which makes strawberries bright red.",
             "Watermelons are mostly water — about 92 percent — but this refreshing fruit is soaked with nutrients. Each juicy bite has significant levels of vitamins A, B6 and C, lots of lycopene, antioxidants and amino acids. There's even a modest amount of potassium."
@@ -111,12 +114,14 @@ class FruitTableViewController: UITableViewController, CellProtocol {
             "https://en.wikipedia.org/wiki/Papaya",
             "https://en.wikipedia.org/wiki/Pear",
             "https://en.wikipedia.org/wiki/Pineapple",
+            "https://en.wikipedia.org/wiki/Pomegranate",
             "https://en.wikipedia.org/wiki/Raspberry",
             "https://en.wikipedia.org/wiki/Strawberry",
             "https://en.wikipedia.org/wiki/Watermelon"
         ]
         
         fruitPurch = [
+            "NotAvailable",
             "NotAvailable",
             "NotAvailable",
             "NotAvailable",

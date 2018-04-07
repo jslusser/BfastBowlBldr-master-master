@@ -25,13 +25,15 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        toppingImages = ["Basil.jpeg",
+        toppingImages = ["Almond.jpg",
+                         "Basil.jpeg",
                          "Brazil.jpg",
                          "Hempseed.jpg",
                          "Honey.jpeg",
-                         "caroline-attwood-574690-unsplash.jpg",
-                         "raghu-nayyar-459422-unsplash.jpg",
+                         "caroline-attwood-574690-unsplash.jpg", // Lemon
+                         "raghu-nayyar-459422-unsplash.jpg", // Lime
                          "Mint.jpeg",
+                         "Pecan.jpeg",
                          "Pumpkin.jpg",
                          "Sunflower.jpg",
                          "Walnut.jpg",
@@ -39,13 +41,15 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
                          "CoconutYogurt.png"
         ]
         
-        toppingNames = ["Basil",
+        toppingNames = ["Almond",
+                        "Basil",
                         "Brazil Nut",
                         "Hemp Seed",
                         "Honey",
                         "Lemon juice/zest",
                         "Lime juice/zest",
                         "Mint",
+                        "Pecan",
                         "Pumpkin Seed",
                         "Sunflower Seed",
                         "Walnuts",
@@ -53,27 +57,31 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
                         "Yogurt - Coconut"
         ]
         
-        toppingCopy = ["Basil for breakfast?  Trust me - if you are using strawberries in your bowl, add some chopped, fresh basil leaves and I think you will find they compliment each other quite nicely.",
+        toppingCopy = ["Almonds contain lots of healthy fats, fiber, protein, magnesium and vitamin E. The health benefits of almonds include lower blood sugar levels, reduced blood pressure and lower cholesterol levels. They can also reduce hunger and promote weight loss.",
+                       "Basil for breakfast?  Trust me - if you are using strawberries in your bowl, add some chopped, fresh basil leaves and I think you will find they compliment each other quite nicely.",
                        "Brazil nuts are commonly eaten raw or blanched and are high in protein, fiber, selenium, thiamine, copper and magnesium — and in addition to being the best selenium food source in the world, they provide numerous benefits for our health.",
                        "Hemp seeds are rich in healthy fats and essential fatty acids. They are also a great protein source and contain high amounts of vitamin E, phosphorus, potassium, sodium, magnesium, sulfur, calcium, iron and zinc",
                        "8 Health Benefits of Raw Honey; Healthy Weight Management. Counters Pollen Allergies. Natural Energy Source. Antioxidant Powerhouse. Sleep Promoter. Wound and Ulcer Healer. Diabetes Aid. Natural Cough Syrup.",
                        "I'll squeeze Lemon or Lime Juice over my fresh chopped fruit to prevent browning, add some extra vitamin C and to just brighten up the flavor.",
                        "I'll squeeze Lemon or Lime Juice over my fresh chopped fruit to prevent browning, add some extra vitamin C and to just brighten up the flavor.",
                        "The great thing about mint is that it smells great and it’s so easy to grow. Sprinkle some chopped mint leaves onto your bowl for a hit of freshness.",
+                       "Pecans contain more antioxidants than any other tree nut and rank among the top 15 foods with the highest levels of antioxidants according to the USDA. They are also a powerhouse of vitamins and minerals such as manganese, potassium, calcium, iron, magnesium, zinc, and selenium, offering some wonderful health benefits.",
                        "9 Top Health Benefits of Pumpkin Seeds. Heart Healthy Magnesium. Zinc for Immune Support. Plant-Based Omega-3 Fats. Prostate Health. Anti-Diabetic Effects. Benefits for Postmenopausal Women. Heart and Liver Health. Tryptophan for Restful Sleep.",
                        "Top Health Benefits of Sunflower Seeds. Reduces Risk for Heart Disease. Helps to Prevent Cancer Due to High Antioxidant Content. Supports Thyroid Function Through Selenium. Helps Combat Osteoporosis, Bone Loss, and Muscle Cramps. Balances Blood Sugar Levels and Helps Ward off Diabetes. Improves Skin Health.",
                        "Walnuts contain a number of neuroprotective compounds, including vitamin E, folate, melatonin, omega-3 fats, and antioxidants. Research shows walnut consumption may support brain health, including increasing inferential reasoning in young adults.",
                        "It's a great source of vegetable proteins, along with fiber and healthy fats. It's also a good source of magnesium, zinc, thiamin, folate, potassium, and phosphorus. Wheat germ is high in vitamin E, an essential nutrient with antioxidant properties.",
-                       "Coconutmilk yogurt alternatives deliver dairy-free culture with amazing flavor and just the right balance of tanginess and sweetness."
+                       "Coconutmilk yogurt alternatives deliver dairy-free culture with amazing flavor and just the right balance of tanginess and sweetness.  Homemade coconut yogurt is easy and awesome - Google a recipe and try it youself!"
         ]
         
-        toppingInfo = ["https://www.precisionnutrition.com/healthy-basil",
+        toppingInfo = ["https://www.bbcgoodfood.com/howto/guide/health-benefits-almonds",
+                       "https://www.precisionnutrition.com/healthy-basil",
                        "https://en.wikipedia.org/wiki/Brazil_nut",
                        "https://www.healthline.com/nutrition/6-health-benefits-of-hemp-seeds",
                        "https://en.wikipedia.org/wiki/Honey",
                        "https://www.organicfacts.net/health-benefits/fruit/health-benefits-of-lemon.html",
                        "https://www.organicfacts.net/health-benefits/fruit/health-benefits-of-lime.html",
                        "https://www.healthline.com/nutrition/mint-benefits",
+                       "https://food.ndtv.com/food-drinks/why-pecan-nuts-are-good-for-you-and-how-to-eat-them-1262183",
                        "https://en.wikipedia.org/wiki/Pumpkin_seed",
                        "https://en.wikipedia.org/wiki/Sunflower_seed",
                        "https://en.wikipedia.org/wiki/Walnut",
@@ -81,13 +89,15 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
                        "https://www.myorganiclife.info/coconut-yoghurt/"
         ]
         
-        toppingPurch = ["https://amzn.to/2GWV9xg",  //basil
+        toppingPurch = ["https://amzn.to/2HhyWaC", //Almonds
+            "https://amzn.to/2GWV9xg",  //Basil
             "https://amzn.to/2HbScWZ", // Brazil Nut
             "https://amzn.to/2GD5Txo", // Hemp Seed
             "https://amzn.to/2q6RJxZ", // Honey
             "https://amzn.to/2EmXqw6", // Lemon juice
             "https://amzn.to/2EiQ8cV", // Lime juice
             "https://amzn.to/2Jn6CnV", // Mint
+            "https://amzn.to/2HkK6f2", // Pecan
             "https://amzn.to/2uNkZ1M", // Pumpkin Seed
             "https://amzn.to/2HbjZqL", // Sunflower Seed
             "https://amzn.to/2GDllJA", // Walnut

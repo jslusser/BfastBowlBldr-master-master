@@ -22,6 +22,7 @@ class AddInTableViewController: UITableViewController, CellProtocol {
                        "Cinnamon.jpeg",
                        "DateRed.jpg",
                        "Datemedjool.jpg",
+                       "Ginger.jpg",
                        "Goji.jpg",
                        "Lucuma.jpg",
                        "Maca.jpg",
@@ -42,6 +43,7 @@ class AddInTableViewController: UITableViewController, CellProtocol {
                       "Cinnamon",
                       "Dates - Red",
                       "Dates - Medjool",
+                      "Ginger",
                       "Goji Berries",
                       "Lucuma Powder",
                       "Maca Powder",
@@ -62,6 +64,7 @@ class AddInTableViewController: UITableViewController, CellProtocol {
                      "Cinnamon is one of the most delicious and healthiest spices on the planet. It can lower blood sugar levels, reduce heart disease risk factors, and has a plethora of other impressive health benefits",
                      "Red Dates, also knows as Jujube, have potent health benefits. They have calming properties and are a good source of natural antioxidants",
                      "The nutrients that provide the many health benefits of Medjool dates include dietary fiber, potassium, manganese, copper, B family vitamins, vitamin A, magnesium, and calcium.",
+                     "I tent to toss in a bit of Ginger in almost every bowl I make, not only for the taste but also the health benefits.  Try to use fresh ginger root, but ready-to-use minced Ginger or powdered Ginger will also work.",
                      "Goji berries, a fruit that comes from the Chinese Lycium barbarum plant, have been used as a traditional medicine for general health, and recent studies suggest there is real evidence for its purported benefits. Many types of berries offer beneficial antioxidants that protect the body against chronic disease, and goji berries may contain additional properties to improve eye health.",
                      "Lucuma powder delivers an abundance of healthy benefits when added to your favorite food or beverage. In addition to satisfying your sweet tooth, lucuma is gluten-free and a source of antioxidants, fiber, carbohydrates, vitamins and minerals necessary for bodily functions and of benefit to the immune system.",
                      "Maca is a root vegetable that is high in antioxidants and nutrients, such as vitamin C, copper and iron. It has been used medicinally for thousands of years and has been shown to enhance sexual health and libido; improve energy, mood and memory; and balance hormone levels.",
@@ -69,7 +72,7 @@ class AddInTableViewController: UITableViewController, CellProtocol {
                      "Moringa leaves are high in several anti-aging compounds that lower the effects of oxidative stress and inflammation, including polyphenols, vitamin C, beta-carotene, quercetin, and chlorogenic acid",
                      "Prunes are a great source of vitamin A, a vitamin that is essential for healthy vision. Powerhouse of Antioxidants. Heart Healthy. Relieves Constipation. Protection Against Osteoporosis. Promotes Hair Health. Great for Skin.",
                      "Despite their small size, raisins are packed with energy and rich in fiber, vitamins, and minerals. Raisins are naturally sweet and high in sugar and calories, but they're beneficial to our health when eaten in moderation. In fact, raisins can aid digestion, boost iron levels, and keep your bones strong.",
-                     "Curcumin is the main active ingredient in Turmeric. It has powerful anti-inflammatory effects and is a very strong antioxidant.  Interestingly, Black Pepper can increase the bioavailability and effectiveness of the Turmeric, so grind in a bit of pepper when using Turmeric",
+                     "Try to use fresh Turmeric root if you can find it, but powdered Turmeric will also work.  Curcumin is the main active ingredient in Turmeric. It has powerful anti-inflammatory effects and is a very strong antioxidant.  Interestingly, Black Pepper can increase the bioavailability and effectiveness of the Turmeric, so grind in a bit of pepper when using Turmeric",
                      "Vanilla powder is prepared ​​from raw organic vanilla beans that have been dried at low temperatures and finely ground. Vanilla powder contains a variety of vitamins and minerals and boasts a fragrant aroma and velvety smooth flavour."
     ]
     
@@ -82,6 +85,7 @@ class AddInTableViewController: UITableViewController, CellProtocol {
                      "https://en.wikipedia.org/wiki/Cinnamon",
                      "https://juicing-for-health.com/health-benefits-of-red-dates",
                      "https://en.wikipedia.org/wiki/Medjool",
+                     "https://www.healthline.com/nutrition/11-proven-benefits-of-ginger#section4",
                      "https://en.wikipedia.org/wiki/Goji",
                      "https://www.globalhealingcenter.com/natural-health/what-is-lucuma/",
                      "https://draxe.com/top-5-maca-root-benefits-and-nutrition/",
@@ -102,7 +106,8 @@ class AddInTableViewController: UITableViewController, CellProtocol {
         "https://amzn.to/2Jkx0Pk", // Cinnamon
         "https://amzn.to/2uNjxMS", // Dates - Red
         "https://amzn.to/2EmGg1C", // Dates - Medjool
-        "https://amzn.to/2GDketE", // Goji Berries
+        "https://amzn.to/2H3Tx4F", // Ginger
+        "https://amzn.to/2GDketE", // Goji Berries        
         "https://amzn.to/2uOQGHP", // Lucuma powder
         "https://amzn.to/2GzSb29", // Maca Powder
         "https://amzn.to/2HgzEVX", // Matcha Powder
