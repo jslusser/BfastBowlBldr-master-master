@@ -29,6 +29,11 @@ class IngredientDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        ingredientDetailPic.isUserInteractionEnabled = true
+        
+        let pinchGesture = UIPinchGestureRecognizer(target: self, action: #selector(self.pinchGesture))
+        ingredientDetailPic.addGestureRecognizer(pinchGesture)
+        
         if let detailPic = ingredientDetailImages {
             ingredientDetailPic.image = UIImage(named: detailPic)
         }
@@ -38,6 +43,7 @@ class IngredientDetailViewController: UIViewController {
         }
         
         
+      
         
    // I think it's safe to completely delete the following, once I fugure out how to toggle Wiki/eCom buttons if URLs are provided...
    //     if let detailInfo = ingredientMoreInfo {
@@ -73,6 +79,11 @@ class IngredientDetailViewController: UIViewController {
 
         
         return true
+    }
+    
+    @objc func pinchGesture(sender: UIPinchGestureRecognizer) {
+        sender.view?.transform = (sender.view?.transform.scaledBy(x: sender.scale, y: sender.scale))!
+        sender.scale = 1.0
     }
     
     // MARK: - Navigation
