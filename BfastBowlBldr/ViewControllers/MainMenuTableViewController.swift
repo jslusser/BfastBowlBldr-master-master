@@ -20,6 +20,9 @@ class MainMenuTableViewController: UITableViewController {
         // Commented out the following until I'm actually ready to use it in the app, likely in a future version when I have a indiviual user recipe database and am using CloudKit
         // registerLocal()
         
+        // Commented out the following until I resume Crashlytics testing
+        // Crashlytics.sharedInstance().crash()
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
