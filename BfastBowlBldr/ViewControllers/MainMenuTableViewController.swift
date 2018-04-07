@@ -8,6 +8,7 @@
 
 import UIKit
 import Crashlytics
+import UserNotifications
 
 class MainMenuTableViewController: UITableViewController {
 
@@ -15,6 +16,10 @@ class MainMenuTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Commented out the following until I'm actually ready to use it in the app, likely in a future version when I have a indiviual user recipe database and am using CloudKit
+        // registerLocal()
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -39,6 +44,18 @@ class MainMenuTableViewController: UITableViewController {
         return 5
     }
 
+    func registerLocal() {
+        let center = UNUserNotificationCenter.current()
+        
+        center.requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
+            if granted {
+                print("Yay!")
+            } else {
+                print("D'oh")
+            }
+        }
+    }
+    
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)

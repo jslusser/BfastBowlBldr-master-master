@@ -21,7 +21,7 @@ The Build Your Bowl function will walk you through 5 quick screens, each allowin
     
 Once all of the ingredients are selected, the app will recap your bowl “recipe” so you may build it, share it, and rate it.  Please note - everyone has their own personal preferences so I do not provide exact measures of anything - I’ll leave that up to you if you want more or less of any particular ingredient.
     
-There are opportunities to learn more about the ingredients and equipment used to prepare the bowls, and links to purchase the non-perishable ingredients and equipment online.  I always recommend that you first try to buy locally, preferably from a small business, but have included online links in case you have difficulty sourcing some items.  I do get commissions for purchases made through some of the links in this app.
+There are opportunities to learn more about the ingredients and equipment used to prepare the bowls, and links to purchase the non-perishable ingredients and equipment online.  I always recommend that you first try to buy locally, preferably from a small business, but have included online links in case you have difficulty sourcing some items.  I do receive commissions for purchases made through some of the links in this app.
     
 Now head back to the Main Menu and select "Build Your Bowl!" to get started.
 

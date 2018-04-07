@@ -54,7 +54,7 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
                         "Sunflower Seed",
                         "Walnuts",
                         "Wheat Germ",
-                        "Yogurt - Coconut"
+                        "Yogurt - Non-Dairy"
         ]
         
         toppingCopy = ["Almonds contain lots of healthy fats, fiber, protein, magnesium and vitamin E. The health benefits of almonds include lower blood sugar levels, reduced blood pressure and lower cholesterol levels. They can also reduce hunger and promote weight loss.",
@@ -70,7 +70,7 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
                        "Top Health Benefits of Sunflower Seeds. Reduces Risk for Heart Disease. Helps to Prevent Cancer Due to High Antioxidant Content. Supports Thyroid Function Through Selenium. Helps Combat Osteoporosis, Bone Loss, and Muscle Cramps. Balances Blood Sugar Levels and Helps Ward off Diabetes. Improves Skin Health.",
                        "Walnuts contain a number of neuroprotective compounds, including vitamin E, folate, melatonin, omega-3 fats, and antioxidants. Research shows walnut consumption may support brain health, including increasing inferential reasoning in young adults.",
                        "It's a great source of vegetable proteins, along with fiber and healthy fats. It's also a good source of magnesium, zinc, thiamin, folate, potassium, and phosphorus. Wheat germ is high in vitamin E, an essential nutrient with antioxidant properties.",
-                       "Coconutmilk yogurt alternatives deliver dairy-free culture with amazing flavor and just the right balance of tanginess and sweetness.  Homemade coconut yogurt is easy and awesome - Google a recipe and try it youself!"
+                       "There are many non-dairy options available (Soy, Almond, Coconut, etc.), but I personally prefer Coconut.  Try them all and find your own favorite.  Coconutmilk yogurt alternatives deliver dairy-free culture with amazing flavor and just the right balance of tanginess and sweetness.  Homemade coconut yogurt is easy and awesome - Google a recipe and try it youself!"
         ]
         
         toppingInfo = ["https://www.bbcgoodfood.com/howto/guide/health-benefits-almonds",
@@ -102,7 +102,7 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
             "https://amzn.to/2HbjZqL", // Sunflower Seed
             "https://amzn.to/2GDllJA", // Walnut
             "https://amzn.to/2H9YJS1", // Wheat Germ
-            "http://sodeliciousdairyfree.com/product_groups/dairy-free-yogurt-alternatives"
+            "https://amzn.to/2ICjxkV" // Coconut Yogurt
         ]
         
         for i in 0 ..< toppingCopy.count {
