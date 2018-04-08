@@ -15,14 +15,14 @@ class LiquidTableViewController: UITableViewController, CellProtocol {
     var selectedIngredients = [Ingredient]()
     
     let liquidImages = ["AlmondMilk.jpg",
-    "Cashewmilk.jpg",
-    "CoconutMilk.jpeg",
+    "CashewMilk.jpg",
+    "CoconutMilk.jpg",
     "CoconutWater.jpg",
     "HempMilk.jpg",
-    "FruitJuice.jpeg",
-    "Macadamia.jpeg",
-    "OatMilk.jpeg",
-    "RiceMilk.jpeg",
+    "FruitJuice.jpg",
+    "MacadamiaMilk.jpg",
+    "OatMilk.jpg",
+    "RiceMilk.jpg",
     "Smoothie.jpeg",
     "Soymilk.jpg"]
     

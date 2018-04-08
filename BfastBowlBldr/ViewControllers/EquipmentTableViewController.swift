@@ -23,14 +23,14 @@ class EquipmentTableViewController: UITableViewController, CellProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        equipmentImages = ["CitrusPress.jpeg",
+        equipmentImages = ["CitrusPress.jpg",
                            "Cutting.jpg",
                            "Storage.jpg",
                            "Knives.jpg",
                            "Cups.jpg",
                            "Spoon.jpg",
-                           "NutriBullet.jpeg",
-                           "NutMilkBag.jpeg"]
+                           "NutriBullet.jpg",
+                           "NutMilkBag.jpg"]
         
         equipmentNames = ["Citrus Press Juicer",
                           "Cutting Board",
