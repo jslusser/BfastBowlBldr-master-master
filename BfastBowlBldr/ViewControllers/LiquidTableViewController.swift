@@ -24,7 +24,7 @@ class LiquidTableViewController: UITableViewController, CellProtocol {
     "OatMilk.jpg",
     "RiceMilk.jpg",
     "Smoothie.jpeg",
-    "Soymilk.jpg"]
+    "SoyMilk.jpg"]
     
     let liquidNames = ["Almond Milk",
     "Cashew Milk",
