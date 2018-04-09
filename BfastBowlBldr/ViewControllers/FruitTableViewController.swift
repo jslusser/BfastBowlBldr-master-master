@@ -20,10 +20,8 @@ class FruitTableViewController: UITableViewController, CellProtocol {
 
     @IBAction func fruitSelected(_ sender: UIButton) {
     }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         fruitImages = [
             "Apple.jpg",
             "Apricot.jpg",
@@ -48,8 +46,7 @@ class FruitTableViewController: UITableViewController, CellProtocol {
             "Watermelon.jpg"
         ]
         
-        fruitNames = [
-            "Apple",
+        fruitNames = ["Apple",
             "Apricot",
             "Banana",
             "Blackberries",
@@ -72,8 +69,7 @@ class FruitTableViewController: UITableViewController, CellProtocol {
             "Watermelon"
         ]
         
-        fruitCopy = [
-            "There are so many varieties to pick from, I suggest you try as many as you can and find the ones that you like.  Personally I like Fuji, Honey Crisp and Granny Smith depending on my mood and the other ingredients I am using.",
+        fruitCopy = ["There are so many varieties to pick from, I suggest you try as many as you can and find the ones that you like.  Personally I like Fuji, Honey Crisp and Granny Smith depending on my mood and the other ingredients I am using.",
             "Relatives to peaches, apricots are small, golden orange fruits, with velvety skin and flesh, not too juicy but definitely smooth and sweet. Some describe their flavor as almost musky, with a faint tartness that lies somewhere between a peach and a plum.",
             "A banana is a curved, yellow fruit with a thick skin and soft sweet flesh.  It is loaded with essential vitamins and minerals such as potassium, calcium, manganese, magnesium, iron, folate, niacin, riboflavin, and B6. These all contribute to the proper functioning of the body and keeping you healthy. The high content of potassium in bananas makes it a super fruit.",
             "A good daily supply of vital nutrients is required for a glowing and perfect skin. Blackberries are rich in Vitamin A and Vitamin C. They also offer the highest levels of some antioxidants – higher than blueberries and strawberries too. The very dark color of the fruit is proof of its high antioxidant level.",
@@ -96,8 +92,7 @@ class FruitTableViewController: UITableViewController, CellProtocol {
             "Watermelons are mostly water — about 92 percent — but this refreshing fruit is soaked with nutrients. Each juicy bite has significant levels of vitamins A, B6 and C, lots of lycopene, antioxidants and amino acids. There's even a modest amount of potassium."
         ]
         
-        fruitInfo = [
-            "https://en.wikipedia.org/wiki/Apple",
+        fruitInfo = ["https://en.wikipedia.org/wiki/Apple",
             "https://en.wikipedia.org/wiki/Apricot",
             "https://en.wikipedia.org/wiki/Banana",
             "https://en.wikipedia.org/wiki/Blackberry",
@@ -120,8 +115,7 @@ class FruitTableViewController: UITableViewController, CellProtocol {
             "https://en.wikipedia.org/wiki/Watermelon"
         ]
         
-        fruitPurch = [
-            "NotAvailable",
+        fruitPurch = ["NotAvailable",
             "NotAvailable",
             "NotAvailable",
             "NotAvailable",
@@ -185,17 +179,14 @@ class FruitTableViewController: UITableViewController, CellProtocol {
    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
      let cell = tableView.dequeueReusableCell(withIdentifier: "IngredientCell", for: indexPath) as! IngredientCell
-     
+        
      let row = indexPath.row
      cell.configure(textForLabel: ingredients[row].name, image: ingredients[row].imageString, setDelegate: self)
      return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
         performSegue(withIdentifier: "ShowFruitDetails", sender: indexPath.row)
-        
-        
     }
     
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {

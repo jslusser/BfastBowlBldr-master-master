@@ -42,16 +42,13 @@ class BYBTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
         return ingredients.count
     }
 
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "bowlCell", for: indexPath) as! BuildYourBowlTableViewCell
 
@@ -62,11 +59,9 @@ class BYBTableViewController: UITableViewController {
 
         return cell
     }
-    
     @objc func doneTapped() {
     self.navigationController?.popToRootViewController(animated: true)
         print ("Hello World")
-        
     }
 
     /*

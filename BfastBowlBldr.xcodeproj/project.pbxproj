@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6240181A1F8DC37100CD24DC /* IngredientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624018181F8DC37100CD24DC /* IngredientCell.swift */; };
 		6240181B1F8DC37100CD24DC /* IngredientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 624018191F8DC37100CD24DC /* IngredientCell.xib */; };
+		652C11A37F7DBD70B78827F1 /* Pods_BfastBowlBldr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7C412697D57F360A6F4719 /* Pods_BfastBowlBldr.framework */; };
 		9402D7AA207818A400EBF777 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9402D7A8207818A400EBF777 /* Crashlytics.framework */; };
 		9402D7AB207818A400EBF777 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9402D7A9207818A400EBF777 /* Fabric.framework */; };
 		94248B6C2072FE83008B3A02 /* RecipeIdeasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94248B6B2072FE83008B3A02 /* RecipeIdeasTableViewController.swift */; };
@@ -34,8 +35,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38942218F41BA5FFF3561C13 /* Pods-BfastBowlBldr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BfastBowlBldr.release.xcconfig"; path = "Pods/Target Support Files/Pods-BfastBowlBldr/Pods-BfastBowlBldr.release.xcconfig"; sourceTree = "<group>"; };
 		624018181F8DC37100CD24DC /* IngredientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCell.swift; sourceTree = "<group>"; };
 		624018191F8DC37100CD24DC /* IngredientCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientCell.xib; sourceTree = "<group>"; };
+		8A7C412697D57F360A6F4719 /* Pods_BfastBowlBldr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BfastBowlBldr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9402D7A8207818A400EBF777 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		9402D7A9207818A400EBF777 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
 		94248B6B2072FE83008B3A02 /* RecipeIdeasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeIdeasTableViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +63,7 @@
 		94C301D72064574D004DA2F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94D3262A1F83ABCB006E397C /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		94F1A7A820641F0C001B3C03 /* BYBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTableViewController.swift; sourceTree = "<group>"; };
+		A43B31081609DB76D21C45F2 /* Pods-BfastBowlBldr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BfastBowlBldr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BfastBowlBldr/Pods-BfastBowlBldr.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,12 +73,22 @@
 			files = (
 				9402D7AA207818A400EBF777 /* Crashlytics.framework in Frameworks */,
 				9402D7AB207818A400EBF777 /* Fabric.framework in Frameworks */,
+				652C11A37F7DBD70B78827F1 /* Pods_BfastBowlBldr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60E047F75B8A1A5EF87539C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A43B31081609DB76D21C45F2 /* Pods-BfastBowlBldr.debug.xcconfig */,
+				38942218F41BA5FFF3561C13 /* Pods-BfastBowlBldr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6212DDF21F861E59009B64A0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +135,8 @@
 			children = (
 				94BC067B1F6037BD0075A5BF /* BfastBowlBldr */,
 				94BC067A1F6037BD0075A5BF /* Products */,
+				60E047F75B8A1A5EF87539C3 /* Pods */,
+				9C82CFB51566899FE1165386 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +163,14 @@
 			path = BfastBowlBldr;
 			sourceTree = "<group>";
 		};
+		9C82CFB51566899FE1165386 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A7C412697D57F360A6F4719 /* Pods_BfastBowlBldr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,6 +178,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94BC068B1F6037BD0075A5BF /* Build configuration list for PBXNativeTarget "BfastBowlBldr" */;
 			buildPhases = (
+				94325D76207BFCBE00F42847 /* ShellScript */,
+				525F9E3DF6E8CC6A4B967281 /* [CP] Check Pods Manifest.lock */,
 				94BC06751F6037BD0075A5BF /* Sources */,
 				94BC06761F6037BD0075A5BF /* Frameworks */,
 				94BC06771F6037BD0075A5BF /* Resources */,
@@ -216,6 +242,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		525F9E3DF6E8CC6A4B967281 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BfastBowlBldr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9402D7A72078183F00EBF777 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,6 +272,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "./Fabric.framework/run 31fd85b49656a3fdf23b8edb3921cfb71b138c38 6a54b13348349ac7e65bd008eadf1ea33ff3ea14192add45f9bf8e4be5a10cad";
+		};
+		94325D76207BFCBE00F42847 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -394,6 +451,7 @@
 		};
 		94BC068C1F6037BD0075A5BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43B31081609DB76D21C45F2 /* Pods-BfastBowlBldr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -417,6 +475,7 @@
 		};
 		94BC068D1F6037BD0075A5BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38942218F41BA5FFF3561C13 /* Pods-BfastBowlBldr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K373EY5YU9;
