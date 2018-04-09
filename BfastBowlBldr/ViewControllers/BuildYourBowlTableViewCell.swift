@@ -11,9 +11,7 @@ import UIKit
 class BuildYourBowlTableViewCell: UITableViewCell {
 
     @IBOutlet weak var bowlImages: UIImageView!
-    
     @IBOutlet weak var bowlNames: UILabel!
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

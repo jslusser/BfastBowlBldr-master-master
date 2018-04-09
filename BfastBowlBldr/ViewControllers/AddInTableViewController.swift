@@ -9,10 +9,8 @@
 import UIKit
 
 class AddInTableViewController: UITableViewController, CellProtocol {
-    
     var ingredients = [Ingredient]()
     var selectedIngredients = [Ingredient]()
-    
     let addinImages = ["Acai.jpg",
                        "Pepper.jpg",
                        "Cacao.jpg",
@@ -33,7 +31,6 @@ class AddInTableViewController: UITableViewController, CellProtocol {
                        "Turmeric.jpg",
                        "Vanilla.jpeg"
     ]
-    
     let addinNames = ["Acai Powder",
                       "Black Pepper",
                       "Cacao Powder",
@@ -54,7 +51,6 @@ class AddInTableViewController: UITableViewController, CellProtocol {
                       "Turmeric",
                       "Vanilla Powder"
     ]
-    
     let addinCopy = ["The super fruit acai (ah-sigh-ee) is known for its healing, immune boosting and energy-boosting properties.",
                      "Black Pepper for breakfast?  Hear me out.  If you are adding Turmeric to your bowl (and you should), Black Pepper can increase the bioavailability and effectiveness of the Turmeric.",
                      "Cacao powder is a source of magnesium, iron and is high in flavonoids, which have antioxidant activity.  In addition, cacao contains a compound called phenylethylamine (PEA for short!). PEA is thought to elevate mood and support energy, and is said to be one of the reasons that many people love chocolate!",
@@ -75,7 +71,6 @@ class AddInTableViewController: UITableViewController, CellProtocol {
                      "Try to use fresh Turmeric root if you can find it, but powdered Turmeric will also work.  Curcumin is the main active ingredient in Turmeric. It has powerful anti-inflammatory effects and is a very strong antioxidant.  Interestingly, Black Pepper can increase the bioavailability and effectiveness of the Turmeric, so grind in a bit of pepper when using Turmeric",
                      "Vanilla powder is prepared ​​from raw organic vanilla beans that have been dried at low temperatures and finely ground. Vanilla powder contains a variety of vitamins and minerals and boasts a fragrant aroma and velvety smooth flavour."
     ]
-    
     let addinInfo = ["https://www.healthline.com/nutrition/benefits-of-acai-berries#section2",
                      "https://en.wikipedia.org/wiki/Black_pepper",
                      "https://begoodorganics.com/blogs/subscriber-only-recipes/7991527-cacao-5-little-known-benefits-of-this-amazonian-superfood",
@@ -96,7 +91,6 @@ class AddInTableViewController: UITableViewController, CellProtocol {
                      "https://en.wikipedia.org/wiki/Turmeric",
                      "https://www.thekitchn.com/good-question-what-is-vanilla-83146"
     ]
-    
     let addinPurch = ["https://amzn.to/2IyfR3F", // Acai Powder
         "https://amzn.to/2JoHbma", // Black Pepper
         "https://amzn.to/2uReT0p", // Cacao Powder
@@ -117,31 +111,22 @@ class AddInTableViewController: UITableViewController, CellProtocol {
         "https://amzn.to/2EpPoCY", // Turmeric
         "https://amzn.to/2JmGg5N" // Vanilla Powder
     ]
-    
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
-        
         guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
         print("cell at indexpath \(String(describing: indexPath)) tapped with switch status \(status)")
-        
         let addinSwitchSelected = myCell.label.text!
         print("AddIn added/removed was \(String(describing: addinSwitchSelected))")
-        
         if status {
             selectedIngredients.append(ingredients[indexPath.row])
         } else {
-            
             guard let index = selectedIngredients.index(where: { $0.name == ingredients[indexPath.row].name }) else { return }
             selectedIngredients.remove(at: index)
         }
     }
-    
     @IBAction func addInSelected(_ sender: UIButton) {
     }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
         for i in 0 ..< addinCopy.count {
             let newIngredient = Ingredient(name: addinNames[i],
                                            imageString: addinImages[i],
@@ -151,54 +136,37 @@ class AddInTableViewController: UITableViewController, CellProtocol {
                                            type: .addIn)
             ingredients.append(newIngredient)
         }
-        
         let ingredientNib = UINib(nibName: "IngredientCell", bundle: nil)
         tableView.register(ingredientNib, forCellReuseIdentifier: "IngredientCell")
         tableView.estimatedRowHeight = 50
-        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
-        
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     // MARK: - Table view data source
-    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
-    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return addinNames.count
     }
-    
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "IngredientCell", for: indexPath) as! IngredientCell
-        
         let row = indexPath.row
         cell.configure(textForLabel: ingredients[row].name, image: ingredients[row].imageString, setDelegate: self)
-        
         // Configure the cell...
-        
         return cell
     }
-    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
         performSegue(withIdentifier: "ShowAddinDetails", sender: indexPath.row)
-        
-        
     }
-    
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         switch identifier {
         case "SelectFruit":
@@ -213,11 +181,7 @@ class AddInTableViewController: UITableViewController, CellProtocol {
         }
         return true
     }
-    
-    
-    
     // MARK: - Navigation
-    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
@@ -230,17 +194,10 @@ class AddInTableViewController: UITableViewController, CellProtocol {
             detailViewController.ingredientMoreInfo = addinInfo[row]
             detailViewController.ingredientPurchase = addinPurch[row]
         }
-        
         if segue.identifier == "SelectFruit" {
-            
          //   print (selectedIngredients)
-            
             let FruitTableViewController = segue.destination as! FruitTableViewController
             FruitTableViewController.selectedIngredients = selectedIngredients
         }
-        
     }
-    
-    
 }
-

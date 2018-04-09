@@ -9,61 +9,42 @@
 import UIKit
 
 class IngredientDetailViewController: UIViewController {
-    
     @IBOutlet weak var ingredientDetailPic: UIImageView!
     @IBAction func ingredientDetailPurch(_ sender: UIButton) {
-        
     }
     @IBAction func ingredientDetailWiki(_ sender: UIButton) {
-        
     }
     @IBOutlet weak var ingredientDetailCopy: UILabel!
-    
-    
     var ingredientDetailImages: String?
     var ingredientAddlCopy: String?
     var ingredientMoreInfo: String?
     var ingredientPurchase: String?
-   
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         ingredientDetailPic.isUserInteractionEnabled = true
-        
         let pinchGesture = UIPinchGestureRecognizer(target: self, action: #selector(self.pinchGesture))
         ingredientDetailPic.addGestureRecognizer(pinchGesture)
-        
         if let detailPic = ingredientDetailImages {
             ingredientDetailPic.image = UIImage(named: detailPic)
         }
-        
         if let detailCopy = ingredientAddlCopy {
             ingredientDetailCopy.text = detailCopy
         }
-        
-        
-      
-        
-   // I think it's safe to completely delete the following, once I fugure out how to toggle Wiki/eCom buttons if URLs are provided...
-   //     if let detailInfo = ingredientMoreInfo {
-   //        let webURL = URL(string: detailInfo)
-   //         let urlRequest = URLRequest(url: webURL!)
-   //     }
-        
-   //     if let detailPurch = ingredientPurchase {
-   //         let webURL = URL(string: detailPurch)
-   //         let urlRequest = URLRequest(url: webURL!)
-   //     }
-
+        // I think it's safe to completely delete the following, once I fugure out how to toggle Wiki/eCom buttons if URLs are provided...
+        //     if let detailInfo = ingredientMoreInfo {
+        //        let webURL = URL(string: detailInfo)
+        //         let urlRequest = URLRequest(url: webURL!)
+        //     }
+        //     if let detailPurch = ingredientPurchase {
+        //         let webURL = URL(string: detailPurch)
+        //         let urlRequest = URLRequest(url: webURL!)
+        //     }
         // Do any additional setup after loading the view.
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         switch identifier {
         case "ShowOrderOnline":
@@ -76,18 +57,13 @@ class IngredientDetailViewController: UIViewController {
         default:
             break
         }
-
-        
         return true
     }
-    
     @objc func pinchGesture(sender: UIPinchGestureRecognizer) {
         sender.view?.transform = (sender.view?.transform.scaledBy(x: sender.scale, y: sender.scale))!
         sender.scale = 1.0
     }
-    
-    // MARK: - Navigation
-
+    // MARK: - Navigation    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
@@ -96,13 +72,9 @@ class IngredientDetailViewController: UIViewController {
             let detailViewController = segue.destination as! WebsiteViewController
             detailViewController.webSite = ingredientMoreInfo
         }
-        
         if segue.identifier == "ShowOrderOnline" {
             let detailViewController = segue.destination as! WebsiteViewController
             detailViewController.webSite = ingredientPurchase
         }
-        
     }
-    
-
 }

@@ -12,21 +12,12 @@ class BYBTableViewController: UITableViewController {
 
     var ingredients = [Ingredient]()
     var selectedIngredients = [Ingredient]()
-  
      var imageView: UIImageView!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-     
        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(doneTapped))
-        
          ingredients = selectedIngredients
-        
         tableView.estimatedRowHeight = 50
-        
-        
-        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 

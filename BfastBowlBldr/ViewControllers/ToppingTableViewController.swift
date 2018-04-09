@@ -9,38 +9,32 @@
 import UIKit
 
 class ToppingTableViewController: UITableViewController, CellProtocol {
-    
     var ingredients = [Ingredient]()
     var selectedIngredients = [Ingredient]()
-    
     var toppingImages = [String]()
     var toppingNames = [String]()
     var toppingCopy = [String]()
     var toppingInfo = [String]()
     var toppingPurch = [String]()
-
     @IBAction func toppingSelected(_ sender: UIButton) {
     }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         toppingImages = ["Almond.jpg",
                          "Basil.jpeg",
                          "Brazil.jpg",
                          "Hempseed.jpg",
                          "Honey.jpeg",
                          "caroline-attwood-574690-unsplash.jpg", // Lemon
-                         "raghu-nayyar-459422-unsplash.jpg", // Lime
-                         "Mint.jpeg",
-                         "Pecan.jpeg",
-                         "Pumpkin.jpg",
-                         "Sunflower.jpg",
-                         "Walnut.jpg",
-                         "Wheatgerm.jpeg",
-                         "CoconutYogurt.png"
+            "raghu-nayyar-459422-unsplash.jpg", // Lime
+            "Mint.jpeg",
+            "Pecan.jpeg",
+            "Pumpkin.jpg",
+            "Sunflower.jpg",
+            "Walnut.jpg",
+            "Wheatgerm.jpeg",
+            "CoconutYogurt.png"
         ]
-        
         toppingNames = ["Almond",
                         "Basil",
                         "Brazil Nut",
@@ -56,7 +50,6 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
                         "Wheat Germ",
                         "Yogurt - Non-Dairy"
         ]
-        
         toppingCopy = ["Almonds contain lots of healthy fats, fiber, protein, magnesium and vitamin E. The health benefits of almonds include lower blood sugar levels, reduced blood pressure and lower cholesterol levels. They can also reduce hunger and promote weight loss.",
                        "Basil for breakfast?  Trust me - if you are using strawberries in your bowl, add some chopped, fresh basil leaves and I think you will find they compliment each other quite nicely.",
                        "Brazil nuts are commonly eaten raw or blanched and are high in protein, fiber, selenium, thiamine, copper and magnesium — and in addition to being the best selenium food source in the world, they provide numerous benefits for our health.",
@@ -72,7 +65,6 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
                        "It's a great source of vegetable proteins, along with fiber and healthy fats. It's also a good source of magnesium, zinc, thiamin, folate, potassium, and phosphorus. Wheat germ is high in vitamin E, an essential nutrient with antioxidant properties.",
                        "There are many non-dairy options available (Soy, Almond, Coconut, etc.), but I personally prefer Coconut.  Try them all and find your own favorite.  Coconutmilk yogurt alternatives deliver dairy-free culture with amazing flavor and just the right balance of tanginess and sweetness.  Homemade coconut yogurt is easy and awesome - Google a recipe and try it youself!"
         ]
-        
         toppingInfo = ["https://www.bbcgoodfood.com/howto/guide/health-benefits-almonds",
                        "https://www.precisionnutrition.com/healthy-basil",
                        "https://en.wikipedia.org/wiki/Brazil_nut",
@@ -88,7 +80,6 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
                        "https://www.healthline.com/health/wheat-germ-benefits#modal-close",
                        "https://www.myorganiclife.info/coconut-yoghurt/"
         ]
-        
         toppingPurch = ["https://amzn.to/2HhyWaC", //Almonds
             "https://amzn.to/2GWV9xg",  //Basil
             "https://amzn.to/2HbScWZ", // Brazil Nut
@@ -104,7 +95,6 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
             "https://amzn.to/2H9YJS1", // Wheat Germ
             "https://amzn.to/2ICjxkV" // Coconut Yogurt
         ]
-        
         for i in 0 ..< toppingCopy.count {
             let newIngredient = Ingredient(name: toppingNames[i],
                                            imageString: toppingImages[i],
@@ -114,52 +104,36 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
                                            type: .topping)
             ingredients.append(newIngredient)
         }
-        
         let ingredientNib = UINib(nibName: "IngredientCell", bundle: nil)
         tableView.register(ingredientNib, forCellReuseIdentifier: "IngredientCell")
         tableView.estimatedRowHeight = 50
-
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
-
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return toppingNames.count
     }
-
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "IngredientCell", for: indexPath) as! IngredientCell
-        
         let row = indexPath.row
         cell.configure(textForLabel: ingredients[row].name, image: ingredients[row].imageString, setDelegate: self)
         return cell
-
     }
-    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
         performSegue(withIdentifier: "ShowToppingDetails", sender: indexPath.row)
-        
-        
     }
-    
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         switch identifier {
         case "BuildBowl":
@@ -174,24 +148,18 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
         }
         return true
     }
-    
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
-        
         guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
         print("cell at indexpath \(String(describing: indexPath)) tapped with switch status \(status)")
-        
         let liquidSwitchSelected = myCell.label.text!
         print("Topping added/removed was \(String(describing: liquidSwitchSelected))")
-        
         if status {
             selectedIngredients.append(ingredients[indexPath.row])
         } else {
-            
             guard let index = selectedIngredients.index(where: { $0.name == ingredients[indexPath.row].name }) else { return }
             selectedIngredients.remove(at: index)
         }
     }
-    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
@@ -205,17 +173,10 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
             detailViewController.ingredientMoreInfo = toppingInfo[row]
             detailViewController.ingredientPurchase = toppingPurch[row]
         }
-        
-       if segue.identifier == "BuildBowl" {
-        
-         print (selectedIngredients)
-        
+        if segue.identifier == "BuildBowl" {
+            print (selectedIngredients)
             let BYBTableViewController = segue.destination as! BYBTableViewController
             BYBTableViewController.selectedIngredients = selectedIngredients
         }
-        
     }
-    
-   
-
 }
