@@ -26,6 +26,7 @@ class AddInTableViewController: UITableViewController, CellProtocol {
                        "Maca.jpg",
                        "Matcha.jpeg",
                        "Moringa.jpg",
+                       "PBPowder.jpeg",
                        "Prune.jpeg",
                        "Raisin.jpeg",
                        "Turmeric.jpg",
@@ -46,6 +47,7 @@ class AddInTableViewController: UITableViewController, CellProtocol {
                       "Maca Powder",
                       "Matcha",
                       "Moringa",
+                      "Peanut Butter Powder",
                       "Prune",
                       "Raisin",
                       "Turmeric",
@@ -66,6 +68,7 @@ class AddInTableViewController: UITableViewController, CellProtocol {
                      "Maca is a root vegetable that is high in antioxidants and nutrients, such as vitamin C, copper and iron. It has been used medicinally for thousands of years and has been shown to enhance sexual health and libido; improve energy, mood and memory; and balance hormone levels.",
                      "Amongst its many health benefits, Matcha… Is packed with antioxidants including the powerful EGCg. Boosts metabolism and burns calories. Detoxifies effectively and naturally. Calms the mind and relaxes the body. Is rich in fiber, chlorophyll and vitamins. Enhances mood and aids in concentration.",
                      "Moringa leaves are high in several anti-aging compounds that lower the effects of oxidative stress and inflammation, including polyphenols, vitamin C, beta-carotene, quercetin, and chlorogenic acid",
+                     "Powdered peanut butter is made from roasted peanuts that have been pressed to remove most of the oil and then ground into a fine powder. Some brands contain a little sugar and salt. With most of the fat gone—powdered peanut butter has about 85 percent less than regular—you're left with protein and fiber.",
                      "Prunes are a great source of vitamin A, a vitamin that is essential for healthy vision. Powerhouse of Antioxidants. Heart Healthy. Relieves Constipation. Protection Against Osteoporosis. Promotes Hair Health. Great for Skin.",
                      "Despite their small size, raisins are packed with energy and rich in fiber, vitamins, and minerals. Raisins are naturally sweet and high in sugar and calories, but they're beneficial to our health when eaten in moderation. In fact, raisins can aid digestion, boost iron levels, and keep your bones strong.",
                      "Try to use fresh Turmeric root if you can find it, but powdered Turmeric will also work.  Curcumin is the main active ingredient in Turmeric. It has powerful anti-inflammatory effects and is a very strong antioxidant.  Interestingly, Black Pepper can increase the bioavailability and effectiveness of the Turmeric, so grind in a bit of pepper when using Turmeric",
@@ -86,6 +89,7 @@ class AddInTableViewController: UITableViewController, CellProtocol {
                      "https://draxe.com/top-5-maca-root-benefits-and-nutrition/",
                      "https://en.wikipedia.org/wiki/Matcha",
                      "https://greenvirginproducts.com/product-category/moringa/moringa-benefits/?gclid=EAIaIQobChMIhbKI7fWA2gIVhLfACh32QQp7EAAYASAAEgKWq_D_BwE",
+                     "https://www.healthline.com/nutrition/pb2-powdered-peanut-butter#section4",
                      "https://en.wikipedia.org/wiki/Prune",
                      "https://en.wikipedia.org/wiki/Raisin",
                      "https://en.wikipedia.org/wiki/Turmeric",
@@ -106,6 +110,7 @@ class AddInTableViewController: UITableViewController, CellProtocol {
         "https://amzn.to/2GzSb29", // Maca Powder
         "https://amzn.to/2HgzEVX", // Matcha Powder
         "https://amzn.to/2HdgvE7", // Moringa Powder
+        "https://amzn.to/2JA7F4a", // Peanut Butter Powder
         "https://amzn.to/2JjDuy9", // Prune
         "https://amzn.to/2uNQoBj", // Raisin
         "https://amzn.to/2EpPoCY", // Turmeric

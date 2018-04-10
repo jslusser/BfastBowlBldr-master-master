@@ -13,9 +13,9 @@ import UserNotifications
 class MainMenuTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Commented out the following until I'm actually ready to use it in the app, likely in a future version when I have a indiviual user recipe database and am using CloudKit
-        // registerLocal()
-        // Commented out the following until I resume Crashlytics testing
+        // Still need to build out the notifications, likely in a future version when I have a indiviual user recipe database and am using CloudKit
+         registerLocal()
+        // Commented out the following until I resume Crashlytics testing prn
         // Crashlytics.sharedInstance().crash()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -39,7 +39,7 @@ class MainMenuTableViewController: UITableViewController {
     }
     func registerLocal() {
         let center = UNUserNotificationCenter.current()
-        center.requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
+        center.requestAuthorization(options: [.alert, .badge, .sound]) { (granted, _) in
             if granted {
                 print("Yay!")
             } else {
