@@ -5,7 +5,6 @@
 //  Created by James Slusser on 9/14/17.
 //  Copyright © 2017 James Slusser. All rights reserved.
 //
-// GitHub test within Xcode
 
 import UIKit
 
@@ -14,7 +13,7 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
     var ingredients = [Ingredient]()
     // MARK: This ingredient array is for the user selected ingredients
     var selectedIngredients = [Ingredient]()
-    // MARK: Since you're not loading the information for the arrays from a file or outside source, you can declare and initialize the information arrays in the class definition. I also changed them to constants since you don't want to accidentally alter the data they contain elsewhere.
+
     let grainImages = ["Barley.jpg",
                        "Buckwheat.jpg",
                        "Bulgur.jpg",
@@ -74,7 +73,6 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
         // using guard let syntax to unwrap the optional; if it returns nil then it exits the function and does nothing
         guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
         print("cell at indexpath \(String(describing: indexPath)) tapped with switch status \(status)")
-        // Changed the print statement to make more sense in this context
         let grainSwitchSelected = myCell.label.text!
         print("Grain added/removed was \(String(describing: grainSwitchSelected))")
         // MARK: - This code block adds or removes selected ingredients based on the status of the switch.
@@ -82,18 +80,6 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
             selectedIngredients.append(ingredients[indexPath.row])
         } else {
             // MARK: - This logic is here in the event that a given ingredient isn't in the selected ingredients array
-            /*
-             You probably haven't had much exposure to closures so this may look a bit confusing, so I'll do a little explaining:
-             The function selectedIngredients.index(where:) returns the position of an element in the selectedIngredients array.
-             It takes a closure as it's parameter to dermine how to find the position of the element you are looking for. Since
-             this is being performed on an array, essentially what is doing under the hood is performing a for-in loop and
-             checking that there is an ingredient in the array that matches the name of the ingredient in the row selected.
-             So in a for-in loop you might have syntax like this: for ingredient in selectedIngredients { do something }. In
-             that context, you use the variable ingredient to access any value in the array and perform any actions you need
-             to on it. Well, in the closure here, $0 is used as a substitute for a variable declared for a for-in loop. So in this
-             case, selectedIngredients.index(where:) is checking that ingredient ($0) at the position it currently is looping
-             through matches the name of the ingredient at the row switch that was selected.
-             */
             guard let index = selectedIngredients.index(where: { $0.name == ingredients[indexPath.row].name }) else { return }
             selectedIngredients.remove(at: index)
         }
@@ -115,22 +101,15 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
         let ingredientNib = UINib(nibName: "IngredientCell", bundle: nil)
         tableView.register(ingredientNib, forCellReuseIdentifier: "IngredientCell")
         tableView.estimatedRowHeight = 50
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return grainNames.count
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -156,42 +135,8 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
         }
         return true
     }
-    /*
-     // Override to support conditional editing of the table view.
-     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-     // Return false if you do not want the specified item to be editable.
-     return true
-     }
-     */
-    /*
-     // Override to support editing the table view.
-     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-     if editingStyle == .delete {
-     // Delete the row from the data source
-     tableView.deleteRows(at: [indexPath], with: .fade)
-     } else if editingStyle == .insert {
-     // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-     }
-     }
-     */
-    /*
-     // Override to support rearranging the table view.
-     override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-     
-     }
-     */
-    /*
-     // Override to support conditional rearranging of the table view.
-     override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-     // Return false if you do not want the item to be re-orderable.
-     return true
-     }
-     */
     // MARK: - Navigation
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
         if segue.identifier == "ShowGrainDetails" {
             let detailViewController = segue.destination as! IngredientDetailViewController
             guard let row = sender as? Int else { fatalError("Unable to cast sender as Int")}

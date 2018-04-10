@@ -2,7 +2,6 @@
 //  IngredientCellTableViewCell.swift
 //  BfastBowlBldr
 //
-//  Created by Steven Sherry on 10/10/17.
 //  Copyright © 2017 James Slusser. All rights reserved.
 //
 
@@ -15,12 +14,10 @@ class IngredientCell: UITableViewCell {
     weak var delegate: CellProtocol?
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        // Configure the view for the selected state
-    }    
+    }
     func configure(textForLabel: String, image: String, setDelegate: CellProtocol) {
         label.text = textForLabel
         label.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)
