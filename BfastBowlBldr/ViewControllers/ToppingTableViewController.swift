@@ -23,7 +23,7 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
         toppingImages = ["Almond.jpg",
                          "Basil.jpeg",
                          "Brazil.jpg",
-                         "icon.jpg",
+                         "Coconut.jpeg",
                          "Hempseed.jpg",
                          "Honey.jpeg",
                          "caroline-attwood-574690-unsplash.jpg", // Lemon
@@ -55,7 +55,7 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
         toppingCopy = ["Almonds contain lots of healthy fats, fiber, protein, magnesium and vitamin E. The health benefits of almonds include lower blood sugar levels, reduced blood pressure and lower cholesterol levels. They can also reduce hunger and promote weight loss.",
                        "Basil for breakfast?  Trust me - if you are using strawberries in your bowl, add some chopped, fresh basil leaves and I think you will find they compliment each other quite nicely.",
                        "Brazil nuts are commonly eaten raw or blanched and are high in protein, fiber, selenium, thiamine, copper and magnesium — and in addition to being the best selenium food source in the world, they provide numerous benefits for our health.",
-                       "There are two types of shredded coconut—sweetened and unsweetened. I only use unsweetened!  Both start out as raw coconut meat that's then boiled, grated, and dried. The dehydrated shreds are either immediately packaged and sold as unsweetened coconut or soaked in a liquid sugar solution and dried again to make sweetened coconut.",
+                       "There are two types of shredded coconut—sweetened and unsweetened (I only use unsweetened).  Both start out as raw coconut meat that's then boiled, grated, and dried. The dehydrated shreds are either immediately packaged and sold as unsweetened coconut or soaked in a liquid sugar solution and dried again to make sweetened coconut.",
                        "Hemp seeds are rich in healthy fats and essential fatty acids. They are also a great protein source and contain high amounts of vitamin E, phosphorus, potassium, sodium, magnesium, sulfur, calcium, iron and zinc",
                        "8 Health Benefits of Raw Honey; Healthy Weight Management. Counters Pollen Allergies. Natural Energy Source. Antioxidant Powerhouse. Sleep Promoter. Wound and Ulcer Healer. Diabetes Aid. Natural Cough Syrup.",
                        "I'll squeeze Lemon or Lime Juice over my fresh chopped fruit to prevent browning, add some extra vitamin C and to just brighten up the flavor.",

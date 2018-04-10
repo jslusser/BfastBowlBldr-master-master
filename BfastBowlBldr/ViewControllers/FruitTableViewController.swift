@@ -34,6 +34,7 @@ class FruitTableViewController: UITableViewController, CellProtocol {
             "Kiwi.jpg",
             "neha-deshmukh-5764-unsplash.jpg",
             "Mango.jpg",
+            "Mangosteen.jpeg",
             "Orange.jpg",
             "Papaya.jpeg",
             "clem-onojeghuo-72904-unsplash.jpg", // Pear
@@ -56,6 +57,7 @@ class FruitTableViewController: UITableViewController, CellProtocol {
                       "Kiwi",
                       "Lychee",
                       "Mango",
+                      "Mangosteen",
                       "Orange",
                       "Papaya",
                       "Pear",
@@ -78,6 +80,7 @@ class FruitTableViewController: UITableViewController, CellProtocol {
                      "Health benefits of kiwi include skin care, improved cardiovascular health, lower blood pressure, and prevention of strokes. It also aids in the treatment of cancer, insomnia, macular degeneration, and diabetes. Due to the flavonoid-rich compounds found in kiwi, it also helps during pregnancy and promotes the absorption of iron in the body. Besides, the anti-microbial properties of kiwi guard against a range of pathogens and strengthen the immune system.",
                      "Lychee contains good amount of antioxidant Vitamin C, Vitamin B-complex and phytonutrient flavonoids. Lychee is a rich source of nutrient that is required for the production of blood. It provides manganese, magnesium, copper, iron and folate that are required for the formation of RBC.",
                      "When you savor delicious and succulent mangos every season, you probably don’t think about the immense health benefits coming with every bite. Mango is known as the king of fruits. Beyond the sweet, luscious taste of mangos, they also contain an abundance of vitamins, minerals, and antioxidants that assure your optimum health.",
+                     "Low in calories and high in fiber (100 grams equal about 13% of the recommended daily amount), mangosteens have lots of essential nutrients, but no saturated fats or cholesterol. The potassium content helps control heart rate and regulate blood pressure, which in turn aids in stroke and coronary heart disease prevention.",
                      "Oranges are low in calories and full of nutrients, they promote clear, healthy, skin and can help to lower our risk for many diseases as part of an overall healthy and varied diet.  An orange has over 170 different phytochemicals and more than 60 flavonoids. Many of these have been shown to have anti-inflammatory properties and strong antioxidant effects.",
                      "Papaya is rich in antioxidant nutrients such as carotenes, flavonoids, and vitamin C, as well as vitamin B (folate and pantothenic acid). It is also a good source of fiber and minerals such as magnesium. Together, these nutrients help improve cardiovascular health and protect against colon cancer.",
                      "Pears can help lower inflammation, which is the root of most diseases, plus they're one of the best sources of dietary fiber of all fruits and provide high amounts of vitamin C, vitamin K and boron.",
@@ -100,6 +103,7 @@ class FruitTableViewController: UITableViewController, CellProtocol {
                      "https://en.wikipedia.org/wiki/Kiwifruit",
                      "https://en.wikipedia.org/wiki/Lychee",
                      "https://en.wikipedia.org/wiki/Mango",
+                     "https://en.wikipedia.org/wiki/Purple_mangosteen",
                      "https://en.wikipedia.org/wiki/Orange_(fruit)",
                      "https://en.wikipedia.org/wiki/Papaya",
                      "https://en.wikipedia.org/wiki/Pear",
@@ -110,6 +114,7 @@ class FruitTableViewController: UITableViewController, CellProtocol {
                      "https://en.wikipedia.org/wiki/Watermelon"
         ]
         fruitPurch = ["NotAvailable",
+                      "NotAvailable",
                       "NotAvailable",
                       "NotAvailable",
                       "NotAvailable",
