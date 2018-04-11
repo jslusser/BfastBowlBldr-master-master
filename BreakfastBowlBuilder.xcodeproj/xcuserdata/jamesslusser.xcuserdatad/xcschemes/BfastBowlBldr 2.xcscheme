@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "94BC06781F6037BD0075A5BF"
-               BuildableName = "BfastBowlBldr.app"
-               BlueprintName = "BfastBowlBldr"
-               ReferencedContainer = "container:BfastBowlBldr.xcodeproj">
+               BuildableName = "BreakfastBowlBuilder.app"
+               BlueprintName = "BreakfastBowlBuilder"
+               ReferencedContainer = "container:BreakfastBowlBuilder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94BC06781F6037BD0075A5BF"
-            BuildableName = "BfastBowlBldr.app"
-            BlueprintName = "BfastBowlBldr"
-            ReferencedContainer = "container:BfastBowlBldr.xcodeproj">
+            BuildableName = "BreakfastBowlBuilder.app"
+            BlueprintName = "BreakfastBowlBuilder"
+            ReferencedContainer = "container:BreakfastBowlBuilder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94BC06781F6037BD0075A5BF"
-            BuildableName = "BfastBowlBldr.app"
-            BlueprintName = "BfastBowlBldr"
-            ReferencedContainer = "container:BfastBowlBldr.xcodeproj">
+            BuildableName = "BreakfastBowlBuilder.app"
+            BlueprintName = "BreakfastBowlBuilder"
+            ReferencedContainer = "container:BreakfastBowlBuilder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94BC06781F6037BD0075A5BF"
-            BuildableName = "BfastBowlBldr.app"
-            BlueprintName = "BfastBowlBldr"
-            ReferencedContainer = "container:BfastBowlBldr.xcodeproj">
+            BuildableName = "BreakfastBowlBuilder.app"
+            BlueprintName = "BreakfastBowlBuilder"
+            ReferencedContainer = "container:BreakfastBowlBuilder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

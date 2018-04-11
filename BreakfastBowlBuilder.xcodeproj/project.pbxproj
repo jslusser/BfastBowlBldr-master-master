@@ -174,9 +174,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		94BC06781F6037BD0075A5BF /* BfastBowlBldr */ = {
+		94BC06781F6037BD0075A5BF /* BreakfastBowlBuilder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94BC068B1F6037BD0075A5BF /* Build configuration list for PBXNativeTarget "BfastBowlBldr" */;
+			buildConfigurationList = 94BC068B1F6037BD0075A5BF /* Build configuration list for PBXNativeTarget "BreakfastBowlBuilder" */;
 			buildPhases = (
 				94325D76207BFCBE00F42847 /* ShellScript */,
 				525F9E3DF6E8CC6A4B967281 /* [CP] Check Pods Manifest.lock */,
@@ -189,7 +189,7 @@
 			);
 			dependencies = (
 			);
-			name = BfastBowlBldr;
+			name = BreakfastBowlBuilder;
 			productName = BfastBowlBldr;
 			productReference = 94BC06791F6037BD0075A5BF /* BfastBowlBldr.app */;
 			productType = "com.apple.product-type.application";
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 94BC06741F6037BD0075A5BF /* Build configuration list for PBXProject "BfastBowlBldr" */;
+			buildConfigurationList = 94BC06741F6037BD0075A5BF /* Build configuration list for PBXProject "BreakfastBowlBuilder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,7 +222,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94BC06781F6037BD0075A5BF /* BfastBowlBldr */,
+				94BC06781F6037BD0075A5BF /* BreakfastBowlBuilder */,
 			);
 		};
 /* End PBXProject section */
@@ -466,7 +466,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.kurkuma.BfastBowlBldr;
+				PRODUCT_BUNDLE_IDENTIFIER = co.kurkuma.BreakfastBowlBuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -490,7 +490,7 @@
 					"@executable_path/Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = co.kurkuma.BfastBowlBldr;
+				PRODUCT_BUNDLE_IDENTIFIER = co.kurkuma.BreakfastBowlBuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,7 +500,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		94BC06741F6037BD0075A5BF /* Build configuration list for PBXProject "BfastBowlBldr" */ = {
+		94BC06741F6037BD0075A5BF /* Build configuration list for PBXProject "BreakfastBowlBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94BC06891F6037BD0075A5BF /* Debug */,
@@ -509,7 +509,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94BC068B1F6037BD0075A5BF /* Build configuration list for PBXNativeTarget "BfastBowlBldr" */ = {
+		94BC068B1F6037BD0075A5BF /* Build configuration list for PBXNativeTarget "BreakfastBowlBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94BC068C1F6037BD0075A5BF /* Debug */,
