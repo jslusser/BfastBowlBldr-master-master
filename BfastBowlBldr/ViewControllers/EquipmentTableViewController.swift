@@ -21,6 +21,7 @@ class EquipmentTableViewController: UITableViewController, CellProtocol {
         equipmentImages = ["CitrusPress.jpg",
                            "Cutting.jpg",
                            "Storage.jpg",
+                           "InstantPot.jpg",
                            "Knives.jpg",
                            "Cups.jpg",
                            "Spoon.jpg",
@@ -30,6 +31,7 @@ class EquipmentTableViewController: UITableViewController, CellProtocol {
         equipmentNames = ["Citrus Press Juicer",
                           "Cutting Board",
                           "Food Storage Container",
+                          "Instant Pot",
                           "Knife set",
                           "Measuring Cups",
                           "Measuring Spoons",
@@ -39,6 +41,7 @@ class EquipmentTableViewController: UITableViewController, CellProtocol {
         equipmentCopy = ["I use this almost daily to squeeze lemon or lime juice over my chopped fresh fruit, to add some Vitamin C and brighten up the flavor.",
                          "Every kitchen needs several good cutting boards in a variety of different sizes.",
                          "You will always need a good supply of food storage containers.",
+                         "I use the Instant Pot to make my own Coconut Yogurt.  Much better and less expensive than store-bought.",
                          "Every cook needs a good set of knives.",
                          "Another kitchen staple; a good set of measuring cups.",
                          "Every kitchen needs a good set of measuring spoons.",
@@ -48,6 +51,7 @@ class EquipmentTableViewController: UITableViewController, CellProtocol {
         equipmentInfo = ["https://en.wikipedia.org/wiki/Lemon_squeezer",
                          "https://en.wikipedia.org/wiki/Cutting_board",
                          "https://en.wikipedia.org/wiki/Food_storage_container",
+                         "https://en.wikipedia.org/wiki/Instant_Pot",
                          "https://en.wikipedia.org/wiki/Kitchen_knife",
                          "https://en.wikipedia.org/wiki/Measuring_cup",
                          "https://en.wikipedia.org/wiki/Measuring_spoon",
@@ -57,6 +61,7 @@ class EquipmentTableViewController: UITableViewController, CellProtocol {
         equipmentPurch = ["https://amzn.to/2JnkoqE", // Citrus Squeezer
             "https://amzn.to/2uNWZf3", // Cutting Board
             "https://amzn.to/2GD8WWm", // Food Storage Container
+            "https://amzn.to/2JEgdac", // Instant Pot
             "https://amzn.to/2Hbwlzd", // Knives
             "https://amzn.to/2uLxevS", // Measuring Cups
             "https://amzn.to/2uMS0v5", // Measurng Spoons
@@ -89,7 +94,8 @@ class EquipmentTableViewController: UITableViewController, CellProtocol {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "IngredientCell", for: indexPath) as! IngredientCell
         let row = indexPath.row
-        cell.configure(textForLabel: ingredients[row].name, image: ingredients[row].imageString, setDelegate: self)
+        
+        cell.configure(textForLabel: ingredients[row].name, image: ingredients[row].imageString, isSelected: selectedIngredients.contains {$0.name == equipmentNames[indexPath.row]}, setDelegate: self)
         return cell
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

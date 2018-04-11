@@ -126,7 +126,8 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "IngredientCell", for: indexPath) as! IngredientCell
         let row = indexPath.row
-        cell.configure(textForLabel: ingredients[row].name, image: ingredients[row].imageString, setDelegate: self)
+        
+        cell.configure(textForLabel: ingredients[row].name, image: ingredients[row].imageString, isSelected: selectedIngredients.contains {$0.name == toppingNames[indexPath.row]}, setDelegate: self)
         return cell
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

@@ -55,7 +55,7 @@
 		9493AA781F72D17E00F6604B /* FruitTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableViewController.swift; sourceTree = "<group>"; };
 		9493AA7E1F72D94F00F6604B /* ToppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToppingTableViewController.swift; sourceTree = "<group>"; };
 		949782491F6C3261003AB3E7 /* WebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
-		94BC06791F6037BD0075A5BF /* BfastBowlBldr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BfastBowlBldr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94BC06791F6037BD0075A5BF /* BfastBowlBldr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = BfastBowlBldr.app; path = BreakfastBowlBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94BC067C1F6037BD0075A5BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94BC06811F6037BD0075A5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94BC06861F6037BD0075A5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };

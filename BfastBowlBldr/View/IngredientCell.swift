@@ -18,10 +18,11 @@ class IngredientCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-    func configure(textForLabel: String, image: String, setDelegate: CellProtocol) {
+    func configure(textForLabel: String, image: String, isSelected: Bool, setDelegate: CellProtocol) {
         label.text = textForLabel
         label.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)
         ingredientImage.image = UIImage(named: image)
+        ingredientSwitch.isOn = isSelected
         delegate = setDelegate
     }
     @IBAction func switchTapped(_ sender: UISwitch) {
