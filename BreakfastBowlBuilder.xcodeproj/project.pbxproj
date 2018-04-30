@@ -26,6 +26,7 @@
 		9493AA791F72D17E00F6604B /* FruitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9493AA781F72D17E00F6604B /* FruitTableViewController.swift */; };
 		9493AA7F1F72D94F00F6604B /* ToppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9493AA7E1F72D94F00F6604B /* ToppingTableViewController.swift */; };
 		9497824A1F6C3261003AB3E7 /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949782491F6C3261003AB3E7 /* WebsiteViewController.swift */; };
+		94B6CE512093C138001C9C20 /* IngredientData.json in Resources */ = {isa = PBXBuildFile; fileRef = 94B6CE502093C138001C9C20 /* IngredientData.json */; };
 		94BC067D1F6037BD0075A5BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BC067C1F6037BD0075A5BF /* AppDelegate.swift */; };
 		94BC06821F6037BD0075A5BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BC06801F6037BD0075A5BF /* Main.storyboard */; };
 		94BC06871F6037BD0075A5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BC06851F6037BD0075A5BF /* LaunchScreen.storyboard */; };
@@ -56,6 +57,7 @@
 		9493AA781F72D17E00F6604B /* FruitTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableViewController.swift; sourceTree = "<group>"; };
 		9493AA7E1F72D94F00F6604B /* ToppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToppingTableViewController.swift; sourceTree = "<group>"; };
 		949782491F6C3261003AB3E7 /* WebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
+		94B6CE502093C138001C9C20 /* IngredientData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IngredientData.json; sourceTree = "<group>"; };
 		94BC06791F6037BD0075A5BF /* BfastBowlBldr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = BfastBowlBldr.app; path = BreakfastBowlBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94BC067C1F6037BD0075A5BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94BC06811F6037BD0075A5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				94D3262A1F83ABCB006E397C /* Ingredient.swift */,
+				94B6CE502093C138001C9C20 /* IngredientData.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				94BC06871F6037BD0075A5BF /* LaunchScreen.storyboard in Resources */,
 				94C301D82064574D004DA2F1 /* Assets.xcassets in Resources */,
 				94F45E202084489C007C679B /* Pods-BreakfastBowlBuilder-frameworks.sh in Resources */,
+				94B6CE512093C138001C9C20 /* IngredientData.json in Resources */,
 				94BC06821F6037BD0075A5BF /* Main.storyboard in Resources */,
 				94F45E2220844E5F007C679B /* GoogleService-Info.plist in Resources */,
 			);
