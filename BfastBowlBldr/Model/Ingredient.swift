@@ -15,8 +15,7 @@ struct Ingredient : Codable {
     let info: String
     let purchaseURL: String
     let type: IngredientType
-}
-
-enum IngredientType : Codable {
-    case grain, liquid, fruit, addIn, topping
+    enum IngredientType: String, Codable {
+        case grain, liquid, fruit, addIn, topping
+    }
 }

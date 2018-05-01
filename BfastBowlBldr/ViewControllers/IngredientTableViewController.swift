@@ -94,9 +94,15 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
         let url = URL(fileURLWithPath: path!)
         
         do {
-            let data = try Data(contentsOf: url)
-            let grainData = try JSONDecoder().decode([String : [String]].self, from: data)
-            print(grainData)
+            //let data = try Data(contentsOf: url)
+            //let grainData = try JSONDecoder().decode([String : [String]].self, from: data)
+            //print(grainData)
+            
+            let grainData = url.data(encoding: .utf8)!
+            
+            let decoder = JSONDecoder()
+            let ingredients = try? decoder.decode(Array<Ingredient>.self, from: grainData)
+            print(ingredients ?? "json serialization failed")
         }
         catch {}
         // MARK: - The for loop needs to be executed **after** you assign values to the arrays.
