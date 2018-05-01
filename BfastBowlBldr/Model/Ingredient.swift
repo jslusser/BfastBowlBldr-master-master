@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Ingredient {
+struct Ingredient : Codable {
     let name: String
     let imageString: String
     let copy: String
@@ -17,6 +17,6 @@ struct Ingredient {
     let type: IngredientType
 }
 
-enum IngredientType {
+enum IngredientType : Codable {
     case grain, liquid, fruit, addIn, topping
 }

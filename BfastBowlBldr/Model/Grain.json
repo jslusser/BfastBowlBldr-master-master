@@ -1,0 +1,18 @@
+{
+  "grain": [
+ {
+   "name" : "Barley",
+   "imageString" : "Barley.jpg",
+   "copy" : "Pearl Barley - one of the first grains ever cultivated - is a nice one to try if you haven't cooked with it recently.  Do use it cooked.",
+   "info" : "https://draxe.com/barley-nutrition/",
+   "purchaseURL" : "https://amzn.to/2JlnTxX"
+    },
+{
+  "name" : "Buckwheat Groats",
+   "imageString" : "Buckwheat.jpg",
+   "copy" : "I like to include 1 Tablespoon or more of Buckwheat Groats with whatever other grain I select, as I find it retains it's crunchy texture and is a nice contrast to my usual Oatmeal, or a cooked grain.  I simply toss them in raw - no cooking required.",
+   "info" : "https://draxe.com/buckwheat-nutrition/",
+   "purchaseURL" : "https://amzn.to/2GCDoDR"
+      
+    }
+}

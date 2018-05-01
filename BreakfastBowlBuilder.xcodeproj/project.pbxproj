@@ -18,6 +18,7 @@
 		943274AB1F6B2FAF00E341A2 /* IngredientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943274AA1F6B2FAF00E341A2 /* IngredientTableViewController.swift */; };
 		943274AF1F6B3CB900E341A2 /* IngredientDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943274AE1F6B3CB900E341A2 /* IngredientDetailViewController.swift */; };
 		9456341B1F73C3AC00D19B6C /* AppBackstoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9456341A1F73C3AC00D19B6C /* AppBackstoryViewController.swift */; };
+		947380642097F67E0082AA5C /* Grain.json in Resources */ = {isa = PBXBuildFile; fileRef = 947380632097F67D0082AA5C /* Grain.json */; };
 		948766521F731AAD00971F42 /* HowItWorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948766511F731AAD00971F42 /* HowItWorksViewController.swift */; };
 		94935B612063263800E55D6B /* BuildYourBowlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94935B602063263800E55D6B /* BuildYourBowlTableViewCell.swift */; };
 		9493AA6D1F72B50100F6604B /* LiquidTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9493AA6C1F72B50100F6604B /* LiquidTableViewController.swift */; };
@@ -49,6 +50,7 @@
 		943274AA1F6B2FAF00E341A2 /* IngredientTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTableViewController.swift; sourceTree = "<group>"; };
 		943274AE1F6B3CB900E341A2 /* IngredientDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientDetailViewController.swift; sourceTree = "<group>"; };
 		9456341A1F73C3AC00D19B6C /* AppBackstoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackstoryViewController.swift; sourceTree = "<group>"; };
+		947380632097F67D0082AA5C /* Grain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Grain.json; sourceTree = "<group>"; };
 		948766511F731AAD00971F42 /* HowItWorksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowItWorksViewController.swift; sourceTree = "<group>"; };
 		94935B602063263800E55D6B /* BuildYourBowlTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildYourBowlTableViewCell.swift; sourceTree = "<group>"; };
 		9493AA6C1F72B50100F6604B /* LiquidTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidTableViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			children = (
 				94D3262A1F83ABCB006E397C /* Ingredient.swift */,
 				94B6CE502093C138001C9C20 /* IngredientData.json */,
+				947380632097F67D0082AA5C /* Grain.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				6240181B1F8DC37100CD24DC /* IngredientCell.xib in Resources */,
 				94BC06871F6037BD0075A5BF /* LaunchScreen.storyboard in Resources */,
 				94C301D82064574D004DA2F1 /* Assets.xcassets in Resources */,
+				947380642097F67E0082AA5C /* Grain.json in Resources */,
 				94F45E202084489C007C679B /* Pods-BreakfastBowlBuilder-frameworks.sh in Resources */,
 				94B6CE512093C138001C9C20 /* IngredientData.json in Resources */,
 				94BC06821F6037BD0075A5BF /* Main.storyboard in Resources */,

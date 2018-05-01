@@ -90,7 +90,7 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let path = Bundle.main.path(forResource: "IngredientData", ofType: "json")
+        let path = Bundle.main.path(forResource: "Grain", ofType: "json")
         let url = URL(fileURLWithPath: path!)
         
         do {
