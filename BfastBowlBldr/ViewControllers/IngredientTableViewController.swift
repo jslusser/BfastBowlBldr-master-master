@@ -90,21 +90,32 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let path = Bundle.main.path(forResource: "Grain", ofType: "json")
-        let url = URL(fileURLWithPath: path!)
+//        let path = Bundle.main.path(forResource: "Grain", ofType: "json")
+//        let url = URL(fileURLWithPath: path!)
+//
+//        do {
+//            //let data = try Data(contentsOf: url)
+//            //let grainData = try JSONDecoder().decode([String : [String]].self, from: data)
+//            //print(grainData)
+//
+//            let grainData = url.data(encoding: .utf8)!
+//
+//            let decoder = JSONDecoder()
+//            let ingredients = try? decoder.decode(Array<Ingredient>.self, from: grainData)
+//            print(ingredients ?? "json serialization failed")
+//        }
+//        catch {}
         
-        do {
-            //let data = try Data(contentsOf: url)
-            //let grainData = try JSONDecoder().decode([String : [String]].self, from: data)
-            //print(grainData)
-            
-            let grainData = url.data(encoding: .utf8)!
-            
-            let decoder = JSONDecoder()
-            let ingredients = try? decoder.decode(Array<Ingredient>.self, from: grainData)
-            print(ingredients ?? "json serialization failed")
+        guard let url = Bundle.main.url(forResource: "Grain", withExtension: "json"),
+            let grainJSONData = try? Data(contentsOf: url),
+            let ingredients = try? JSONDecoder().decode(Array<Ingredient>.self, from: grainJSONData) else {
+                print("Error loading JSON")
+                fatalError()
         }
-        catch {}
+        print(ingredients)
+        
+        
+        
         // MARK: - The for loop needs to be executed **after** you assign values to the arrays.
         for i in 0 ..< grainCopy.count {
             let newIngredient = Ingredient(name: grainNames[i],
