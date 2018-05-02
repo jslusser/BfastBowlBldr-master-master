@@ -29,6 +29,7 @@
 		9497824A1F6C3261003AB3E7 /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949782491F6C3261003AB3E7 /* WebsiteViewController.swift */; };
 		94B1596B209A4B9C008B3D58 /* Liquid.json in Resources */ = {isa = PBXBuildFile; fileRef = 94B1596A209A4B9C008B3D58 /* Liquid.json */; };
 		94B1596D209A5325008B3D58 /* addIn.json in Resources */ = {isa = PBXBuildFile; fileRef = 94B1596C209A5325008B3D58 /* addIn.json */; };
+		94B1596F209A5AAE008B3D58 /* fruit.json in Resources */ = {isa = PBXBuildFile; fileRef = 94B1596E209A5AAE008B3D58 /* fruit.json */; };
 		94BC067D1F6037BD0075A5BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BC067C1F6037BD0075A5BF /* AppDelegate.swift */; };
 		94BC06821F6037BD0075A5BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BC06801F6037BD0075A5BF /* Main.storyboard */; };
 		94BC06871F6037BD0075A5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BC06851F6037BD0075A5BF /* LaunchScreen.storyboard */; };
@@ -62,6 +63,7 @@
 		949782491F6C3261003AB3E7 /* WebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
 		94B1596A209A4B9C008B3D58 /* Liquid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Liquid.json; sourceTree = "<group>"; };
 		94B1596C209A5325008B3D58 /* addIn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = addIn.json; sourceTree = "<group>"; };
+		94B1596E209A5AAE008B3D58 /* fruit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fruit.json; sourceTree = "<group>"; };
 		94BC06791F6037BD0075A5BF /* BfastBowlBldr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = BfastBowlBldr.app; path = BreakfastBowlBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94BC067C1F6037BD0075A5BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94BC06811F6037BD0075A5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				947380632097F67D0082AA5C /* Grain.json */,
 				94B1596A209A4B9C008B3D58 /* Liquid.json */,
 				94B1596C209A5325008B3D58 /* addIn.json */,
+				94B1596E209A5AAE008B3D58 /* fruit.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				94BC06871F6037BD0075A5BF /* LaunchScreen.storyboard in Resources */,
 				94C301D82064574D004DA2F1 /* Assets.xcassets in Resources */,
 				94B1596B209A4B9C008B3D58 /* Liquid.json in Resources */,
+				94B1596F209A5AAE008B3D58 /* fruit.json in Resources */,
 				947380642097F67E0082AA5C /* Grain.json in Resources */,
 				94F45E202084489C007C679B /* Pods-BreakfastBowlBuilder-frameworks.sh in Resources */,
 				94BC06821F6037BD0075A5BF /* Main.storyboard in Resources */,
