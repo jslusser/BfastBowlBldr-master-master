@@ -114,18 +114,17 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
         }
         print(ingredients)
         
-        
-        
+        self.ingredients = ingredients
         // MARK: - The for loop needs to be executed **after** you assign values to the arrays.
-        for i in 0 ..< grainCopy.count {
-            let newIngredient = Ingredient(name: grainNames[i],
-                                           imageString: grainImages[i],
-                                           copy: grainCopy[i],
-                                           info: grainInfo[i],
-                                           purchaseURL: grainPurch[i],
-                                           type: .grain)
-            ingredients.append(newIngredient)
-        }
+//        for i in 0 ..< grainCopy.count {
+//            let newIngredient = Ingredient(name: grainNames[i],
+//                                           imageString: grainImages[i],
+//                                           copy: grainCopy[i],
+//                                           info: grainInfo[i],
+//                                           purchaseURL: grainPurch[i],
+//                                           type: .grain)
+//            ingredients.append(newIngredient)
+//        }
         let ingredientNib = UINib(nibName: "IngredientCell", bundle: nil)
         tableView.register(ingredientNib, forCellReuseIdentifier: "IngredientCell")
         tableView.estimatedRowHeight = 50
@@ -138,12 +137,13 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
         return 1
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return grainNames.count
+        return ingredients.count
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "IngredientCell", for: indexPath) as! IngredientCell
         let row = indexPath.row
-        cell.configure(textForLabel: ingredients[row].name, image: ingredients[row].imageString, isSelected: selectedIngredients.contains {$0.name == grainNames[indexPath.row]}, setDelegate: self)
+        //cell.configure(textForLabel: ingredients[row].name, image: ingredients[row].imageString, isSelected: selectedIngredients.contains {$0.name == grainNames[indexPath.row]}, setDelegate: self)
+        cell.configure(textForLabel: ingredients[row].name, image: ingredients[row].imageString, isSelected: selectedIngredients.contains {$0.name == ingredients[row].name}, setDelegate: self)
         return cell
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -168,10 +168,14 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
         if segue.identifier == "ShowGrainDetails" {
             let detailViewController = segue.destination as! IngredientDetailViewController
             guard let row = sender as? Int else { fatalError("Unable to cast sender as Int")}
-            detailViewController.ingredientDetailImages = grainImages[row]
-            detailViewController.ingredientAddlCopy = grainCopy[row]
-            detailViewController.ingredientMoreInfo = grainInfo[row]
-            detailViewController.ingredientPurchase = grainPurch[row]
+            //detailViewController.ingredientDetailImages = grainImages[row]
+            detailViewController.ingredientDetailImages = ingredients[row].imageString
+            //detailViewController.ingredientAddlCopy = grainCopy[row]
+            detailViewController.ingredientAddlCopy = ingredients[row].copy
+            //detailViewController.ingredientMoreInfo = grainInfo[row]
+            detailViewController.ingredientMoreInfo = ingredients[row].info
+            //detailViewController.ingredientPurchase = grainPurch[row]
+            detailViewController.ingredientPurchase = ingredients[row].purchaseURL
         }
         if segue.identifier == "SelectLiquid" {
             //  print (selectedIngredients)
