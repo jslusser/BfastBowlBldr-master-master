@@ -1,0 +1,72 @@
+[{
+ "name": "Citrus Press Juicer",
+ "imageString": "CitrusPress.jpg",
+ "copy": "I use this almost daily to squeeze lemon or lime juice over my chopped fresh fruit, to add some Vitamin C and brighten up the flavor.",
+ "info": "https://en.wikipedia.org/wiki/Lemon_squeezer",
+ "purchaseURL": "https://amzn.to/2JnkoqE",
+ "type": "equipment"
+ },
+ {
+ "name": "Cutting Board",
+ "imageString": "Cutting.jpg",
+ "copy": "Every kitchen needs several good cutting boards in a variety of different sizes.",
+ "info": "https://en.wikipedia.org/wiki/Cutting_board",
+ "purchaseURL": "https://amzn.to/2uNWZf3",
+ "type": "equipment"
+ },
+ {
+ "name": "Food Storage Container",
+ "imageString": "Storage.jpg",
+ "copy": "You will always need a good supply of food storage containers.",
+ "info": "https://en.wikipedia.org/wiki/Food_storage_container",
+ "purchaseURL": "https://amzn.to/2GD8WWm",
+ "type": "equipment"
+ },
+ {
+ "name": "Instant Pot",
+ "imageString": "InstantPot.jp",
+ "copy": "I use the Instant Pot to make my own Coconut Yogurt.  Much better and less expensive than store-bought.",
+ "info": "https://en.wikipedia.org/wiki/Instant_Pot",
+ "purchaseURL": "https://amzn.to/2JEgdac",
+ "type": "equipment"
+ },
+ {
+ "name": "Knife set",
+ "imageString": "Knives.jpg",
+ "copy": "Every cook needs a good set of knives.",
+ "info": "https://en.wikipedia.org/wiki/Kitchen_knife",
+ "purchaseURL": "https://amzn.to/2Hbwlzd",
+ "type": "equipment"
+ },
+ {
+ "name": "Measuring Cups",
+ "imageString": "Cups.jpg",
+ "copy": "Another kitchen staple; a good set of measuring cups.",
+ "info": "https://en.wikipedia.org/wiki/Measuring_cup",
+ "purchaseURL": "https://amzn.to/2uLxevS",
+ "type": "equipment"
+ },
+ {
+ "name": "Measuring Spoons",
+ "imageString": "Spoon.jpg",
+ "copy": "Every kitchen needs a good set of measuring spoons.",
+ "info": "https://en.wikipedia.org/wiki/Measuring_spoon",
+ "purchaseURL": "https://amzn.to/2uMS0v5",
+ "type": "equipment"
+ },
+ {
+ "name": "NutriBullet",
+ "imageString": "NutriBullet.jpg",
+ "copy": "I use the NutriBullet 7 days a week.  I make my Almond Milk with it, smoothies, salad dressings - you name it.  It's a workhorse that has lasted several years already.",
+ "info": "https://en.wikipedia.org/wiki/Magic_Bullet_(appliance)",
+ "purchaseURL": "https://amzn.to/2Gz6xzK",
+ "type": "equipment"
+ },
+ {
+ "name": "Nut Milk Bag",
+ "imageString": "NutMilkBag.jpg",
+ "copy": "You need one of these to make your own Nut Milk.  It couldn't be easier - just Google nut milk recipes and dive in.",
+ "info": "https://amzn.to/2HdgJeu",
+ "purchaseURL": "https://amzn.to/2HdgJeu",
+ "type": "equipment"
+ }]

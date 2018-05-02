@@ -13,7 +13,6 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
     var ingredients = [Ingredient]()
     // MARK: This ingredient array is for the user selected ingredients
     var selectedIngredients = [Ingredient]()
-    
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
         // using guard let syntax to unwrap the optional; if it returns nil then it exits the function and does nothing
         guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
@@ -40,8 +39,7 @@ class IngredientTableViewController: UITableViewController, CellProtocol {
                 fatalError()
         }
         print(ingredients)
-        self.ingredients = ingredients
-        
+        self.ingredients = ingredients        
         let ingredientNib = UINib(nibName: "IngredientCell", bundle: nil)
         tableView.register(ingredientNib, forCellReuseIdentifier: "IngredientCell")
         tableView.estimatedRowHeight = 50

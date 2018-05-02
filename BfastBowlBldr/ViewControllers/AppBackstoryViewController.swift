@@ -24,5 +24,5 @@ The “Breakfast Bowl” concept is a very core part of my current diet and exer
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-    } 
+    }
 }
