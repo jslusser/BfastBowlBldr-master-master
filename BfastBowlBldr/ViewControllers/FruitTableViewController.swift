@@ -15,8 +15,7 @@ class FruitTableViewController: UITableViewController, CellProtocol {
     @IBAction func fruitSelected(_ sender: UIButton) {
     }
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
+        super.viewDidLoad()        
         guard let url = Bundle.main.url(forResource: "fruit", withExtension: "json"),
             let fruitJSONData = try? Data(contentsOf: url),
             let ingredients = try? JSONDecoder().decode(Array<Ingredient>.self, from: fruitJSONData) else {

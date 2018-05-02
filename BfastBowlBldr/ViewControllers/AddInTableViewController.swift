@@ -10,8 +10,7 @@ import UIKit
 
 class AddInTableViewController: UITableViewController, CellProtocol {
     var ingredients = [Ingredient]()
-    var selectedIngredients = [Ingredient]()
-    
+    var selectedIngredients = [Ingredient]()    
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
         guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
         print("cell at indexpath \(String(describing: indexPath)) tapped with switch status \(status)")

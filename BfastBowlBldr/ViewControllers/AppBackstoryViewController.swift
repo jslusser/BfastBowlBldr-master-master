@@ -9,7 +9,6 @@
 import UIKit
 
 class AppBackstoryViewController: UIViewController {
-    
     @IBOutlet var appbackstoryText: UITextView!
     let historyCopy = """
 My name is Jim and this is the first app I have ever written.  Back in 2012, as part of what started out as a regular annual doctor's checkup, I ultimately was diagnosed with very early-stage cancer.  That obviously disrupted my life for a bit.  Following surgery and per the doctors recommendation I made some radical changes to my diet, electing to move towards a more plant-based diet.  Fast forward six years, and as of today in 2018 for v1.0 of this app, I remain cancer-free, feeling better than I think I ever have in my entire life.

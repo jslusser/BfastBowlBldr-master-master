@@ -29,6 +29,6 @@ class RecipeDetailViewController: UIViewController {
     }
     @objc func pinchGesture(sender: UIPinchGestureRecognizer) {
         sender.view?.transform = (sender.view?.transform.scaledBy(x: sender.scale, y: sender.scale))!
-        sender.scale = 1.0      
+        sender.scale = 1.0
     }
 }

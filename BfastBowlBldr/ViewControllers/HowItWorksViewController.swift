@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HowItWorksViewController: UIViewController {    
+class HowItWorksViewController: UIViewController {
     @IBOutlet weak var howitworksText: UITextView!
     let hiwCopy = """
 Breakfast Bowls are best assembled the night before you plan to eat them.  You select and combine a base grain, liquid, and whatever add-ins you like, and then let the mixture soak overnight in the refrigerator.  The following morning, add the fresh fruit and any additional toppings as desired, and enjoy!
@@ -31,5 +31,5 @@ Note: As a rule of thumb, I use a total of approximately 1/2 cup of whatever com
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-    }   
+    }
 }

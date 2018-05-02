@@ -44,7 +44,6 @@ class MainMenuTableViewController: UITableViewController {
 //        Answers.logCustomEvent(withName: "Video Played", customAttributes: ["Category":"Comedy", "Length":350])
 //    }
 
-    
     func registerLocal() {
         let center = UNUserNotificationCenter.current()
         center.requestAuthorization(options: [.alert, .badge, .sound]) { (granted, _) in
