@@ -11,7 +11,7 @@ import UIKit
 class LiquidTableViewController: UITableViewController, CellProtocol {
     var ingredients = [Ingredient]()
     var selectedIngredients = [Ingredient]()
-
+    
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
         guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
         print("cell at indexpath \(String(describing: indexPath)) tapped with switch status \(status)")
@@ -35,7 +35,7 @@ class LiquidTableViewController: UITableViewController, CellProtocol {
                 fatalError()
         }
         print(ingredients)
-        self.ingredients = ingredients        
+        self.ingredients = ingredients
         let ingredientNib = UINib(nibName: "IngredientCell", bundle: nil)
         tableView.register(ingredientNib, forCellReuseIdentifier: "IngredientCell")
         tableView.estimatedRowHeight = 50

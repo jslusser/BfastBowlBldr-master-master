@@ -11,7 +11,7 @@ import UIKit
 class AddInTableViewController: UITableViewController, CellProtocol {
     var ingredients = [Ingredient]()
     var selectedIngredients = [Ingredient]()
-
+    
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: IngredientCell) {
         guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
         print("cell at indexpath \(String(describing: indexPath)) tapped with switch status \(status)")
@@ -52,7 +52,7 @@ class AddInTableViewController: UITableViewController, CellProtocol {
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "IngredientCell", for: indexPath) as! IngredientCell
-        let row = indexPath.row        
+        let row = indexPath.row
         cell.configure(textForLabel: ingredients[row].name, image: ingredients[row].imageString, isSelected: selectedIngredients.contains {$0.name == ingredients[row].name}, setDelegate: self)
         return cell}
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -83,7 +83,7 @@ class AddInTableViewController: UITableViewController, CellProtocol {
             detailViewController.ingredientPurchase = ingredients[row].purchaseURL
         }
         if segue.identifier == "SelectFruit" {
-         //   print (selectedIngredients)
+            //   print (selectedIngredients)
             let FruitTableViewController = segue.destination as! FruitTableViewController
             FruitTableViewController.selectedIngredients = selectedIngredients
         }
