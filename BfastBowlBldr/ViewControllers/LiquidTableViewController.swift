@@ -28,7 +28,6 @@ class LiquidTableViewController: UITableViewController, CellProtocol {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        super.viewDidLoad()
         guard let url = Bundle.main.url(forResource: "Liquid", withExtension: "json"),
             let liquidJSONData = try? Data(contentsOf: url),
             let ingredients = try? JSONDecoder().decode(Array<Ingredient>.self, from: liquidJSONData) else {
