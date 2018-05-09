@@ -40,6 +40,7 @@
 		94F1A7A920641F0C001B3C03 /* BYBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F1A7A820641F0C001B3C03 /* BYBTableViewController.swift */; };
 		94F45E202084489C007C679B /* Pods-BreakfastBowlBuilder-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 94F45E1F2084489C007C679B /* Pods-BreakfastBowlBuilder-frameworks.sh */; };
 		94F45E2220844E5F007C679B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94F45E2120844E5F007C679B /* GoogleService-Info.plist */; };
+		94FFD12420A3A2E8001A3548 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94FFD12620A3A2E8001A3548 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		94F1A7A820641F0C001B3C03 /* BYBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTableViewController.swift; sourceTree = "<group>"; };
 		94F45E1F2084489C007C679B /* Pods-BreakfastBowlBuilder-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "Pods-BreakfastBowlBuilder-frameworks.sh"; path = "Pods/Target Support Files/Pods-BreakfastBowlBuilder/Pods-BreakfastBowlBuilder-frameworks.sh"; sourceTree = "<group>"; };
 		94F45E2120844E5F007C679B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		94FFD12520A3A2E8001A3548 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D9A74C0F805CD0AC60437539 /* Pods_BreakfastBowlBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreakfastBowlBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC44696526D383633D0ABCD /* Pods-BreakfastBowlBuilder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakfastBowlBuilder.release.xcconfig"; path = "Pods/Target Support Files/Pods-BreakfastBowlBuilder/Pods-BreakfastBowlBuilder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +104,7 @@
 				943274A81F6B09FF00E341A2 /* MainMenuTableViewController.swift */,
 				943274AA1F6B2FAF00E341A2 /* IngredientTableViewController.swift */,
 				943274AE1F6B3CB900E341A2 /* IngredientDetailViewController.swift */,
+				94FFD12620A3A2E8001A3548 /* Localizable.strings */,
 				949782491F6C3261003AB3E7 /* WebsiteViewController.swift */,
 				9493AA6C1F72B50100F6604B /* LiquidTableViewController.swift */,
 				9493AA761F72CA0500F6604B /* AddInTableViewController.swift */,
@@ -266,6 +269,7 @@
 				94B1596F209A5AAE008B3D58 /* fruit.json in Resources */,
 				947380642097F67E0082AA5C /* Grain.json in Resources */,
 				94F45E202084489C007C679B /* Pods-BreakfastBowlBuilder-frameworks.sh in Resources */,
+				94FFD12420A3A2E8001A3548 /* Localizable.strings in Resources */,
 				94BC06821F6037BD0075A5BF /* Main.storyboard in Resources */,
 				94B1596D209A5325008B3D58 /* addIn.json in Resources */,
 				94F45E2220844E5F007C679B /* GoogleService-Info.plist in Resources */,
@@ -384,6 +388,14 @@
 				94BC06861F6037BD0075A5BF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		94FFD12620A3A2E8001A3548 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94FFD12520A3A2E8001A3548 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
