@@ -37,6 +37,7 @@
 		94BC06871F6037BD0075A5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BC06851F6037BD0075A5BF /* LaunchScreen.storyboard */; };
 		94C301D82064574D004DA2F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C301D72064574D004DA2F1 /* Assets.xcassets */; };
 		94D3262B1F83ABCB006E397C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D3262A1F83ABCB006E397C /* Ingredient.swift */; };
+		94E5BD1420A49CA6004AFD3D /* recipe.json in Resources */ = {isa = PBXBuildFile; fileRef = 94E5BD1320A49CA5004AFD3D /* recipe.json */; };
 		94F1A7A920641F0C001B3C03 /* BYBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F1A7A820641F0C001B3C03 /* BYBTableViewController.swift */; };
 		94F45E202084489C007C679B /* Pods-BreakfastBowlBuilder-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 94F45E1F2084489C007C679B /* Pods-BreakfastBowlBuilder-frameworks.sh */; };
 		94F45E2220844E5F007C679B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94F45E2120844E5F007C679B /* GoogleService-Info.plist */; };
@@ -76,6 +77,7 @@
 		94BC06881F6037BD0075A5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94C301D72064574D004DA2F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94D3262A1F83ABCB006E397C /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		94E5BD1320A49CA5004AFD3D /* recipe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipe.json; path = ../../../../../Desktop/recipe.json; sourceTree = "<group>"; };
 		94F1A7A820641F0C001B3C03 /* BYBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTableViewController.swift; sourceTree = "<group>"; };
 		94F45E1F2084489C007C679B /* Pods-BreakfastBowlBuilder-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "Pods-BreakfastBowlBuilder-frameworks.sh"; path = "Pods/Target Support Files/Pods-BreakfastBowlBuilder/Pods-BreakfastBowlBuilder-frameworks.sh"; sourceTree = "<group>"; };
 		94F45E2120844E5F007C679B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				94B1596E209A5AAE008B3D58 /* fruit.json */,
 				94B15970209A63DD008B3D58 /* topping.json */,
 				94B15972209A711B008B3D58 /* equipment.json */,
+				94E5BD1320A49CA5004AFD3D /* recipe.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				94B15973209A711B008B3D58 /* equipment.json in Resources */,
 				94B15971209A63DD008B3D58 /* topping.json in Resources */,
 				94C301D82064574D004DA2F1 /* Assets.xcassets in Resources */,
+				94E5BD1420A49CA6004AFD3D /* recipe.json in Resources */,
 				94B1596B209A4B9C008B3D58 /* Liquid.json in Resources */,
 				94B1596F209A5AAE008B3D58 /* fruit.json in Resources */,
 				947380642097F67E0082AA5C /* Grain.json in Resources */,
