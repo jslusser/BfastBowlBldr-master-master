@@ -18,7 +18,6 @@
 		943274AB1F6B2FAF00E341A2 /* IngredientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943274AA1F6B2FAF00E341A2 /* IngredientTableViewController.swift */; };
 		943274AF1F6B3CB900E341A2 /* IngredientDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943274AE1F6B3CB900E341A2 /* IngredientDetailViewController.swift */; };
 		9456341B1F73C3AC00D19B6C /* AppBackstoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9456341A1F73C3AC00D19B6C /* AppBackstoryViewController.swift */; };
-		947380642097F67E0082AA5C /* Grain.json in Resources */ = {isa = PBXBuildFile; fileRef = 947380632097F67D0082AA5C /* Grain.json */; };
 		948766521F731AAD00971F42 /* HowItWorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948766511F731AAD00971F42 /* HowItWorksViewController.swift */; };
 		94935B612063263800E55D6B /* BuildYourBowlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94935B602063263800E55D6B /* BuildYourBowlTableViewCell.swift */; };
 		9493AA6D1F72B50100F6604B /* LiquidTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9493AA6C1F72B50100F6604B /* LiquidTableViewController.swift */; };
@@ -27,17 +26,18 @@
 		9493AA791F72D17E00F6604B /* FruitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9493AA781F72D17E00F6604B /* FruitTableViewController.swift */; };
 		9493AA7F1F72D94F00F6604B /* ToppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9493AA7E1F72D94F00F6604B /* ToppingTableViewController.swift */; };
 		9497824A1F6C3261003AB3E7 /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949782491F6C3261003AB3E7 /* WebsiteViewController.swift */; };
-		94B1596B209A4B9C008B3D58 /* Liquid.json in Resources */ = {isa = PBXBuildFile; fileRef = 94B1596A209A4B9C008B3D58 /* Liquid.json */; };
-		94B1596D209A5325008B3D58 /* addIn.json in Resources */ = {isa = PBXBuildFile; fileRef = 94B1596C209A5325008B3D58 /* addIn.json */; };
-		94B1596F209A5AAE008B3D58 /* fruit.json in Resources */ = {isa = PBXBuildFile; fileRef = 94B1596E209A5AAE008B3D58 /* fruit.json */; };
-		94B15971209A63DD008B3D58 /* topping.json in Resources */ = {isa = PBXBuildFile; fileRef = 94B15970209A63DD008B3D58 /* topping.json */; };
-		94B15973209A711B008B3D58 /* equipment.json in Resources */ = {isa = PBXBuildFile; fileRef = 94B15972209A711B008B3D58 /* equipment.json */; };
 		94BC067D1F6037BD0075A5BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BC067C1F6037BD0075A5BF /* AppDelegate.swift */; };
 		94BC06821F6037BD0075A5BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BC06801F6037BD0075A5BF /* Main.storyboard */; };
 		94BC06871F6037BD0075A5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BC06851F6037BD0075A5BF /* LaunchScreen.storyboard */; };
 		94C301D82064574D004DA2F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C301D72064574D004DA2F1 /* Assets.xcassets */; };
 		94D3262B1F83ABCB006E397C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D3262A1F83ABCB006E397C /* Ingredient.swift */; };
-		94E5BD1420A49CA6004AFD3D /* recipe.json in Resources */ = {isa = PBXBuildFile; fileRef = 94E5BD1320A49CA5004AFD3D /* recipe.json */; };
+		94E5BD1D20A5D878004AFD3D /* Grain.json in Resources */ = {isa = PBXBuildFile; fileRef = 94E5BD1F20A5D878004AFD3D /* Grain.json */; };
+		94E5BD2020A5D897004AFD3D /* Liquid.json in Resources */ = {isa = PBXBuildFile; fileRef = 94E5BD2220A5D897004AFD3D /* Liquid.json */; };
+		94E5BD2320A5D89F004AFD3D /* addIn.json in Resources */ = {isa = PBXBuildFile; fileRef = 94E5BD2520A5D89F004AFD3D /* addIn.json */; };
+		94E5BD2620A5D8A7004AFD3D /* fruit.json in Resources */ = {isa = PBXBuildFile; fileRef = 94E5BD2820A5D8A7004AFD3D /* fruit.json */; };
+		94E5BD2920A5D8B4004AFD3D /* topping.json in Resources */ = {isa = PBXBuildFile; fileRef = 94E5BD2B20A5D8B4004AFD3D /* topping.json */; };
+		94E5BD2C20A5D8BC004AFD3D /* equipment.json in Resources */ = {isa = PBXBuildFile; fileRef = 94E5BD2E20A5D8BC004AFD3D /* equipment.json */; };
+		94E5BD2F20A5D8C5004AFD3D /* recipe.json in Resources */ = {isa = PBXBuildFile; fileRef = 94E5BD3120A5D8C5004AFD3D /* recipe.json */; };
 		94F1A7A920641F0C001B3C03 /* BYBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F1A7A820641F0C001B3C03 /* BYBTableViewController.swift */; };
 		94F45E202084489C007C679B /* Pods-BreakfastBowlBuilder-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 94F45E1F2084489C007C679B /* Pods-BreakfastBowlBuilder-frameworks.sh */; };
 		94F45E2220844E5F007C679B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94F45E2120844E5F007C679B /* GoogleService-Info.plist */; };
@@ -56,7 +56,6 @@
 		943274AA1F6B2FAF00E341A2 /* IngredientTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTableViewController.swift; sourceTree = "<group>"; };
 		943274AE1F6B3CB900E341A2 /* IngredientDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientDetailViewController.swift; sourceTree = "<group>"; };
 		9456341A1F73C3AC00D19B6C /* AppBackstoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackstoryViewController.swift; sourceTree = "<group>"; };
-		947380632097F67D0082AA5C /* Grain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Grain.json; sourceTree = "<group>"; };
 		948766511F731AAD00971F42 /* HowItWorksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowItWorksViewController.swift; sourceTree = "<group>"; };
 		94935B602063263800E55D6B /* BuildYourBowlTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildYourBowlTableViewCell.swift; sourceTree = "<group>"; };
 		9493AA6C1F72B50100F6604B /* LiquidTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidTableViewController.swift; sourceTree = "<group>"; };
@@ -65,11 +64,6 @@
 		9493AA781F72D17E00F6604B /* FruitTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableViewController.swift; sourceTree = "<group>"; };
 		9493AA7E1F72D94F00F6604B /* ToppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToppingTableViewController.swift; sourceTree = "<group>"; };
 		949782491F6C3261003AB3E7 /* WebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
-		94B1596A209A4B9C008B3D58 /* Liquid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Liquid.json; sourceTree = "<group>"; };
-		94B1596C209A5325008B3D58 /* addIn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = addIn.json; sourceTree = "<group>"; };
-		94B1596E209A5AAE008B3D58 /* fruit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fruit.json; sourceTree = "<group>"; };
-		94B15970209A63DD008B3D58 /* topping.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topping.json; sourceTree = "<group>"; };
-		94B15972209A711B008B3D58 /* equipment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = equipment.json; sourceTree = "<group>"; };
 		94BC06791F6037BD0075A5BF /* BfastBowlBldr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = BfastBowlBldr.app; path = BreakfastBowlBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94BC067C1F6037BD0075A5BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94BC06811F6037BD0075A5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,7 +71,14 @@
 		94BC06881F6037BD0075A5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94C301D72064574D004DA2F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94D3262A1F83ABCB006E397C /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
-		94E5BD1320A49CA5004AFD3D /* recipe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipe.json; path = ../../../../../Desktop/recipe.json; sourceTree = "<group>"; };
+		94E5BD1E20A5D878004AFD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Grain.json; sourceTree = "<group>"; };
+		94E5BD2120A5D897004AFD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Liquid.json; sourceTree = "<group>"; };
+		94E5BD2420A5D89F004AFD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/addIn.json; sourceTree = "<group>"; };
+		94E5BD2720A5D8A7004AFD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/fruit.json; sourceTree = "<group>"; };
+		94E5BD2A20A5D8B4004AFD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/topping.json; sourceTree = "<group>"; };
+		94E5BD2D20A5D8BC004AFD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/equipment.json; sourceTree = "<group>"; };
+		94E5BD3020A5D8C5004AFD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/recipe.json; sourceTree = "<group>"; };
+		94E5BD3320A5D9B1004AFD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		94F1A7A820641F0C001B3C03 /* BYBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTableViewController.swift; sourceTree = "<group>"; };
 		94F45E1F2084489C007C679B /* Pods-BreakfastBowlBuilder-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "Pods-BreakfastBowlBuilder-frameworks.sh"; path = "Pods/Target Support Files/Pods-BreakfastBowlBuilder/Pods-BreakfastBowlBuilder-frameworks.sh"; sourceTree = "<group>"; };
 		94F45E2120844E5F007C679B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -138,13 +139,13 @@
 			isa = PBXGroup;
 			children = (
 				94D3262A1F83ABCB006E397C /* Ingredient.swift */,
-				947380632097F67D0082AA5C /* Grain.json */,
-				94B1596A209A4B9C008B3D58 /* Liquid.json */,
-				94B1596C209A5325008B3D58 /* addIn.json */,
-				94B1596E209A5AAE008B3D58 /* fruit.json */,
-				94B15970209A63DD008B3D58 /* topping.json */,
-				94B15972209A711B008B3D58 /* equipment.json */,
-				94E5BD1320A49CA5004AFD3D /* recipe.json */,
+				94E5BD1F20A5D878004AFD3D /* Grain.json */,
+				94E5BD2220A5D897004AFD3D /* Liquid.json */,
+				94E5BD2520A5D89F004AFD3D /* addIn.json */,
+				94E5BD2820A5D8A7004AFD3D /* fruit.json */,
+				94E5BD2B20A5D8B4004AFD3D /* topping.json */,
+				94E5BD2E20A5D8BC004AFD3D /* equipment.json */,
+				94E5BD3120A5D8C5004AFD3D /* recipe.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -265,17 +266,17 @@
 			files = (
 				6240181B1F8DC37100CD24DC /* IngredientCell.xib in Resources */,
 				94BC06871F6037BD0075A5BF /* LaunchScreen.storyboard in Resources */,
-				94B15973209A711B008B3D58 /* equipment.json in Resources */,
-				94B15971209A63DD008B3D58 /* topping.json in Resources */,
+				94E5BD2C20A5D8BC004AFD3D /* equipment.json in Resources */,
+				94E5BD2920A5D8B4004AFD3D /* topping.json in Resources */,
 				94C301D82064574D004DA2F1 /* Assets.xcassets in Resources */,
-				94E5BD1420A49CA6004AFD3D /* recipe.json in Resources */,
-				94B1596B209A4B9C008B3D58 /* Liquid.json in Resources */,
-				94B1596F209A5AAE008B3D58 /* fruit.json in Resources */,
-				947380642097F67E0082AA5C /* Grain.json in Resources */,
+				94E5BD2F20A5D8C5004AFD3D /* recipe.json in Resources */,
+				94E5BD2020A5D897004AFD3D /* Liquid.json in Resources */,
+				94E5BD2620A5D8A7004AFD3D /* fruit.json in Resources */,
+				94E5BD1D20A5D878004AFD3D /* Grain.json in Resources */,
 				94F45E202084489C007C679B /* Pods-BreakfastBowlBuilder-frameworks.sh in Resources */,
 				94FFD12420A3A2E8001A3548 /* Localizable.strings in Resources */,
 				94BC06821F6037BD0075A5BF /* Main.storyboard in Resources */,
-				94B1596D209A5325008B3D58 /* addIn.json in Resources */,
+				94E5BD2320A5D89F004AFD3D /* addIn.json in Resources */,
 				94F45E2220844E5F007C679B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +383,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				94BC06811F6037BD0075A5BF /* Base */,
+				94E5BD3320A5D9B1004AFD3D /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -392,6 +394,62 @@
 				94BC06861F6037BD0075A5BF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		94E5BD1F20A5D878004AFD3D /* Grain.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E5BD1E20A5D878004AFD3D /* en */,
+			);
+			name = Grain.json;
+			sourceTree = "<group>";
+		};
+		94E5BD2220A5D897004AFD3D /* Liquid.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E5BD2120A5D897004AFD3D /* en */,
+			);
+			name = Liquid.json;
+			sourceTree = "<group>";
+		};
+		94E5BD2520A5D89F004AFD3D /* addIn.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E5BD2420A5D89F004AFD3D /* en */,
+			);
+			name = addIn.json;
+			sourceTree = "<group>";
+		};
+		94E5BD2820A5D8A7004AFD3D /* fruit.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E5BD2720A5D8A7004AFD3D /* en */,
+			);
+			name = fruit.json;
+			sourceTree = "<group>";
+		};
+		94E5BD2B20A5D8B4004AFD3D /* topping.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E5BD2A20A5D8B4004AFD3D /* en */,
+			);
+			name = topping.json;
+			sourceTree = "<group>";
+		};
+		94E5BD2E20A5D8BC004AFD3D /* equipment.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E5BD2D20A5D8BC004AFD3D /* en */,
+			);
+			name = equipment.json;
+			sourceTree = "<group>";
+		};
+		94E5BD3120A5D8C5004AFD3D /* recipe.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E5BD3020A5D8C5004AFD3D /* en */,
+			);
+			name = recipe.json;
 			sourceTree = "<group>";
 		};
 		94FFD12620A3A2E8001A3548 /* Localizable.strings */ = {
