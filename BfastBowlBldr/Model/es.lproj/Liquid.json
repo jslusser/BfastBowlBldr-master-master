@@ -1,88 +1,88 @@
  [{
-  "name": "Almond Milk",
+  "name": "Leche de almendras",
   "imageString": "AlmondMilk.jpg",
-  "copy": "Almond milk is a plant-based alternative to traditional dairy milk. Almond milk is made by grinding almonds and then blending them with filtered water. Some vitamins and minerals are naturally-occurring within the almonds and some are added. There are no artificial colors or flavors added. All brands I've seen state they are made from responsibly-grown almonds and contain no genetically modified organisms (GMOs), but I prefer to make my own.  It's super easy and only contains nuts and water.",
-  "info": "https://en.wikipedia.org/wiki/Almond_milk",
+  "copy": "La leche de almendras es una alternativa basada en plantas a la leche tradicional. La leche de almendras se elabora moliendo almendras y luego mezclándolas con agua filtrada. Algunas vitaminas y minerales se producen de forma natural dentro de las almendras y algunas se agregan. No hay colores o sabores artificiales agregados. Todas las marcas que he visto afirman que están hechas de almendras cultivadas responsablemente y no contienen organismos genéticamente modificados (OGM), pero yo prefiero hacer las mías. Es súper fácil y solo contiene nueces y agua.",
+  "info": "https://es.wikipedia.org/wiki/Leche_de_almendra",
   "purchaseURL": "https://amzn.to/2uRhEPc",
   "type": "liquid"
   },
   {
-  "name": "Cashew Milk",
+  "name": "Leche de anacardo",
   "imageString": "CashewMilk.jpg",
-  "copy": "Cashew milk is a non-dairy milk, which means it contains no lactose. In its most basic form, it's made from filtered water and cashews. Cashew milk is easily digested by most folks who are lactose intolerant.",
+  "copy": "La leche de anacardo es una leche no láctea, lo que significa que no contiene lactosa. En su forma más básica, está hecho de agua filtrada y anacardos. La leche de anacardo es fácil de digerir por la mayoría de las personas que son intolerantes a la lactosa.",
   "info": "http://www.cookinglight.com/eating-smart/smart-choices/what-is-cashew-milk",
   "purchaseURL": "https://amzn.to/2qdhKeD",
   "type": "liquid"
   },
     {
-  "name": "Coconut Milk",
+  "name": "Leche de coco",
   "imageString": "CoconutMilk.jpg",
-  "copy": "The coconut fruit, or pulp, is first pressed to release its rich, flavorful cream (it is not the liquid found inside a coconut, as is often mistakenly assumed). Once pressed, the cream is blended with water, vitamins, minerals, thickeners or gums, and sometimes sugar.",
-  "info": "https://en.wikipedia.org/wiki/Coconut_milk",
+  "copy": "La fruta de coco, o pulpa, se prensa primero para liberar su crema rica y sabrosa (no es el líquido que se encuentra dentro de un coco, como a menudo se supone erróneamente). Una vez presionada, la crema se mezcla con agua, vitaminas, minerales, espesantes o gomas, y algunas veces azúcar.",
+  "info": "https://es.wikipedia.org/wiki/Leche_de_coco",
   "purchaseURL": "https://amzn.to/2GzrkDo",
   "type": "liquid"
   },
     {
-  "name": "Coconut Water",
+  "name": "Agua de coco",
   "imageString": "CoconutWater.jpg",
-  "copy": "I typically use Coconut Water to dilute whatever nut milk I am using, just to lighten it up a bit.  Add a splash or go for a 50/50 ratio - find whatever works for you.",
-  "info": "https://en.wikipedia.org/wiki/Coconut_water",
+  "copy": "Normalmente uso Coconut Water para diluir la leche de nuez que estoy usando, solo para aclarar un poco. Agregue una salpicadura o elija una proporción de 50/50. Encuentre lo que sea que le sirva.",
+  "info": "https://es.wikipedia.org/wiki/Agua_de_coco",
   "purchaseURL": "https://amzn.to/2Hgviy5",
   "type": "liquid"
   },
     {
-  "name": "Hemp Milk",
+  "name": "Leche de cáñamo",
   "imageString": "HempMilk.jpg",
-  "copy": "Hemp milk, or hemp seed milk, is a plant milk made from hemp seeds that are soaked and ground in water, yielding a beany-nutty cream-flavored substance.",
+  "copy": "La leche de cáñamo, o leche de cáñamo, es una leche de planta hecha de semillas de cáñamo que se remoja y se muele en agua, produciendo una sustancia con sabor a crema de nuez de bean.",
   "info": "https://en.wikipedia.org/wiki/Hemp_milk",
   "purchaseURL": "https://amzn.to/2q7FDnK",
   "type": "liquid"
   },
     {
-  "name": "Juices",
+  "name": "Jugos",
   "imageString": "FruitJuice.jpg",
-  "copy": "One morning I was completely out of nut milk, and used Orange Juice as a substitute.  It worked OK for that emerency day, but prefer to use it in combination with other milk.  So now occasionally I will add a splash of whatever juice I have on hand simply to mix things up.",
-  "info": "https://en.wikipedia.org/wiki/Juice",
+  "copy": "Una mañana me quedé sin leche de nuez y usé el Jugo de Naranja como sustituto. Funcionó bien para ese día de emergencia, pero prefieren usarlo en combinación con otra leche. Así que ahora ocasionalmente añadiré un poco del jugo que tengo a mano simplemente para mezclar las cosas.",
+  "info": "https://es.wikipedia.org/wiki/Jugo_de_frutas",
   "purchaseURL": "https://amzn.to/2HbrJZK",
   "type": "liquid"
   },
     {
-  "name": "Macadamia Milk",
+  "name": "Leche de Macadamia",
   "imageString": "MacadamiaMilk.jpg",
-  "copy": "Macadamia milk is made from macadamia nuts and is a tasty and healthy alternative to soy, oat and almond milks. Macadamia nut milk is rich, smooth and creamy.",
+  "copy": "La leche de macadamia está hecha de nueces de macadamia y es una alternativa sabrosa y saludable a las leches de soja, avena y almendras. La leche de nuez de macadamia es rica, suave y cremosa.",
   "info": "https://www.diabetichealthclinic.org/macadamia-nut-milk/",
   "purchaseURL": "https://amzn.to/2q9oB8y",
   "type": "liquid"
   },
     {
-  "name": "Oat Milk",
+  "name": "Leche de avena",
   "imageString": "OatMilk.jpg",
-  "copy": "Oat milk is what happens when you soak organic steel cut oats in water, blend the mixture at a high velocity, and then strain it. The result is a creamy, delicious, and dairy-free blend that has just a subtle hint of sweetness and a bit of grainy texture that tastes great on its own, and can be used to enhance a variety of foods.",
+  "copy": "La leche de avena es lo que sucede cuando remojas la avena orgánica en agua, mezclas la mezcla a alta velocidad y luego la cueles. El resultado es una mezcla cremosa, deliciosa y sin lácteos que tiene un toque sutil de dulzor y una textura granulosa que sabe muy bien por sí solo y que puede usarse para mejorar una variedad de alimentos.",
   "info": "https://www.livestrong.com/article/267017-what-are-the-benefits-of-oat-milk/",
   "purchaseURL": "https://amzn.to/2uJPgyg",
   "type": "liquid"
   },
     {
-  "name": "Rice Milk",
+  "name": "Leche de arroz",
   "imageString": "RiceMilk.jpg",
-  "copy": "Rice milk is a grain milk made from rice. It is mostly made from brown rice and commonly unsweetened. The sweetness in most rice milk varieties is generated by a natural enzymatic process that cleaves the carbohydrates into sugars, especially glucose, similar to the Japanese amazake.",
-  "info": "https://en.wikipedia.org/wiki/Rice_milk",
+  "copy": "La leche de arroz es una leche de grano hecha de arroz. Está hecho principalmente de arroz integral y comúnmente sin azúcar. La dulzura en la mayoría de las variedades de leche de arroz es generada por un proceso enzimático natural que divide los carbohidratos en azúcares, especialmente glucosa, similar al amazake japonés.",
+  "info": "https://es.wikipedia.org/wiki/Bebida_de_arroz",
   "purchaseURL": "https://amzn.to/2JnVqr4",
   "type": "liquid"
   },
     {
-  "name": "Smoothies",
+  "name": "Batidos",
   "imageString": "Smoothie.jpeg",
-  "copy": "Similar to my Orange Juice story, one morning I was completely out of nut milk and used a bit of extra smoothie as a substitute.  I really liked it and continue to use it as a treat now and again - use whatever smoothie recipe you like, depending on your mood and ingredients you have on hand.",
+  "copy": "Similar a mi historia sobre el Jugo de Naranja, una mañana me quedé sin leche de nuez y usé un poco de licuado extra como sustituto. Realmente me gustó y continúo usándolo como un regalo de vez en cuando: utiliza la receta de batidos que más te guste, dependiendo de tu estado de ánimo y de los ingredientes que tengas a mano.",
   "info": "https://en.wikipedia.org/wiki/Smoothie",
   "purchaseURL": "https://amzn.to/2GDbTWE",
   "type": "liquid"
   },
     {
-  "name": "Soy Milk",
+  "name": "Leche de soja",
   "imageString": "SoyMilk.jpg",
-  "copy": "Soy milk or soymilk is a plant-based drink produced by soaking and grinding soybeans, boiling the mixture, and filtering out remaining particulates. It is a stable emulsion of oil, water, and protein.",
-  "info": "https://en.wikipedia.org/wiki/Soy_milk",
+  "copy": "La leche de soya o leche de soya es una bebida a base de plantas producida remojando y moliendo soja, hirviendo la mezcla y filtrando las partículas restantes. Es una emulsión estable de aceite, agua y proteína.",
+  "info": "https://es.wikipedia.org/wiki/Bebida_de_soja",
   "purchaseURL": "https://amzn.to/2GzDegt",
   "type": "liquid"
   }]

@@ -1,15 +1,15 @@
  [{
-  "name": "Barley",
+  "name": "Cebada",
   "imageString": "Barley.jpg",
-  "copy": "Pearl Barley - one of the first grains ever cultivated - is a nice one to try if you haven't cooked with it recently.  Do use it cooked.",
+  "copy": "Pearl Barley, uno de los primeros granos cultivados, es bueno para probar si no lo has cocinado recientemente. Utilízalo cocido.",
   "info": "https://draxe.com/barley-nutrition/",
   "purchaseURL": "https://amzn.to/2JlnTxX",
   "type": "grain"
   },
   {
-  "name": "Buckwheat Groats",
+  "name": "Semillas de alforfón",
   "imageString": "Buckwheat.jpg",
-  "copy": "I like to include 1 Tablespoon or more of Buckwheat Groats with whatever other grain I select, as I find it retains it's crunchy texture and is a nice contrast to my usual Oatmeal, or a cooked grain.  I simply toss them in raw - no cooking required.",
+  "copy": "Me gusta incluir 1 cucharada o más de semillas de alforfón con cualquier otro grano que seleccione, ya que creo que conserva su textura crujiente y es un buen contraste con mi avena habitual o un grano cocido. Simplemente los arrojo en crudo, no se requiere cocinar.",
   "info": "https://draxe.com/buckwheat-nutrition/",
   "purchaseURL": "https://amzn.to/2GCDoDR",
   "type": "grain"
@@ -17,15 +17,15 @@
   {
   "name": "Bulgur",
   "imageString": "Bulgur.jpg",
-  "copy": "Bulgur Wheat is also a good choice if you need a change.  Do cook it in advance - it couldn't be any easier to make - and I love the Nutty flavor.",
+  "copy": "Bulgur Wheat es también una buena opción si necesita un cambio. Prepáralo con antelación, no podría ser más fácil de hacer, y me encanta el sabor Nutty.",
   "info": "https://draxe.com/bulgur-wheat/",
   "purchaseURL": "https://amzn.to/2HbWRsh",
   "type": "grain"
   },
   {
-  "name": "Cous Cous (Pearl)",
+  "name": "Cuscús (Perla)",
   "imageString": "Couscous.jpg",
-  "copy": "I like the larger Pearl (or Israeli) Cous Cous for a change of pace.  I usually opt for the whole wheat version, but any will do.  Use it cooked, and if you are making some other Cous Cous dish, set aside a bit for your Breakfast Bowl experimentation.",
+  "copy": "Me gusta el Cous Cous Pearl (o israelí) más grande para un cambio de ritmo. Por lo general, opto por la versión de trigo integral, pero cualquiera lo hará. Úselo cocido, y si está haciendo algún otro plato de Cous Cous, reserve un poco para la experimentación de su desayuno Bowl.",
   "info": "https://en.wikipedia.org/wiki/Couscous",
   "purchaseURL": "https://amzn.to/2Hd8Plt",
   "type": "grain"
@@ -33,15 +33,15 @@
   {
   "name": "Farro",
   "imageString": "Farro.jpeg",
-  "copy": "Farro is another one of my favorites, with a nutty flavor and unique, chewy texture.  Use it cooked.",
+  "copy": "Farro es otro de mis favoritos, con un sabor a nuez y una textura única y masticable. Úselo cocido.",
   "info": "https://www.healthline.com/nutrition/farro-benefits#section1",
   "purchaseURL": "https://amzn.to/2HaBpnd",
   "type": "grain"
   },
   {
-  "name": "Oatmeal",
+  "name": "Harina de avena",
   "imageString": "Oatmeal.jpg",
-  "copy": "Oatmeal is my go-to grain of choice.  I use it raw, as the overnight soaking does the trick.  There are several varieties to choose from (traditional, steel cut, fast-cooking), so experiment and find a brand and style that works for you.",
+  "copy": "La avena es mi grano de elección. Lo uso crudo, ya que el remojo durante la noche hace el truco. Hay varias variedades para elegir (tradicional, corte de acero, cocina rápida), así que experimente y encuentre una marca y un estilo que funcione para usted.",
   "info": "https://en.wikipedia.org/wiki/Oatmeal",
   "purchaseURL": "https://amzn.to/2JiI5R0",
   "type": "grain"
@@ -49,31 +49,31 @@
   {
   "name": "Quinoa",
   "imageString": "Quinoa.jpg",
-  "copy": "Quinoa is another go-to grain choice for me.  If I cook a big batch on a Sunday, I'll set aside some to use in bowls during the week.  Use it cooked.",
+  "copy": "La quinua es otra elección de grano para mí. Si cocino un lote grande un domingo, reservaré algunos para usar en cuencos durante la semana. Úselo cocido.",
   "info": "https://en.wikipedia.org/wiki/Quinoa",
   "purchaseURL": "https://amzn.to/2JmoCiy",
   "type": "grain"
   },
   {
-  "name": "Rice",
+  "name": "Arroz",
   "imageString": "Rice.jpg",
-  "copy": "There are so many varieties of Rice to choose from that you just need to start with one and work your way through all of the choices.  Brown and Black are my current favorites.  If you like this, you should check out Congee for another breakfast (or any meal!) treat.  Use it cooked.",
+  "copy": "Hay tantas variedades de arroz para elegir que solo necesita comenzar con una y seguir todas las opciones. Marrón y negro son mis favoritos actuales. Si te gusta esto, deberías revisar Congee para otro desayuno (¡o cualquier comida!). Úselo cocido.",
   "info": "https://en.wikipedia.org/wiki/Rice",
   "purchaseURL": "https://amzn.to/2GzNeGH",
   "type": "grain"
   },
   {
-  "name": "Spelt",
+  "name": "Espelta",
   "imageString": "Spelt.jpeg",
-  "copy": "Another ancient grain, Spelt is very similar to wheat nutritionally but slightly higher in zinc and protein.  Use it cooked.",
+  "copy": "Otro grano antiguo, la espelta es muy similar al trigo nutricionalmente pero un poco más alto en zinc y proteína. Úselo cocido.",
   "info": "https://www.healthline.com/nutrition/what-is-spelt#modal-close",
   "purchaseURL": "https://amzn.to/2GDdSKP",
   "type": "grain"
   },
   {
-  "name": "Wheat Berries",
+  "name": "Granos de trigo",
   "imageString": "Wheatberries.jpeg",
-  "copy": "The wheat berry, or wheatberry, is the whole grain form of wheat, and comes in several varieties including Hard Red and Soft White.  Use it cooked.",
+  "copy": "La baya de trigo, o wheatberry, es la forma de grano entero del trigo, y viene en varias variedades, incluyendo Hard Red y Soft White. Úselo cocido.",
   "info": "https://www.thekitchn.com/chewy-nutty-nutritious-wheat-berries-ingredient-spotlight-176749",
   "purchaseURL": "https://amzn.to/2GzuT8I",
   "type": "grain"

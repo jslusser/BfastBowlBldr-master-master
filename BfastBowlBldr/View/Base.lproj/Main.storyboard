@@ -184,14 +184,14 @@
                                             </constraints>
                                         </imageView>
                                         <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tPq-V1-WKh">
-                                            <rect key="frame" x="287" y="-15.666666666666668" width="51" height="31"/>
+                                            <rect key="frame" x="508" y="-15.5" width="51" height="31"/>
                                             <color key="onTintColor" red="0.22179937359999999" green="0.76650786400000004" blue="0.93796795610000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="switchSelected:" destination="WnV-qZ-Rkx" eventType="valueChanged" id="aSR-wx-jIF"/>
                                             </connections>
                                         </switch>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ai9-PZ-Cza">
-                                            <rect key="frame" x="49" y="-10.333333333333334" width="42" height="20.333333333333332"/>
+                                            <rect key="frame" x="49" y="-10.5" width="42" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>

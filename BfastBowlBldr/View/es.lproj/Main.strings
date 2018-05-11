@@ -3,79 +3,79 @@
 "2SW-P5-9tf.title" = "AddIn";
 
 /* Class = "UILabel"; text = "App Backstory"; ObjectID = "2ca-bX-Tbz"; */
-"2ca-bX-Tbz.text" = "App Backstory";
+"2ca-bX-Tbz.text" = "Antecedentes de la aplicación";
 
 /* Class = "UITableViewController"; title = "Recipe Ideas"; ObjectID = "3xi-xT-msh"; */
-"3xi-xT-msh.title" = "Recipe Ideas";
+"3xi-xT-msh.title" = "Ideas de recetas";
 
 /* Class = "UITableViewController"; title = "Equipment"; ObjectID = "6f2-p1-hJx"; */
-"6f2-p1-hJx.title" = "Equipment";
+"6f2-p1-hJx.title" = "Equipo";
 
 /* Class = "UIViewController"; title = "How It Works"; ObjectID = "76u-8m-Ng9"; */
-"76u-8m-Ng9.title" = "How It Works";
+"76u-8m-Ng9.title" = "Cómo funciona";
 
 /* Class = "UILabel"; text = "Step 2 of 5; Select your Liquids"; ObjectID = "9Am-du-AXP"; */
-"9Am-du-AXP.text" = "Step 2 of 5; Select your Liquids";
+"9Am-du-AXP.text" = "Paso 2 de 5; Seleccione sus líquidos";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "Ai9-PZ-Cza"; */
 "Ai9-PZ-Cza.text" = "Label";
 
 /* Class = "UIButton"; normalTitle = "Build Your Bowl!"; ObjectID = "HJh-qg-aTU"; */
-"HJh-qg-aTU.normalTitle" = "Build Your Bowl!";
+"HJh-qg-aTU.normalTitle" = "Construye tu Bowl!";
 
 /* Class = "UILabel"; text = "Get building!  Step 1  Combine your Grains, Liquids and Add-Ins in a bowl, cover and refrigerate overnight.  Step 2  The next morning add your Fruit and Toppings and enjoy!"; ObjectID = "IrA-hk-FSB"; */
-"IrA-hk-FSB.text" = "Get building!  Step 1  Combine your Grains, Liquids and Add-Ins in a bowl, cover and refrigerate overnight.  Step 2  The next morning add your Fruit and Toppings and enjoy!";
+"IrA-hk-FSB.text" = "Obtener construcción!  Paso 1  Combine sus granos, líquidos y complementos en un recipiente, cubra y refrigere durante la noche.  Paso 2  A la mañana siguiente agrega tu Fruta y Ingredientes y disfruta!";
 
 /* Class = "UINavigationItem"; title = "Main Menu"; ObjectID = "Ixg-cS-j7a"; */
-"Ixg-cS-j7a.title" = "Main Menu";
+"Ixg-cS-j7a.title" = "Menú principal";
 
 /* Class = "UILabel"; text = "Step 1 of 5; Select your Grains"; ObjectID = "PPe-UR-2oK"; */
-"PPe-UR-2oK.text" = "Step 1 of 5; Select your Grains";
+"PPe-UR-2oK.text" = "Paso 1 de 5; Seleccione sus granos";
 
 /* Class = "UILabel"; text = "Step 4 of 5; Select your Fruits"; ObjectID = "QQw-IU-Sbm"; */
-"QQw-IU-Sbm.text" = "Step 4 of 5; Select your Fruits";
+"QQw-IU-Sbm.text" = "Paso 4 de 5; Seleccione sus frutas";
 
 /* Class = "UIButton"; normalTitle = "Move on to Step 3"; ObjectID = "RVV-uu-AtO"; */
-"RVV-uu-AtO.normalTitle" = "Move on to Step 3";
+"RVV-uu-AtO.normalTitle" = "Avance al paso 3";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "T9J-f3-4I9"; */
 "T9J-f3-4I9.text" = "Label";
 
 /* Class = "UIButton"; normalTitle = "Move on to Step 4"; ObjectID = "VdW-CM-550"; */
-"VdW-CM-550.normalTitle" = "Move on to Step 4";
+"VdW-CM-550.normalTitle" = "Avance al paso 4";
 
 /* Class = "UIButton"; normalTitle = "More Info"; ObjectID = "WEM-a5-xzN"; */
-"WEM-a5-xzN.normalTitle" = "More Info";
+"WEM-a5-xzN.normalTitle" = "Más información";
 
 /* Class = "UILabel"; text = "Build Your Bowl!"; ObjectID = "WS0-DO-ilI"; */
-"WS0-DO-ilI.text" = "Build Your Bowl!";
+"WS0-DO-ilI.text" = "Construye tu Bowl!";
 
 /* Class = "UILabel"; text = "Additional Copy"; ObjectID = "XRc-7d-r3g"; */
-"XRc-7d-r3g.text" = "Additional Copy";
+"XRc-7d-r3g.text" = "Copia adicional";
 
 /* Class = "UILabel"; text = "Equipment"; ObjectID = "YKg-22-T3e"; */
-"YKg-22-T3e.text" = "Equipment";
+"YKg-22-T3e.text" = "Equipo";
 
 /* Class = "UITableViewController"; title = "Topping"; ObjectID = "ZZM-nq-wbH"; */
-"ZZM-nq-wbH.title" = "Topping";
+"ZZM-nq-wbH.title" = "Cubierta";
 
 /* Class = "UIViewController"; title = "Bowl Recipe"; ObjectID = "ZfO-kb-ktF"; */
-"ZfO-kb-ktF.title" = "Bowl Recipe";
+"ZfO-kb-ktF.title" = "Receta del cuenco";
 
 /* Class = "UIButton"; normalTitle = "Move on to Step 5"; ObjectID = "cIJ-r1-RrI"; */
-"cIJ-r1-RrI.normalTitle" = "Move on to Step 5";
+"cIJ-r1-RrI.normalTitle" = "Avance al paso 5";
 
 /* Class = "UITableViewController"; title = "Grain"; ObjectID = "dsF-Y6-NpQ"; */
-"dsF-Y6-NpQ.title" = "Grain";
+"dsF-Y6-NpQ.title" = "Grano";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "eob-74-1ZD"; */
 "eob-74-1ZD.text" = "Label";
 
 /* Class = "UIViewController"; title = "Details"; ObjectID = "f7K-61-96T"; */
-"f7K-61-96T.title" = "Details";
+"f7K-61-96T.title" = "Detalles";
 
 /* Class = "UILabel"; text = "You selected\n"; ObjectID = "ia7-wi-4tu"; */
-"ia7-wi-4tu.text" = "You selected\n";
+"ia7-wi-4tu.text" = "Usted seleccionó\n";
 
 /* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "ncj-R1-cCF"; */
 "ncj-R1-cCF.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
@@ -84,31 +84,31 @@
 "nvg-qL-WH3.text" = "Label";
 
 /* Class = "UIButton"; normalTitle = "Move on to Step 2"; ObjectID = "ohE-rh-4Oa"; */
-"ohE-rh-4Oa.normalTitle" = "Move on to Step 2";
+"ohE-rh-4Oa.normalTitle" = "Avance al Paso 2";
 
 /* Class = "UITableViewController"; title = "Fruit"; ObjectID = "p1B-DK-I4V"; */
-"p1B-DK-I4V.title" = "Fruit";
+"p1B-DK-I4V.title" = "Fruta";
 
 /* Class = "UILabel"; text = "Step 3 of 5; Select your Add-Ins"; ObjectID = "pir-5L-dBF"; */
-"pir-5L-dBF.text" = "Step 3 of 5; Select your Add-Ins";
+"pir-5L-dBF.text" = "Paso 3 de 5; Select your Add-Ins";
 
 /* Class = "UILabel"; text = "Bowl Recipe Ideas"; ObjectID = "qAw-5H-U1g"; */
-"qAw-5H-U1g.text" = "Bowl Recipe Ideas";
+"qAw-5H-U1g.text" = "Ideas de receta de tazones";
 
 /* Class = "UILabel"; text = "Step 5 of 5; Select your Toppings"; ObjectID = "rHa-US-fXg"; */
-"rHa-US-fXg.text" = "Step 5 of 5; Select your Toppings";
+"rHa-US-fXg.text" = "Paso 5 de 5; Seleccione sus Toppings";
 
 /* Class = "UIButton"; normalTitle = "Order Online"; ObjectID = "wP9-dc-ul3"; */
-"wP9-dc-ul3.normalTitle" = "Order Online";
+"wP9-dc-ul3.normalTitle" = "Comprar online";
 
 /* Class = "UITableViewController"; title = "Build Your Bowl"; ObjectID = "wtC-5r-Awh"; */
-"wtC-5r-Awh.title" = "Build Your Bowl";
+"wtC-5r-Awh.title" = "Construye tu Bowl";
 
 /* Class = "UITableViewController"; title = "Liquid"; ObjectID = "ycj-X7-Mf2"; */
-"ycj-X7-Mf2.title" = "Liquid";
+"ycj-X7-Mf2.title" = "Líquido";
 
 /* Class = "UILabel"; text = "How It Works"; ObjectID = "zlF-Qx-9RV"; */
-"zlF-Qx-9RV.text" = "How It Works";
+"zlF-Qx-9RV.text" = "Cómo funciona";
 
 /* Class = "UIViewController"; title = "App Backstory"; ObjectID = "zlJ-7k-KPV"; */
-"zlJ-7k-KPV.title" = "App Backstory";
+"zlJ-7k-KPV.title" = "Antecedentes de la aplicación";

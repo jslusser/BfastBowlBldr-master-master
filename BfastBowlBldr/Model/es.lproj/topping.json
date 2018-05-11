@@ -1,119 +1,119 @@
 [{
- "name": "Almond",
+ "name": "Almendra",
  "imageString": "Almond.jpg",
- "copy": "Almonds contain lots of healthy fats, fiber, protein, magnesium and vitamin E. The health benefits of almonds include lower blood sugar levels, reduced blood pressure and lower cholesterol levels. They can also reduce hunger and promote weight loss.",
+ "copy": "Las almendras contienen muchas grasas saludables, fibra, proteínas, magnesio y vitamina E. Los beneficios para la salud de las almendras incluyen niveles más bajos de azúcar en la sangre, presión arterial reducida y niveles más bajos de colesterol. También pueden reducir el hambre y promover la pérdida de peso.",
  "info": "https://www.bbcgoodfood.com/howto/guide/health-benefits-almonds",
  "purchaseURL": "https://amzn.to/2HhyWaC",
  "type": "topping"
  },
  {
- "name": "Basil",
+ "name": "Albahaca",
  "imageString": "Basil.jpeg",
- "copy": "Basil for breakfast?  Trust me - if you are using strawberries in your bowl, add some chopped, fresh basil leaves and I think you will find they compliment each other quite nicely.",
+ "copy": "Basil para el desayuno? Confíe en mí: si usa fresas en su plato, agregue hojas de albahaca picadas y frescas, y creo que encontrará que se complementan muy bien.",
  "info": "https://www.precisionnutrition.com/healthy-basil",
  "purchaseURL": "https://amzn.to/2GWV9xg",
  "type": "topping"
  },
  {
- "name": "Brazil Nut",
+ "name": "Nuez de Brasil",
  "imageString": "Brazil.jpg",
- "copy": "Brazil nuts are commonly eaten raw or blanched and are high in protein, fiber, selenium, thiamine, copper and magnesium — and in addition to being the best selenium food source in the world, they provide numerous benefits for our health.",
+ "copy": "Las nueces de Brasil se comen comúnmente crudas o blanqueadas y son ricas en proteínas, fibra, selenio, tiamina, cobre y magnesio, y además de ser la mejor fuente de alimentos de selenio en el mundo, proporcionan numerosos beneficios para nuestra salud.",
  "info": "https://en.wikipedia.org/wiki/Brazil_nut",
  "purchaseURL": "https://amzn.to/2HbScWZ",
  "type": "topping"
  },
  {
- "name": "Coconut",
+ "name": "Coco",
  "imageString": "Coconut.jpeg",
- "copy": "There are two types of shredded coconut—sweetened and unsweetened (I only use unsweetened).  Both start out as raw coconut meat that's then boiled, grated, and dried. The dehydrated shreds are either immediately packaged and sold as unsweetened coconut or soaked in a liquid sugar solution and dried again to make sweetened coconut.",
+ "copy": "Hay dos tipos de endulzado con coco rallado y sin endulzar (solo uso sin endulzar). Ambos comienzan como carne cruda de coco que luego se hierve, se ralla y se seca. Los fragmentos deshidratados se envasan inmediatamente y se venden como coco sin endulzar o se empapan en una solución de azúcar líquida y se vuelven a secar para hacer coco endulzado.",
  "info": "http://healthyeating.sfgate.com/benefits-eating-shredded-coconut-4027.html",
  "purchaseURL": "https://amzn.to/2IFZSQW",
  "type": "topping"
  },
  {
- "name": "Hemp Seed",
+ "name": "Semilla de canamo",
  "imageString": "Hempseed.jpg",
- "copy": "Hemp seeds are rich in healthy fats and essential fatty acids. They are also a great protein source and contain high amounts of vitamin E, phosphorus, potassium, sodium, magnesium, sulfur, calcium, iron and zinc.",
+ "copy": "Las semillas de cáñamo son ricas en grasas saludables y ácidos grasos esenciales. También son una gran fuente de proteínas y contienen altas cantidades de vitamina E, fósforo, potasio, sodio, magnesio, azufre, calcio, hierro y zinc.",
  "info": "https://www.healthline.com/nutrition/6-health-benefits-of-hemp-seeds",
  "purchaseURL": "https://amzn.to/2GD5Txo",
  "type": "topping"
  },
  {
- "name": "Honey",
+ "name": "Miel",
  "imageString": "Honey.jpeg",
- "copy": "8 Health Benefits of Raw Honey; Healthy Weight Management. Counters Pollen Allergies. Natural Energy Source. Antioxidant Powerhouse. Sleep Promoter. Wound and Ulcer Healer. Diabetes Aid. Natural Cough Syrup.",
+ "copy": "8 beneficios de salud de la miel cruda; Control de peso saludable. Contrarresta las alergias al polen. Fuente de energía natural. Potencia antioxidante. Promotor del sueño Sanador de heridas y úlceras. Diabetes Aid. Jarabe natural para la tos.",
  "info": "https://en.wikipedia.org/wiki/Honey",
  "purchaseURL": "https://amzn.to/2q6RJxZ",
  "type": "topping"
  },
  {
- "name": "Lemon juice/zest",
+ "name": "Jugo de limón / ralladura",
  "imageString": "caroline-attwood-574690-unsplash.jpg",
- "copy": "I'll squeeze Lemon or Lime Juice over my fresh chopped fruit to prevent browning, add some extra vitamin C and to just brighten up the flavor.",
+ "copy": "Exprimiré limón o jugo de lima sobre mi fruta fresca picada para evitar que se oscurezca, agregue un poco de vitamina C adicional y para alegrar el sabor.",
  "info": "https://www.organicfacts.net/health-benefits/fruit/health-benefits-of-lemon.html",
  "purchaseURL": "https://amzn.to/2EmXqw6",
  "type": "topping"
  },
  {
- "name": "Lime juice/zest",
+ "name": "Zumo de lima / ralladura",
  "imageString": "raghu-nayyar-459422-unsplash.jpg",
- "copy": "I'll squeeze Lemon or Lime Juice over my fresh chopped fruit to prevent browning, add some extra vitamin C and to just brighten up the flavor.",
+ "copy": "Exprimiré limón o jugo de lima sobre mi fruta fresca picada para evitar que se oscurezca, agregue un poco de vitamina C adicional y para alegrar el sabor.",
  "info": "https://www.organicfacts.net/health-benefits/fruit/health-benefits-of-lime.html",
  "purchaseURL": "https://amzn.to/2EiQ8cV",
  "type": "topping"
  },
  {
- "name": "Mint",
+ "name": "Menta",
  "imageString": "Mint.jpeg",
- "copy": "The great thing about mint is that it smells great and it’s so easy to grow. Sprinkle some chopped mint leaves onto your bowl for a hit of freshness.",
+ "copy": "Lo bueno de la menta es que huele muy bien y es muy fácil de cultivar. Espolvoree algunas hojas de menta picadas en su tazón para darle un toque de frescura.",
  "info": "https://www.healthline.com/nutrition/mint-benefits",
  "purchaseURL": "https://amzn.to/2Jn6CnV",
  "type": "topping"
  },
  {
- "name": "Pecan",
+ "name": "Pacana",
  "imageString": "Pecan.jpeg",
- "copy": "Pecans contain more antioxidants than any other tree nut and rank among the top 15 foods with the highest levels of antioxidants according to the USDA. They are also a powerhouse of vitamins and minerals such as manganese, potassium, calcium, iron, magnesium, zinc, and selenium, offering some wonderful health benefits.",
+ "copy": "Las pacanas contienen más antioxidantes que cualquier otra nuez de árbol y se encuentran entre los 15 principales alimentos con los niveles más altos de antioxidantes según el USDA. También son una fuente inagotable de vitaminas y minerales como manganeso, potasio, calcio, hierro, magnesio, zinc y selenio, que ofrecen maravillosos beneficios para la salud.",
  "info": "https://food.ndtv.com/food-drinks/why-pecan-nuts-are-good-for-you-and-how-to-eat-them-1262183",
  "purchaseURL": "https://amzn.to/2HkK6f2",
  "type": "topping"
  },
  {
- "name": "Pumpkin Seed",
+ "name": "Semilla de calabaza",
  "imageString": "Pumpkin.jpg",
- "copy": "9 Top Health Benefits of Pumpkin Seeds. Heart Healthy Magnesium. Zinc for Immune Support. Plant-Based Omega-3 Fats. Prostate Health. Anti-Diabetic Effects. Benefits for Postmenopausal Women. Heart and Liver Health. Tryptophan for Restful Sleep.",
+ "copy": "9 Principales beneficios para la salud de las semillas de calabaza. Magnesio saludable para el corazón. Zinc para soporte inmune. Grasas Omega-3 de origen vegetal. Salud de la próstata Efectos antidiabéticos. Beneficios para mujeres posmenopáusicas. Corazón y Salud del Hígado. Triptófano para un sueño reparador.",
  "info": "https://en.wikipedia.org/wiki/Pumpkin_seed",
  "purchaseURL": "https://amzn.to/2uNkZ1M",
  "type": "topping"
  },
  {
- "name": "Sunflower Seed",
+ "name": "Semilla de girasol",
  "imageString": "Sunflower.jpg",
- "copy": "Top Health Benefits of Sunflower Seeds. Reduces Risk for Heart Disease. Helps to Prevent Cancer Due to High Antioxidant Content. Supports Thyroid Function Through Selenium. Helps Combat Osteoporosis, Bone Loss, and Muscle Cramps. Balances Blood Sugar Levels and Helps Ward off Diabetes. Improves Skin Health.",
+ "copy": "Beneficios de salud superiores de las semillas de girasol. Reduce el riesgo de enfermedad cardíaca. Ayuda a prevenir el cáncer debido al alto contenido de antioxidantes. Admite la función tiroidea a través del selenio. Ayuda a combatir la osteoporosis, la pérdida ósea y los calambres musculares. Equilibra los niveles de azúcar en la sangre y ayuda a evitar la diabetes. Mejora la salud de la piel",
  "info": "https://en.wikipedia.org/wiki/Sunflower_seed",
  "purchaseURL": "https://amzn.to/2HbjZqL",
  "type": "topping"
  },
  {
- "name": "Walnuts",
+ "name": "Nueces",
  "imageString": "Walnut.jpg",
- "copy": "Walnuts contain a number of neuroprotective compounds, including vitamin E, folate, melatonin, omega-3 fats, and antioxidants. Research shows walnut consumption may support brain health, including increasing inferential reasoning in young adults.",
+ "copy": "Las nueces contienen una cantidad de compuestos neuroprotectores, que incluyen vitamina E, ácido fólico, melatonina, grasas omega-3 y antioxidantes. La investigación muestra que el consumo de nueces puede apoyar la salud cerebral, incluido el aumento del razonamiento inferencial en adultos jóvenes.",
  "info": "https://en.wikipedia.org/wiki/Walnut",
  "purchaseURL": "https://amzn.to/2GDllJA",
  "type": "topping"
  },
  {
- "name": "Wheat Germ",
+ "name": "Germen de trigo",
  "imageString": "Wheatgerm.jpeg",
- "copy": "It's a great source of vegetable proteins, along with fiber and healthy fats. It's also a good source of magnesium, zinc, thiamin, folate, potassium, and phosphorus. Wheat germ is high in vitamin E, an essential nutrient with antioxidant properties.",
+ "copy": "Es una gran fuente de proteínas vegetales, junto con fibra y grasas saludables. También es una buena fuente de magnesio, zinc, tiamina, ácido fólico, potasio y fósforo. El germen de trigo es rico en vitamina E, un nutriente esencial con propiedades antioxidantes.",
  "info": "https://www.healthline.com/health/wheat-germ-benefits#modal-close",
  "purchaseURL": "https://amzn.to/2H9YJS1",
  "type": "topping"
  },
  {
- "name": "Yogurt - Non-Dairy",
+ "name": "Yogur - No lácteo",
  "imageString": "CoconutYogurt.png",
- "copy": "There are many non-dairy options available (Soy, Almond, Coconut, etc.), but I personally prefer Coconut.  Try them all and find your own favorite.  Coconut milk yogurt alternatives deliver dairy-free culture with amazing flavor and just the right balance of tanginess and sweetness.  Homemade coconut yogurt is easy and awesome - Google a recipe and try it youself!",
+ "copy": "Hay muchas opciones no lácteas disponibles (soya, almendra, coco, etc.), pero personalmente prefiero coco. Pruébalos y encuentra tu favorito. Las alternativas de yogur con leche de coco brindan una cultura libre de lácteos con un sabor increíble y el equilibrio justo entre la consistencia y la dulzura. El yogur de coco casero es fácil e increíble. ¡Busca una receta en Google y pruébalo tú mismo!",
  "info": "https://www.myorganiclife.info/coconut-yoghurt/",
  "purchaseURL": "https://amzn.to/2ICjxkV",
  "type": "topping"

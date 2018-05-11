@@ -1,23 +1,23 @@
 [{
- "name": "Citrus Press Juicer",
+ "name": "Exprimidor de cítricos",
  "imageString": "CitrusPress.jpg",
- "copy": "I use this almost daily to squeeze lemon or lime juice over my chopped fresh fruit, to add some Vitamin C and brighten up the flavor.",
+ "copy": "Lo uso casi a diario para exprimir jugo de limón o lima sobre mi fruta fresca picada, añadir un poco de vitamina C y alegrar el sabor.",
  "info": "https://en.wikipedia.org/wiki/Lemon_squeezer",
  "purchaseURL": "https://amzn.to/2JnkoqE",
  "type": "equipment"
  },
  {
- "name": "Cutting Board",
+ "name": "Tabla de cortar",
  "imageString": "Cutting.jpg",
- "copy": "Every kitchen needs several good cutting boards in a variety of different sizes.",
+ "copy": "Cada cocina necesita varias tablas de cortar buenas en una variedad de tamaños diferentes.",
  "info": "https://en.wikipedia.org/wiki/Cutting_board",
  "purchaseURL": "https://amzn.to/2uNWZf3",
  "type": "equipment"
  },
  {
- "name": "Food Storage Container",
+ "name": "Contenedor de almacenamiento de alimentos",
  "imageString": "Storage.jpg",
- "copy": "You will always need a good supply of food storage containers.",
+ "copy": "Siempre necesitará un buen suministro de contenedores de almacenamiento de alimentos.",
  "info": "https://en.wikipedia.org/wiki/Food_storage_container",
  "purchaseURL": "https://amzn.to/2GD8WWm",
  "type": "equipment"
@@ -25,31 +25,31 @@
  {
  "name": "Instant Pot",
  "imageString": "InstantPot.jp",
- "copy": "I use the Instant Pot to make my own Coconut Yogurt.  Much better and less expensive than store-bought.",
+ "copy": "Uso Instant Pot para hacer mi propio Yogurt de coco. Mucho mejor y menos costoso que comprado en la tienda.",
  "info": "https://en.wikipedia.org/wiki/Instant_Pot",
  "purchaseURL": "https://amzn.to/2JEgdac",
  "type": "equipment"
  },
  {
- "name": "Knife set",
+ "name": "Set de cuchillos",
  "imageString": "Knives.jpg",
- "copy": "Every cook needs a good set of knives.",
+ "copy": "Todo cocinero necesita un buen juego de cuchillos.",
  "info": "https://en.wikipedia.org/wiki/Kitchen_knife",
  "purchaseURL": "https://amzn.to/2Hbwlzd",
  "type": "equipment"
  },
  {
- "name": "Measuring Cups",
+ "name": "Tazas medidoras",
  "imageString": "Cups.jpg",
- "copy": "Another kitchen staple; a good set of measuring cups.",
+ "copy": "Otro alimento básico de cocina; un buen conjunto de tazas medidoras",
  "info": "https://en.wikipedia.org/wiki/Measuring_cup",
  "purchaseURL": "https://amzn.to/2uLxevS",
  "type": "equipment"
  },
  {
- "name": "Measuring Spoons",
+ "name": "Cucharas medidoras",
  "imageString": "Spoon.jpg",
- "copy": "Every kitchen needs a good set of measuring spoons.",
+ "copy": "Cada cocina necesita un buen conjunto de cucharas de medir.",
  "info": "https://en.wikipedia.org/wiki/Measuring_spoon",
  "purchaseURL": "https://amzn.to/2uMS0v5",
  "type": "equipment"
@@ -57,15 +57,15 @@
  {
  "name": "NutriBullet",
  "imageString": "NutriBullet.jpg",
- "copy": "I use the NutriBullet 7 days a week.  I make my Almond Milk with it, smoothies, salad dressings - you name it.  It's a workhorse that has lasted several years already.",
+ "copy": "Uso NutriBullet 7 días a la semana. Hago mi leche de almendras con ella, batidos, aderezos para ensaladas, lo que sea. Es un caballo de batalla que ya ha durado varios años.",
  "info": "https://en.wikipedia.org/wiki/Magic_Bullet_(appliance)",
  "purchaseURL": "https://amzn.to/2Gz6xzK",
  "type": "equipment"
  },
  {
- "name": "Nut Milk Bag",
+ "name": "Bolsa de leche de nuez",
  "imageString": "NutMilkBag.jpg",
- "copy": "You need one of these to make your own Nut Milk.  It couldn't be easier - just Google nut milk recipes and dive in.",
+ "copy": "Necesitas uno de estos para hacer tu propia leche de nuez. No podría ser más fácil, solo tiene que buscar recetas de leche de nuez de Google y sumergirse.",
  "info": "https://amzn.to/2HdgJeu",
  "purchaseURL": "https://amzn.to/2HdgJeu",
  "type": "equipment"
