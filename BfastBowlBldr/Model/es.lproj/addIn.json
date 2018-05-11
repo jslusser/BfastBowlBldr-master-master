@@ -1,0 +1,160 @@
+ [{
+  "name": "Acai Powder",
+  "imageString": "Acai.jpg",
+  "copy": "The super fruit acai (ah-sigh-ee) is known for its healing, immune boosting and energy-boosting properties.",
+  "info": "https://www.healthline.com/nutrition/benefits-of-acai-berries#section2",
+  "purchaseURL": "https://amzn.to/2IyfR3F",
+  "type": "addIn"
+  },
+  {
+  "name": "Black Pepper",
+  "imageString": "Pepper.jpg",
+  "copy": "Black Pepper for breakfast?  Hear me out.  If you are adding Turmeric to your bowl (and you should), Black Pepper can increase the bioavailability and effectiveness of the Turmeric.",
+  "info": "https://en.wikipedia.org/wiki/Black_pepper",
+  "purchaseURL": "https://amzn.to/2JoHbma",
+  "type": "addIn"
+  },
+    {
+  "name": "Cacao Powder",
+  "imageString": "Cacao.jpg",
+  "copy": "Cacao powder is a source of magnesium, iron and is high in flavonoids, which have antioxidant activity.  In addition, cacao contains a compound called phenylethylamine (PEA for short!). PEA is thought to elevate mood and support energy, and is said to be one of the reasons that many people love chocolate!",
+  "info": "https://begoodorganics.com/blogs/subscriber-only-recipes/7991527-cacao-5-little-known-benefits-of-this-amazonian-superfood",
+  "purchaseURL": "https://amzn.to/2uReT0p",
+  "type": "addIn"
+  },
+    {
+  "name": "Camu Camu Powder",
+  "imageString": "Camu.jpg",
+  "copy": "Camu Camu is a nutrient dense super fruit that contains the highest level of Vitamin C of any plant on earth making it a potent immune boost.",
+  "info": "https://draxe.com/camu-camu/",
+  "purchaseURL": "https://amzn.to/2JidNOd",
+  "type": "addIn"
+  },
+    {
+  "name": "Cherries (dried)",
+  "imageString": "CherriesDried.jpg",
+  "copy": "Sometimes I'll swap dried Cherries instead of raisins for a change of pace",
+  "info": "https://en.wikipedia.org/wiki/Cherry",
+  "purchaseURL": "https://amzn.to/2q9cjwT",
+  "type": "addIn"
+  },
+    {
+  "name": "Chia Seeds",
+  "imageString": "ChiaSeeds.jpg",
+  "copy": "Chia Seeds are an excellent source of omega-3 fatty acids, rich in antioxidants, and they provide fiber, iron, and calcium. Omega-3 fatty acids help raise HDL cholesterol, the 'good' cholesterol that protects against heart attack and stroke.",
+  "info": "https://en.wikipedia.org/wiki/Chia_seed",
+  "purchaseURL": "https://amzn.to/2GB76oB",
+  "type": "addIn"
+  },
+    {
+  "name": "Cinnamon",
+  "imageString": "Cinnamon.jpeg",
+  "copy": "Cinnamon is one of the most delicious and healthiest spices on the planet. It can lower blood sugar levels, reduce heart disease risk factors, and has a plethora of other impressive health benefits.",
+  "info": "https://en.wikipedia.org/wiki/Cinnamon",
+  "purchaseURL": "https://amzn.to/2Jkx0Pk",
+  "type": "addIn"
+  },
+    {
+  "name": "Dates - Red",
+  "imageString": "DateRed.jpg",
+  "copy": "Red Dates, also knows as Jujube, have potent health benefits. They have calming properties and are a good source of natural antioxidants.",
+  "info": "https://juicing-for-health.com/health-benefits-of-red-dates",
+  "purchaseURL": "https://amzn.to/2uNjxMS",
+  "type": "addIn"
+  },
+    {
+  "name": "Dates - Medjool",
+  "imageString": "Datemedjool.jpg",
+  "copy": "The nutrients that provide the many health benefits of Medjool dates include dietary fiber, potassium, manganese, copper, B family vitamins, vitamin A, magnesium, and calcium.",
+  "info": "https://en.wikipedia.org/wiki/Medjool",
+  "purchaseURL": "https://amzn.to/2EmGg1C",
+  "type": "addIn"
+  },
+    {
+  "name": "Ginger",
+  "imageString": "Ginger.jpg",
+  "copy": "I tend to toss in a bit of Ginger in almost every bowl I make, not only for the taste but also the health benefits.  Try to use fresh ginger root, but ready-to-use minced Ginger or powdered Ginger will also work.",
+  "info": "https://www.healthline.com/nutrition/11-proven-benefits-of-ginger#section4",
+  "purchaseURL": "https://amzn.to/2H3Tx4F",
+  "type": "addIn"
+  },
+    {
+  "name": "Goji Berries",
+  "imageString": "Goji.jpg",
+  "copy": "Goji berries, a fruit that comes from the Chinese Lycium barbarum plant, have been used as a traditional medicine for general health, and recent studies suggest there is real evidence for its purported benefits. Many types of berries offer beneficial antioxidants that protect the body against chronic disease, and goji berries may contain additional properties to improve eye health.",
+  "info": "https://en.wikipedia.org/wiki/Goji",
+  "purchaseURL": "https://amzn.to/2GDketE",
+  "type": "addIn"
+  },
+  {
+  "name": "Lucuma Powder",
+  "imageString": "Lucuma.jpg",
+  "copy": "Lucuma powder delivers an abundance of healthy benefits when added to your favorite food or beverage. In addition to satisfying your sweet tooth, lucuma is gluten-free and a source of antioxidants, fiber, carbohydrates, vitamins and minerals necessary for bodily functions and of benefit to the immune system.",
+  "info": "https://www.globalhealingcenter.com/natural-health/what-is-lucuma/",
+  "purchaseURL": "https://amzn.to/2uOQGHP",
+  "type": "addIn"
+  },
+    {
+  "name": "Maca Powder",
+  "imageString": "Maca.jpg",
+  "copy": "Maca is a root vegetable that is high in antioxidants and nutrients, such as vitamin C, copper and iron. It has been used medicinally for thousands of years and has been shown to enhance sexual health and libido; improve energy, mood and memory; and balance hormone levels.",
+  "info": "https://draxe.com/top-5-maca-root-benefits-and-nutrition/",
+  "purchaseURL": "https://amzn.to/2GzSb29",
+  "type": "addIn"
+  },
+    {
+  "name": "Matcha",
+  "imageString": "Matcha.jpeg",
+  "copy": "Amongst its many health benefits, Matcha… Is packed with antioxidants including the powerful EGCg. Boosts metabolism and burns calories. Detoxifies effectively and naturally. Calms the mind and relaxes the body. Is rich in fiber, chlorophyll and vitamins. Enhances mood and aids in concentration.",
+  "info": "https://en.wikipedia.org/wiki/Matcha",
+  "purchaseURL": "https://amzn.to/2HgzEVX",
+  "type": "addIn"
+  },
+    {
+  "name": "Moringa",
+  "imageString": "Moringa.jpg",
+  "copy": "Moringa leaves are high in several anti-aging compounds that lower the effects of oxidative stress and inflammation, including polyphenols, vitamin C, beta-carotene, quercetin, and chlorogenic acid.",
+  "info": "https://greenvirginproducts.com/product-category/moringa/moringa-benefits/?gclid=EAIaIQobChMIhbKI7fWA2gIVhLfACh32QQp7EAAYASAAEgKWq_D_BwE",
+  "purchaseURL": "https://amzn.to/2HdgvE7",
+  "type": "addIn"
+  },
+    {
+  "name": "Peanut Butter Powder",
+  "imageString": "PBPowder.jpeg",
+  "copy": "Powdered peanut butter is made from roasted peanuts that have been pressed to remove most of the oil and then ground into a fine powder. Some brands contain a little sugar and salt. With most of the fat gone—powdered peanut butter has about 85 percent less than regular—you're left with protein and fiber.",
+  "info": "https://www.healthline.com/nutrition/pb2-powdered-peanut-butter#section4",
+  "purchaseURL": "https://amzn.to/2JA7F4a",
+  "type": "addIn"
+  },
+    {
+  "name": "Prune",
+  "imageString": "Prune.jpeg",
+  "copy": "Prunes are a great source of vitamin A, a vitamin that is essential for healthy vision. Powerhouse of Antioxidants. Heart Healthy. Relieves Constipation. Protection Against Osteoporosis. Promotes Hair Health. Great for Skin.",
+  "info": "https://en.wikipedia.org/wiki/Prune",
+  "purchaseURL": "https://amzn.to/2JjDuy9",
+  "type": "addIn"
+  },
+    {
+  "name": "Raisin",
+  "imageString": "Raisin.jpeg",
+  "copy": "Despite their small size, raisins are packed with energy and rich in fiber, vitamins, and minerals. Raisins are naturally sweet and high in sugar and calories, but they're beneficial to our health when eaten in moderation. In fact, raisins can aid digestion, boost iron levels, and keep your bones strong.",
+  "info": "https://en.wikipedia.org/wiki/Raisin",
+  "purchaseURL": "https://amzn.to/2uNQoBj",
+  "type": "addIn"
+  },
+    {
+  "name": "Turmeric",
+  "imageString": "Turmeric.jpg",
+  "copy": "Try to use fresh Turmeric root if you can find it, but powdered Turmeric will also work.  Curcumin is the main active ingredient in Turmeric. It has powerful anti-inflammatory effects and is a very strong antioxidant.  Interestingly, Black Pepper can increase the bioavailability and effectiveness of the Turmeric, so grind in a bit of pepper when using Turmeric.",
+  "info": "https://en.wikipedia.org/wiki/Turmeric",
+  "purchaseURL": "https://amzn.to/2EpPoCY",
+  "type": "addIn"
+  },
+    {
+  "name": "Vanilla Powder",
+  "imageString": "Vanilla.jpeg",
+  "copy": "Vanilla powder is prepared ​​from raw organic vanilla beans that have been dried at low temperatures and finely ground. Vanilla powder contains a variety of vitamins and minerals and boasts a fragrant aroma and velvety smooth flavour.",
+  "info": "https://www.thekitchn.com/good-question-what-is-vanilla-83146",
+  "purchaseURL": "https://amzn.to/2JmGg5N",
+  "type": "addIn"
+  }]

@@ -1,0 +1,176 @@
+ [{
+  "name": "Apple",
+  "imageString": "Apple.jpg",
+  "copy": "There are so many varieties to pick from, I suggest you try as many as you can and find the ones that you like.  Personally I like Fuji, Honey Crisp and Granny Smith depending on my mood and the other ingredients I am using.",
+  "info": "https://en.wikipedia.org/wiki/Apple",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+  {
+  "name": "Apricot",
+  "imageString": "Apricot.jpg",
+  "copy": "Relatives to peaches, apricots are small, golden orange fruits, with velvety skin and flesh, not too juicy but definitely smooth and sweet. Some describe their flavor as almost musky, with a faint tartness that lies somewhere between a peach and a plum.",
+  "info": "https://en.wikipedia.org/wiki/Apricot",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Banana",
+  "imageString": "scott-webb-98682-unsplash.jpg",
+  "copy": "A banana is a curved, yellow fruit with a thick skin and soft sweet flesh.  It is loaded with essential vitamins and minerals such as potassium, calcium, manganese, magnesium, iron, folate, niacin, riboflavin, and B6. These all contribute to the proper functioning of the body and keeping you healthy. The high content of potassium in bananas makes it a super fruit.",
+  "info": "https://en.wikipedia.org/wiki/Banana",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Blackberries",
+  "imageString": "Blackberries.jpg",
+  "copy": "A good daily supply of vital nutrients is required for a glowing and perfect skin. Blackberries are rich in Vitamin A and Vitamin C. They also offer the highest levels of some antioxidants – higher than blueberries and strawberries too. The very dark color of the fruit is proof of its high antioxidant level.",
+  "info": "https://en.wikipedia.org/wiki/Blackberry",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Blueberries",
+  "imageString": "Blueberries.jpg",
+  "copy": "The fiber, potassium, folate, vitamin C, vitamin B6, and phytonutrient content in blueberries supports heart health. The absence of cholesterol from blueberries is also beneficial to the heart. Fiber content helps to reduce the total amount of cholesterol in the blood and decrease the risk of heart disease.",
+  "info": "https://en.wikipedia.org/wiki/Blueberry",
+   "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Cantaloupe",
+  "imageString": "Cantaloupe.jpg",
+  "copy": "It scores 'very good' for potassium, and 'good' for a host of B vitamins (B1, B3, B6, and folate) as well as vitamin K, magnesium, and fiber. When the edible seeds of the cantaloupe are eaten, this melon also provides a measurable about of omega-3 fat in the form of alpha-linolenic acid.",
+  "info": "https://en.wikipedia.org/wiki/Cantaloupe",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Cherries",
+  "imageString": "Cherries.jpg",
+  "copy": "When you eat cherries, you enjoy much more than just their amazing taste. They're packed with antioxidants and offer many health benefits, including help with insomnia, joint pain and belly fat.",
+  "info": "https://en.wikipedia.org/wiki/Cherry",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Dragon Fruit",
+  "imageString": "DragonFruit.jpg",
+  "copy": "Dragon fruits have a surprising number of phytonutrients. Rich in antioxidants, they contain vitamin C (equivalent to 10 percent of the daily value), polyunsaturated (good) fatty acids, and several B vitamins for carbohydrate metabolism, as well as carotene and protein.",
+  "info": "https://en.wikipedia.org/wiki/Pitaya",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Grapes",
+  "imageString": "Grapes.jpg",
+  "copy": "The health benefits of grapes include their ability to treat constipation, indigestion, fatigue, kidney disorders, macular degeneration, and prevent cataracts. Grapes are one of the most popular fruits in the world because of their taste, texture, flavor, variety, and ease of portability. This popular and delicious fruit is also packed with a lot of important nutrients.",
+  "info": "https://en.wikipedia.org/wiki/Grape",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Honeydew melon",
+  "imageString": "Honeydew.jpg",
+  "copy": "The combination of its high water content and potassium levels make honeydew melon effective at maintaining healthy blood pressure levels.  As honeydew contains both vitamin C and copper, they promote healthy skin by aiding collagen production and tissue repair.",
+  "info": "https://en.wikipedia.org/wiki/Honeydew_(melon)",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Kiwi",
+  "imageString": "Kiwi.jpg",
+  "copy": "Health benefits of kiwi include skin care, improved cardiovascular health, lower blood pressure, and prevention of strokes. It also aids in the treatment of cancer, insomnia, macular degeneration, and diabetes. Due to the flavonoid-rich compounds found in kiwi, it also helps during pregnancy and promotes the absorption of iron in the body. Besides, the anti-microbial properties of kiwi guard against a range of pathogens and strengthen the immune system.",
+  "info": "https://en.wikipedia.org/wiki/Kiwifruit",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+  {
+  "name": "Lychee",
+  "imageString": "neha-deshmukh-5764-unsplash.jpg",
+  "copy": "Lychee contains good amount of antioxidant Vitamin C, Vitamin B-complex and phytonutrient flavonoids. Lychee is a rich source of nutrient that is required for the production of blood. It provides manganese, magnesium, copper, iron and folate that are required for the formation of RBC.",
+  "info": "https://en.wikipedia.org/wiki/Lychee",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Mango",
+  "imageString": "Mango.jpg",
+  "copy": "When you savor delicious and succulent mangos every season, you probably don’t think about the immense health benefits coming with every bite. Mango is known as the king of fruits. Beyond the sweet, luscious taste of mangos, they also contain an abundance of vitamins, minerals, and antioxidants that assure your optimum health.",
+  "info": "https://en.wikipedia.org/wiki/Mango",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Mangosteen",
+  "imageString": "Mangosteen.jpeg",
+  "copy": "Low in calories and high in fiber (100 grams equal about 13% of the recommended daily amount), mangosteens have lots of essential nutrients, but no saturated fats or cholesterol. The potassium content helps control heart rate and regulate blood pressure, which in turn aids in stroke and coronary heart disease prevention.",
+  "info": "https://en.wikipedia.org/wiki/Purple_mangosteen",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Orange",
+  "imageString": "Orange.jpg",
+  "copy": "Oranges are low in calories and full of nutrients, they promote clear, healthy, skin and can help to lower our risk for many diseases as part of an overall healthy and varied diet.  An orange has over 170 different phytochemicals and more than 60 flavonoids. Many of these have been shown to have anti-inflammatory properties and strong antioxidant effects.",
+  "info": "https://en.wikipedia.org/wiki/Orange_(fruit)",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Papaya",
+  "imageString": "Papaya.jpeg",
+  "copy": "Papaya is rich in antioxidant nutrients such as carotenes, flavonoids, and vitamin C, as well as vitamin B (folate and pantothenic acid). It is also a good source of fiber and minerals such as magnesium. Together, these nutrients help improve cardiovascular health and protect against colon cancer.",
+  "info": "https://en.wikipedia.org/wiki/Papaya",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Pear",
+  "imageString": "clem-onojeghuo-72904-unsplash.jpg",
+  "copy": "Pears can help lower inflammation, which is the root of most diseases, plus they're one of the best sources of dietary fiber of all fruits and provide high amounts of vitamin C, vitamin K and boron.",
+  "info": "https://en.wikipedia.org/wiki/Pear",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Pineapple",
+  "imageString": "carlota-trillo-328189-unsplash.jpg",
+  "copy": "Pineapples are a storehouse of several health benefits due to its wealth of nutrients, vitamins, and minerals, including potassium, copper, manganese, calcium, magnesium, vitamin C, beta-carotene, thiamin, vitamin B6, and folate, and bromelain, as well as soluble and insoluble fiber.",
+  "info": "https://en.wikipedia.org/wiki/Pineapple",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Pomegranate",
+  "imageString": "Pomegranate.jpeg",
+  "copy": "Pomegranate has been shown to exert antitumor effects on various types of cancer cells. The juice of pomegranate seeds contains different types of antioxidants and bioactive polyphenols that have been reported to promote cardiovascular health, including healthy blood pressure levels, through several mechanisms.",
+  "info": "https://en.wikipedia.org/wiki/Pomegranate",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+  {
+  "name": "Raspberries",
+  "imageString": "Raspberries.jpg",
+  "copy": "Rich in vitamins, antioxidants, and fiber, raspberries are a delicious fruit with many health benefits. They have a high concentration of ellagic acid, a phenolic compound that prevents cancer, thereby stopping the growth of cancer cells and eliminating the progress of cancers.",
+  "info": "https://en.wikipedia.org/wiki/Raspberry",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+  {
+  "name": "Strawberries",
+  "imageString": "hoang-v-n-81485-unsplash.jpg",
+  "copy": "Strawberries are an excellent source of vitamins C and K as well as providing a good dose of fibre, folic acid, manganese and potassium. They also contain significant amounts of phytonutrients and flavanoids which makes strawberries bright red.",
+  "info": "https://en.wikipedia.org/wiki/Strawberry",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  },
+    {
+  "name": "Watermelon",
+  "imageString": "Watermelon.jpg",
+  "copy": "Watermelons are mostly water — about 92 percent — but this refreshing fruit is soaked with nutrients. Each juicy bite has significant levels of vitamins A, B6 and C, lots of lycopene, antioxidants and amino acids. There's even a modest amount of potassium.",
+  "info": "https://en.wikipedia.org/wiki/Watermelon",
+  "purchaseURL": "NotAvailable",
+  "type": "fruit"
+  }]

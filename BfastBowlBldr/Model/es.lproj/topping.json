@@ -1,0 +1,120 @@
+[{
+ "name": "Almond",
+ "imageString": "Almond.jpg",
+ "copy": "Almonds contain lots of healthy fats, fiber, protein, magnesium and vitamin E. The health benefits of almonds include lower blood sugar levels, reduced blood pressure and lower cholesterol levels. They can also reduce hunger and promote weight loss.",
+ "info": "https://www.bbcgoodfood.com/howto/guide/health-benefits-almonds",
+ "purchaseURL": "https://amzn.to/2HhyWaC",
+ "type": "topping"
+ },
+ {
+ "name": "Basil",
+ "imageString": "Basil.jpeg",
+ "copy": "Basil for breakfast?  Trust me - if you are using strawberries in your bowl, add some chopped, fresh basil leaves and I think you will find they compliment each other quite nicely.",
+ "info": "https://www.precisionnutrition.com/healthy-basil",
+ "purchaseURL": "https://amzn.to/2GWV9xg",
+ "type": "topping"
+ },
+ {
+ "name": "Brazil Nut",
+ "imageString": "Brazil.jpg",
+ "copy": "Brazil nuts are commonly eaten raw or blanched and are high in protein, fiber, selenium, thiamine, copper and magnesium — and in addition to being the best selenium food source in the world, they provide numerous benefits for our health.",
+ "info": "https://en.wikipedia.org/wiki/Brazil_nut",
+ "purchaseURL": "https://amzn.to/2HbScWZ",
+ "type": "topping"
+ },
+ {
+ "name": "Coconut",
+ "imageString": "Coconut.jpeg",
+ "copy": "There are two types of shredded coconut—sweetened and unsweetened (I only use unsweetened).  Both start out as raw coconut meat that's then boiled, grated, and dried. The dehydrated shreds are either immediately packaged and sold as unsweetened coconut or soaked in a liquid sugar solution and dried again to make sweetened coconut.",
+ "info": "http://healthyeating.sfgate.com/benefits-eating-shredded-coconut-4027.html",
+ "purchaseURL": "https://amzn.to/2IFZSQW",
+ "type": "topping"
+ },
+ {
+ "name": "Hemp Seed",
+ "imageString": "Hempseed.jpg",
+ "copy": "Hemp seeds are rich in healthy fats and essential fatty acids. They are also a great protein source and contain high amounts of vitamin E, phosphorus, potassium, sodium, magnesium, sulfur, calcium, iron and zinc.",
+ "info": "https://www.healthline.com/nutrition/6-health-benefits-of-hemp-seeds",
+ "purchaseURL": "https://amzn.to/2GD5Txo",
+ "type": "topping"
+ },
+ {
+ "name": "Honey",
+ "imageString": "Honey.jpeg",
+ "copy": "8 Health Benefits of Raw Honey; Healthy Weight Management. Counters Pollen Allergies. Natural Energy Source. Antioxidant Powerhouse. Sleep Promoter. Wound and Ulcer Healer. Diabetes Aid. Natural Cough Syrup.",
+ "info": "https://en.wikipedia.org/wiki/Honey",
+ "purchaseURL": "https://amzn.to/2q6RJxZ",
+ "type": "topping"
+ },
+ {
+ "name": "Lemon juice/zest",
+ "imageString": "caroline-attwood-574690-unsplash.jpg",
+ "copy": "I'll squeeze Lemon or Lime Juice over my fresh chopped fruit to prevent browning, add some extra vitamin C and to just brighten up the flavor.",
+ "info": "https://www.organicfacts.net/health-benefits/fruit/health-benefits-of-lemon.html",
+ "purchaseURL": "https://amzn.to/2EmXqw6",
+ "type": "topping"
+ },
+ {
+ "name": "Lime juice/zest",
+ "imageString": "raghu-nayyar-459422-unsplash.jpg",
+ "copy": "I'll squeeze Lemon or Lime Juice over my fresh chopped fruit to prevent browning, add some extra vitamin C and to just brighten up the flavor.",
+ "info": "https://www.organicfacts.net/health-benefits/fruit/health-benefits-of-lime.html",
+ "purchaseURL": "https://amzn.to/2EiQ8cV",
+ "type": "topping"
+ },
+ {
+ "name": "Mint",
+ "imageString": "Mint.jpeg",
+ "copy": "The great thing about mint is that it smells great and it’s so easy to grow. Sprinkle some chopped mint leaves onto your bowl for a hit of freshness.",
+ "info": "https://www.healthline.com/nutrition/mint-benefits",
+ "purchaseURL": "https://amzn.to/2Jn6CnV",
+ "type": "topping"
+ },
+ {
+ "name": "Pecan",
+ "imageString": "Pecan.jpeg",
+ "copy": "Pecans contain more antioxidants than any other tree nut and rank among the top 15 foods with the highest levels of antioxidants according to the USDA. They are also a powerhouse of vitamins and minerals such as manganese, potassium, calcium, iron, magnesium, zinc, and selenium, offering some wonderful health benefits.",
+ "info": "https://food.ndtv.com/food-drinks/why-pecan-nuts-are-good-for-you-and-how-to-eat-them-1262183",
+ "purchaseURL": "https://amzn.to/2HkK6f2",
+ "type": "topping"
+ },
+ {
+ "name": "Pumpkin Seed",
+ "imageString": "Pumpkin.jpg",
+ "copy": "9 Top Health Benefits of Pumpkin Seeds. Heart Healthy Magnesium. Zinc for Immune Support. Plant-Based Omega-3 Fats. Prostate Health. Anti-Diabetic Effects. Benefits for Postmenopausal Women. Heart and Liver Health. Tryptophan for Restful Sleep.",
+ "info": "https://en.wikipedia.org/wiki/Pumpkin_seed",
+ "purchaseURL": "https://amzn.to/2uNkZ1M",
+ "type": "topping"
+ },
+ {
+ "name": "Sunflower Seed",
+ "imageString": "Sunflower.jpg",
+ "copy": "Top Health Benefits of Sunflower Seeds. Reduces Risk for Heart Disease. Helps to Prevent Cancer Due to High Antioxidant Content. Supports Thyroid Function Through Selenium. Helps Combat Osteoporosis, Bone Loss, and Muscle Cramps. Balances Blood Sugar Levels and Helps Ward off Diabetes. Improves Skin Health.",
+ "info": "https://en.wikipedia.org/wiki/Sunflower_seed",
+ "purchaseURL": "https://amzn.to/2HbjZqL",
+ "type": "topping"
+ },
+ {
+ "name": "Walnuts",
+ "imageString": "Walnut.jpg",
+ "copy": "Walnuts contain a number of neuroprotective compounds, including vitamin E, folate, melatonin, omega-3 fats, and antioxidants. Research shows walnut consumption may support brain health, including increasing inferential reasoning in young adults.",
+ "info": "https://en.wikipedia.org/wiki/Walnut",
+ "purchaseURL": "https://amzn.to/2GDllJA",
+ "type": "topping"
+ },
+ {
+ "name": "Wheat Germ",
+ "imageString": "Wheatgerm.jpeg",
+ "copy": "It's a great source of vegetable proteins, along with fiber and healthy fats. It's also a good source of magnesium, zinc, thiamin, folate, potassium, and phosphorus. Wheat germ is high in vitamin E, an essential nutrient with antioxidant properties.",
+ "info": "https://www.healthline.com/health/wheat-germ-benefits#modal-close",
+ "purchaseURL": "https://amzn.to/2H9YJS1",
+ "type": "topping"
+ },
+ {
+ "name": "Yogurt - Non-Dairy",
+ "imageString": "CoconutYogurt.png",
+ "copy": "There are many non-dairy options available (Soy, Almond, Coconut, etc.), but I personally prefer Coconut.  Try them all and find your own favorite.  Coconut milk yogurt alternatives deliver dairy-free culture with amazing flavor and just the right balance of tanginess and sweetness.  Homemade coconut yogurt is easy and awesome - Google a recipe and try it youself!",
+ "info": "https://www.myorganiclife.info/coconut-yoghurt/",
+ "purchaseURL": "https://amzn.to/2ICjxkV",
+ "type": "topping"
+ }]

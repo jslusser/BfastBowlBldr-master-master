@@ -79,6 +79,16 @@
 		94E5BD2D20A5D8BC004AFD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/equipment.json; sourceTree = "<group>"; };
 		94E5BD3020A5D8C5004AFD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/recipe.json; sourceTree = "<group>"; };
 		94E5BD3320A5D9B1004AFD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		94E5BD3420A5DF66004AFD3D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		94E5BD3520A5DF66004AFD3D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		94E5BD3620A5DF67004AFD3D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = es; path = es.lproj/Grain.json; sourceTree = "<group>"; };
+		94E5BD3720A5DF67004AFD3D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = es; path = es.lproj/Liquid.json; sourceTree = "<group>"; };
+		94E5BD3820A5DF68004AFD3D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = es; path = es.lproj/addIn.json; sourceTree = "<group>"; };
+		94E5BD3920A5DF68004AFD3D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = es; path = es.lproj/fruit.json; sourceTree = "<group>"; };
+		94E5BD3A20A5DF68004AFD3D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = es; path = es.lproj/topping.json; sourceTree = "<group>"; };
+		94E5BD3B20A5DF69004AFD3D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = es; path = es.lproj/equipment.json; sourceTree = "<group>"; };
+		94E5BD3C20A5DF69004AFD3D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = es; path = es.lproj/recipe.json; sourceTree = "<group>"; };
+		94E5BD3D20A5DF6A004AFD3D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		94F1A7A820641F0C001B3C03 /* BYBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTableViewController.swift; sourceTree = "<group>"; };
 		94F45E1F2084489C007C679B /* Pods-BreakfastBowlBuilder-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "Pods-BreakfastBowlBuilder-frameworks.sh"; path = "Pods/Target Support Files/Pods-BreakfastBowlBuilder/Pods-BreakfastBowlBuilder-frameworks.sh"; sourceTree = "<group>"; };
 		94F45E2120844E5F007C679B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -248,6 +258,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 94BC06701F6037BD0075A5BF;
 			productRefGroup = 94BC067A1F6037BD0075A5BF /* Products */;
@@ -384,6 +395,7 @@
 			children = (
 				94BC06811F6037BD0075A5BF /* Base */,
 				94E5BD3320A5D9B1004AFD3D /* en */,
+				94E5BD3520A5DF66004AFD3D /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -392,6 +404,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				94BC06861F6037BD0075A5BF /* Base */,
+				94E5BD3420A5DF66004AFD3D /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -400,6 +413,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				94E5BD1E20A5D878004AFD3D /* en */,
+				94E5BD3620A5DF67004AFD3D /* es */,
 			);
 			name = Grain.json;
 			sourceTree = "<group>";
@@ -408,6 +422,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				94E5BD2120A5D897004AFD3D /* en */,
+				94E5BD3720A5DF67004AFD3D /* es */,
 			);
 			name = Liquid.json;
 			sourceTree = "<group>";
@@ -416,6 +431,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				94E5BD2420A5D89F004AFD3D /* en */,
+				94E5BD3820A5DF68004AFD3D /* es */,
 			);
 			name = addIn.json;
 			sourceTree = "<group>";
@@ -424,6 +440,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				94E5BD2720A5D8A7004AFD3D /* en */,
+				94E5BD3920A5DF68004AFD3D /* es */,
 			);
 			name = fruit.json;
 			sourceTree = "<group>";
@@ -432,6 +449,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				94E5BD2A20A5D8B4004AFD3D /* en */,
+				94E5BD3A20A5DF68004AFD3D /* es */,
 			);
 			name = topping.json;
 			sourceTree = "<group>";
@@ -440,6 +458,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				94E5BD2D20A5D8BC004AFD3D /* en */,
+				94E5BD3B20A5DF69004AFD3D /* es */,
 			);
 			name = equipment.json;
 			sourceTree = "<group>";
@@ -448,6 +467,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				94E5BD3020A5D8C5004AFD3D /* en */,
+				94E5BD3C20A5DF69004AFD3D /* es */,
 			);
 			name = recipe.json;
 			sourceTree = "<group>";
@@ -456,6 +476,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				94FFD12520A3A2E8001A3548 /* en */,
+				94E5BD3D20A5DF6A004AFD3D /* es */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -467,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -527,6 +549,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
