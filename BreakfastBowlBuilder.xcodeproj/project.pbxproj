@@ -89,6 +89,7 @@
 		94E5BD3B20A5DF69004AFD3D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = es; path = es.lproj/equipment.json; sourceTree = "<group>"; };
 		94E5BD3C20A5DF69004AFD3D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = es; path = es.lproj/recipe.json; sourceTree = "<group>"; };
 		94E5BD3D20A5DF6A004AFD3D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		94E5BD3F20A6406F004AFD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		94F1A7A820641F0C001B3C03 /* BYBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTableViewController.swift; sourceTree = "<group>"; };
 		94F45E1F2084489C007C679B /* Pods-BreakfastBowlBuilder-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "Pods-BreakfastBowlBuilder-frameworks.sh"; path = "Pods/Target Support Files/Pods-BreakfastBowlBuilder/Pods-BreakfastBowlBuilder-frameworks.sh"; sourceTree = "<group>"; };
 		94F45E2120844E5F007C679B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -405,6 +406,7 @@
 			children = (
 				94BC06861F6037BD0075A5BF /* Base */,
 				94E5BD3420A5DF66004AFD3D /* es */,
+				94E5BD3F20A6406F004AFD3D /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

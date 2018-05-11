@@ -61,7 +61,7 @@ class AddInTableViewController: UITableViewController, CellProtocol {
         switch identifier {
         case "SelectFruit":
             guard selectedIngredients.contains(where: {$0.type == .addIn}) else {
-                let alert = UIAlertController(title: "Bowl Builder Tip", message: "Please select at least one AddIn before continuing", preferredStyle: UIAlertControllerStyle.alert)
+                let alert = UIAlertController(title: NSLocalizedString("alertHeader", comment: ""), message: NSLocalizedString("addInAlert", comment: ""), preferredStyle: UIAlertControllerStyle.alert)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
                 present(alert, animated: true, completion: nil)
                 return false

@@ -52,7 +52,7 @@ class ToppingTableViewController: UITableViewController, CellProtocol {
         switch identifier {
         case "BuildBowl":
             guard selectedIngredients.contains(where: {$0.type == .topping}) else {
-                let alert = UIAlertController(title: "Bowl Builder Tip", message: "Please select at least one Topping before continuing", preferredStyle: UIAlertControllerStyle.alert)
+               let alert = UIAlertController(title: NSLocalizedString("alertHeader", comment: ""), message: NSLocalizedString("toppingAlert", comment: ""), preferredStyle: UIAlertControllerStyle.alert)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
                 present(alert, animated: true, completion: nil)
                 return false
